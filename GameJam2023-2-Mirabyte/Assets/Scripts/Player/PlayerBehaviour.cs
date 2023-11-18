@@ -8,6 +8,7 @@ namespace Player
     public class PlayerBehaviour : MonoBehaviour
     {
         public Rigidbody2D rb;
+        public Animator animator;
         public float speed;
         [SerializeField]
         State currentState;
@@ -67,13 +68,15 @@ namespace Player
             {
                 if (horizontal != 0)
                 {
-                    GetComponent<SpriteRenderer>().flipX = horizontal == -1;
+                    GetComponent<SpriteRenderer>().flipX = horizontal != -1;
                 }
                 ChangeState(State.Move);
+                animator.SetBool("isMoving", true);
             }
             else
             {
                 ChangeState(State.Idle);
+                animator.SetBool("isMoving", false);
             }
         }
         void StopMovement()
