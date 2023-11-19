@@ -1,13 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 namespace Player
 {
-    public enum State
+    public enum Weapon
     {
-        Idle,
-        Move,
-        Attack
+        Baton,
+        CandyCane
     }
 }

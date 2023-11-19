@@ -10,16 +10,23 @@ namespace Player
         public Rigidbody2D rb;
         public Animator animator;
         public float speed;
+        public Weapon weapon;
         [SerializeField]
         State currentState;
         void Start()
         {
             SnowyTilesHandler.Generate();
+            animator.SetInteger("meleeType", (int)weapon);
         }
 
         private void FixedUpdate()
         {
             CheckMovement();
+            CheckMeleeBehaviour();
+        }
+
+        private void Update()
+        {
             CheckState();
         }
 
@@ -34,6 +41,15 @@ namespace Player
                     }
                     break;
                 case State.Move:
+                    break;
+                case State.Attack:
+                    animator.SetTrigger("isAttacking");
+                    StopMovement();
+                    if (IsAnimationPlaying("girl_baton_hit"))
+                    {
+                        animator.ResetTrigger("isAttacking");
+                        ChangeState(State.Idle);
+                    }
                     break;
                 default:
                     break;
@@ -50,12 +66,36 @@ namespace Player
             return SnowyTilesHandler.IsCurrentTileSnowy(new Vector2Int((int)gameObject.transform.position.x, (int)gameObject.transform.position.y));
         }
 
+        void CheckMeleeBehaviour()
+        {
+            if(Input.GetAxisRaw("Attack") == 1)
+            {
+                ChangeState(State.Attack);
+            }
+            else if(Input.GetAxisRaw("Defend") == 1)
+            {
+                Debug.Log("Defend");
+            }
+        }
+
         void CheckMovement()
+        {
+            if (!IsAnimationPlaying("girl_baton_hit"))
+            {
+                MovementHandler();
+            }
+            else
+            {
+                StopMovement();
+            }
+        }
+
+        void MovementHandler()
         {
             float horizontal = Input.GetAxisRaw("Horizontal");
             float vertical = Input.GetAxisRaw("Vertical");
             Vector2 movement = new Vector2(horizontal, vertical);
-            if(CheckForSnow())
+            if (CheckForSnow())
             {
                 rb.velocity = Vector2.Lerp(rb.velocity, movement, Time.deltaTime / (speed * 0.3f));
             }
@@ -63,7 +103,6 @@ namespace Player
             {
                 rb.velocity = Vector2.Lerp(rb.velocity, movement, speed) * speed;
             }
-            Debug.Log(rb.velocity);
             if (rb.velocity != new Vector2(0, 0))
             {
                 if (horizontal != 0)
@@ -82,6 +121,12 @@ namespace Player
         void StopMovement()
         {
             rb.velocity = Vector2.zero;
+            animator.SetBool("isMoving", false);
+        }
+
+        bool IsAnimationPlaying(string name)
+        {
+            return animator.GetCurrentAnimatorStateInfo(0).IsName(name);
         }
     }
 }

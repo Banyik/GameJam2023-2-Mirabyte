@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 034b5923c2c2e9c419d13d36a6358c70
+guid: d489c05dfe181a34b8796b0367eee790
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: 4
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: run girl_0
+      name: girl baton hit_0
       rect:
         serializedVersion: 2
-        x: 284
-        y: 1785
-        width: 476
-        height: 690
+        x: 435
+        y: 1384
+        width: 484
+        height: 721
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffadb911bdec0d54180b611311b41155
-      internalID: 302733284
+      spriteID: 0e9681359003d5644ab4ef3412577410
+      internalID: -33132260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run girl_1
+      name: girl baton hit_1
       rect:
         serializedVersion: 2
-        x: 1367
-        y: 1785
-        width: 476
-        height: 690
+        x: 1696
+        y: 1381
+        width: 484
+        height: 721
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eff12d88a89b9949b1ffaf8e6567c34
-      internalID: -1936580456
+      spriteID: 14e4625397edd8b4fbb83ffc4ba20215
+      internalID: 1966086891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run girl_2
+      name: girl baton hit_2
       rect:
         serializedVersion: 2
-        x: 2451
-        y: 1787
-        width: 476
-        height: 677
+        x: 2959
+        y: 1381
+        width: 483
+        height: 721
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,230 +179,230 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78aadb7d45f83884584821b3c55a664c
-      internalID: 2083277650
+      spriteID: 216c331baa6b68745947e61557b3b76c
+      internalID: 900587300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run girl_3
+      name: girl baton hit_3
       rect:
         serializedVersion: 2
-        x: 3535
-        y: 1787
-        width: 476
-        height: 677
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4242
+        y: 1383
+        width: 491
+        height: 718
+      alignment: 9
+      pivot: {x: 0.44675347, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e5ad41d8ca37214b98c5db041543e98
-      internalID: -71325085
+      spriteID: 50b18d0f0b0a9264ca6a528c9bcafa45
+      internalID: 244224868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run girl_4
+      name: girl baton hit_4
       rect:
         serializedVersion: 2
-        x: 4619
-        y: 1785
-        width: 477
-        height: 690
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5505
+        y: 1383
+        width: 491
+        height: 718
+      alignment: 9
+      pivot: {x: 0.44847688, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5d89224247eef946ac06026fc68b910
-      internalID: -582569744
+      spriteID: 3070dc520b17aaa48baec0dbd4cd775d
+      internalID: -1378596806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run girl_5
+      name: girl baton hit_5
       rect:
         serializedVersion: 2
-        x: 5703
-        y: 1785
-        width: 477
-        height: 690
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 6505
+        y: 1381
+        width: 691
+        height: 708
+      alignment: 9
+      pivot: {x: 0.69061905, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e8df681affd4144fa03b7dbda034f28
-      internalID: -1663021583
+      spriteID: 021ec266a4ea34f44b90d3336f5bba9c
+      internalID: 1793952168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run girl_6
+      name: girl baton hit_6
       rect:
         serializedVersion: 2
-        x: 6787
-        y: 1788
-        width: 477
-        height: 694
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 7766
+        y: 1381
+        width: 690
+        height: 708
+      alignment: 9
+      pivot: {x: 0.69187474, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf349bbde18a79643ad2a8945a197278
-      internalID: 119729488
+      spriteID: 390d0ee4afe5caa40abd3d86bf1aaf82
+      internalID: 550732686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run girl_7
+      name: girl baton hit_7
       rect:
         serializedVersion: 2
-        x: 7872
-        y: 1788
-        width: 476
-        height: 694
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 8998
+        y: 1381
+        width: 719
+        height: 708
+      alignment: 9
+      pivot: {x: 0.7032812, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 699ef77b340ee8140a8af78bc6825337
-      internalID: 637929897
+      spriteID: 58fa49e996daa314b8f1f187845f133e
+      internalID: -745797265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run girl_8
+      name: girl baton hit_8
       rect:
         serializedVersion: 2
-        x: 284
-        y: 230
-        width: 476
-        height: 686
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 163
+        y: 240
+        width: 720
+        height: 709
+      alignment: 9
+      pivot: {x: 0.7034177, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74bd7d37967d9844283766e5a1eeaee8
-      internalID: -1426455886
+      spriteID: 36ab1cd6e5691bf45857a9d47f97cc27
+      internalID: -1399785993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run girl_9
+      name: girl baton hit_9
       rect:
         serializedVersion: 2
-        x: 1367
-        y: 230
-        width: 476
-        height: 686
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1426
+        y: 243
+        width: 719
+        height: 709
+      alignment: 9
+      pivot: {x: 0.704196, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddf9a33122a61b44b9cd939e6d070e0f
-      internalID: -353071582
+      spriteID: d47bf83385a61d540873d667b61cf90a
+      internalID: -461433678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run girl_10
+      name: girl baton hit_10
       rect:
         serializedVersion: 2
-        x: 2451
-        y: 227
-        width: 476
-        height: 677
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2688
+        y: 240
+        width: 719
+        height: 709
+      alignment: 9
+      pivot: {x: 0.70323265, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0d6e4582853539419b498f1e7fa57a9
-      internalID: 1834342735
+      spriteID: 6431a8a0fbe9260468963e49d98f89a9
+      internalID: -905388254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run girl_11
+      name: girl baton hit_12
       rect:
         serializedVersion: 2
-        x: 3535
-        y: 227
-        width: 476
-        height: 677
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4155
+        y: 240
+        width: 514
+        height: 709
+      alignment: 9
+      pivot: {x: 0.5835046, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ef14cd459e358f4880804fde005e0e0
-      internalID: 665732774
+      spriteID: 0833e70461b468b419ad55d06fd1a96a
+      internalID: -742007115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run girl_12
+      name: girl baton hit_13
       rect:
         serializedVersion: 2
-        x: 4619
-        y: 227
-        width: 477
-        height: 689
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5405
+        y: 240
+        width: 527
+        height: 709
+      alignment: 9
+      pivot: {x: 0.5946617, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a1fad61693e9a44dafd92a3bb8ff4c5
-      internalID: -173514522
+      spriteID: 30a7624dbf6904245853deed62d251e6
+      internalID: 552055731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run girl_13
+      name: girl baton hit_14
       rect:
         serializedVersion: 2
-        x: 5703
-        y: 227
-        width: 477
-        height: 689
+        x: 6746
+        y: 242
+        width: 484
+        height: 720
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,20 +410,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b775d91167bc3e8429cbd95781f59945
-      internalID: 1005238883
+      spriteID: 2b0e5fe5b73ea3a4e9bc788d78329143
+      internalID: 1098676800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run girl_14
+      name: girl baton hit_15
       rect:
         serializedVersion: 2
-        x: 6787
-        y: 228
-        width: 477
-        height: 694
+        x: 8008
+        y: 242
+        width: 484
+        height: 720
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,20 +431,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5734f77d604ed654fa43645f6b3ec56b
-      internalID: 1742415970
+      spriteID: a49e6e9d85b59d743a625a0d4ddeee87
+      internalID: 60724969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run girl_15
+      name: girl baton hit_16
       rect:
         serializedVersion: 2
-        x: 7872
-        y: 228
-        width: 476
-        height: 694
+        x: 9270
+        y: 242
+        width: 484
+        height: 720
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,8 +452,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73897fe62cad91f4dbbf223d3268c37b
-      internalID: 1870900235
+      spriteID: aab60fecb7afeb34b80742f9e53c8d4d
+      internalID: -1908555032
       vertices: []
       indices: 
       edges: []
@@ -469,22 +469,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      run girl_0: 302733284
-      run girl_1: -1936580456
-      run girl_10: 1834342735
-      run girl_11: 665732774
-      run girl_12: -173514522
-      run girl_13: 1005238883
-      run girl_14: 1742415970
-      run girl_15: 1870900235
-      run girl_2: 2083277650
-      run girl_3: -71325085
-      run girl_4: -582569744
-      run girl_5: -1663021583
-      run girl_6: 119729488
-      run girl_7: 637929897
-      run girl_8: -1426455886
-      run girl_9: -353071582
+      girl baton hit_0: -33132260
+      girl baton hit_1: 1966086891
+      girl baton hit_10: -905388254
+      girl baton hit_11: 1682115718
+      girl baton hit_12: -742007115
+      girl baton hit_13: 552055731
+      girl baton hit_14: 1098676800
+      girl baton hit_15: 60724969
+      girl baton hit_16: -1908555032
+      girl baton hit_17: -19376648
+      girl baton hit_18: -148657986
+      girl baton hit_2: 900587300
+      girl baton hit_3: 244224868
+      girl baton hit_4: -1378596806
+      girl baton hit_5: 1793952168
+      girl baton hit_6: 550732686
+      girl baton hit_7: -745797265
+      girl baton hit_8: -1399785993
+      girl baton hit_9: -461433678
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
