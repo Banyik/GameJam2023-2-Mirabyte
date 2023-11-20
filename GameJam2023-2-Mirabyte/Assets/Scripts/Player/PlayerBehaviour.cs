@@ -10,13 +10,14 @@ namespace Player
         public Rigidbody2D rb;
         public Animator animator;
         public float speed;
+        float baseSpeed;
         public Weapon weapon;
         [SerializeField]
         State currentState;
         void Start()
         {
-            SnowyTilesHandler.Generate();
             animator.SetInteger("meleeType", (int)weapon);
+            baseSpeed = speed;
         }
 
         private void FixedUpdate()
@@ -63,7 +64,19 @@ namespace Player
 
         bool CheckForSnow()
         {
-            return SnowyTilesHandler.IsCurrentTileSnowy(new Vector2Int((int)gameObject.transform.position.x, (int)gameObject.transform.position.y));
+            return TilesHandler.IsCurrentTileSnowy(new Vector2Int((int)gameObject.transform.position.x, (int)gameObject.transform.position.y));
+        }
+
+        void CheckForCrowd()
+        {
+            if(TilesHandler.IsCurrentTileCrowdy(new Vector2Int((int)gameObject.transform.position.x, (int)gameObject.transform.position.y)))
+            {
+                speed = baseSpeed / 2;
+            }
+            else
+            {
+                speed = baseSpeed;
+            }
         }
 
         void CheckMeleeBehaviour()
@@ -95,6 +108,7 @@ namespace Player
             float horizontal = Input.GetAxisRaw("Horizontal");
             float vertical = Input.GetAxisRaw("Vertical");
             Vector2 movement = new Vector2(horizontal, vertical);
+            CheckForCrowd();
             if (CheckForSnow())
             {
                 rb.velocity = Vector2.Lerp(rb.velocity, movement, Time.deltaTime / (speed * 0.3f));
