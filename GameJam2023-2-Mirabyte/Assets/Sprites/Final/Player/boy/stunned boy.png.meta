@@ -1,0 +1,695 @@
+fileFormatVersion: 2
+guid: 7959cd0dfd0671e4cb6ad350fd47c547
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stunned boy_0
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 4281
+        width: 585
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395412568aae55f4a925c7f2b9d2434c
+      internalID: -1503249618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_1
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 4281
+        width: 585
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7fbeee3683b2c41a14e93c797e16ac
+      internalID: 231263735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_2
+      rect:
+        serializedVersion: 2
+        x: 2966
+        y: 4281
+        width: 585
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98830c51c8cd7734083a788584730828
+      internalID: -53875799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_3
+      rect:
+        serializedVersion: 2
+        x: 4299
+        y: 4281
+        width: 586
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa154e01b9a93a469d4de8a89dd5389
+      internalID: -1425368731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_5
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 4281
+        width: 586
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67a5666f897473488af147b914eeac3
+      internalID: -671736976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_7
+      rect:
+        serializedVersion: 2
+        x: 6966
+        y: 4281
+        width: 586
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187479d6b0d9f864a90db49f249c45b6
+      internalID: 1100984966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_13
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2948
+        width: 569
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424b5159c05b3bf4fb8cf419413cde58
+      internalID: -981669617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_15
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 2948
+        width: 569
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7de4715d3dbe9d42b1c567c6d76ec0f
+      internalID: -1561272299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_17
+      rect:
+        serializedVersion: 2
+        x: 2975
+        y: 2948
+        width: 569
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8cdad4547148f47ac01b05317f9945
+      internalID: 659165871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_18
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 2948
+        width: 545
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd20e6ad61a67804eb5e61b8b9469ff2
+      internalID: -1060139961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_20
+      rect:
+        serializedVersion: 2
+        x: 5635
+        y: 2948
+        width: 545
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa177e007afabb4e8137131a2a8f174
+      internalID: 1371452917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_22
+      rect:
+        serializedVersion: 2
+        x: 6969
+        y: 2948
+        width: 545
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2302a04d38f774f40804a966b5df425b
+      internalID: 1470561578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_25
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1614
+        width: 572
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ea0e6bb3f0945469ccd6830288d5eb
+      internalID: 2010162034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_27
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1614
+        width: 572
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b84647d5f4b916418f83c40e9c4e87c
+      internalID: 914958625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_29
+      rect:
+        serializedVersion: 2
+        x: 2975
+        y: 1614
+        width: 572
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc45ed4cebe3e1408bec37f5f9e0934
+      internalID: -1771799958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_30
+      rect:
+        serializedVersion: 2
+        x: 4295
+        y: 1614
+        width: 587
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40b64858e33def47abb85e8e8cc822a
+      internalID: 1771962406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_31
+      rect:
+        serializedVersion: 2
+        x: 5628
+        y: 1614
+        width: 587
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53228ebe91f0a24da71170b729bbf25
+      internalID: -2065271434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_32
+      rect:
+        serializedVersion: 2
+        x: 6962
+        y: 1614
+        width: 587
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e476e6892e02843a3440f4df444e34
+      internalID: 835092725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_34
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 281
+        width: 579
+        height: 890
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ce07af933c12f4b8f89860f1c2a19b
+      internalID: 390074511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_36
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 281
+        width: 579
+        height: 890
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd1f83f5c7d197469942221843ac73c
+      internalID: 1472488441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_38
+      rect:
+        serializedVersion: 2
+        x: 2975
+        y: 281
+        width: 579
+        height: 890
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae45196307a6064b80a1c77d96efa1b
+      internalID: -1671176846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_39
+      rect:
+        serializedVersion: 2
+        x: 4304
+        y: 281
+        width: 575
+        height: 890
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74263aa7e8919f540aa244db9677bc30
+      internalID: 325304084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_40
+      rect:
+        serializedVersion: 2
+        x: 5637
+        y: 281
+        width: 575
+        height: 890
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90fb6b1f40dc9643bc03c83693a4323
+      internalID: -1306343848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned boy_41
+      rect:
+        serializedVersion: 2
+        x: 6971
+        y: 281
+        width: 575
+        height: 890
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c86482dd0fd5d4cb39943e87fdbe66
+      internalID: 969719162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      stunned boy_0: -1503249618
+      stunned boy_1: 231263735
+      stunned boy_10: 223110526
+      stunned boy_11: -1691866753
+      stunned boy_12: -1500066776
+      stunned boy_13: -981669617
+      stunned boy_14: -1944287350
+      stunned boy_15: -1561272299
+      stunned boy_16: -530844894
+      stunned boy_17: 659165871
+      stunned boy_18: -1060139961
+      stunned boy_19: 310563136
+      stunned boy_2: -53875799
+      stunned boy_20: 1371452917
+      stunned boy_21: 1900019997
+      stunned boy_22: 1470561578
+      stunned boy_23: -1052688946
+      stunned boy_24: 2044511321
+      stunned boy_25: 2010162034
+      stunned boy_26: 127416494
+      stunned boy_27: 914958625
+      stunned boy_28: -159295122
+      stunned boy_29: -1771799958
+      stunned boy_3: -1425368731
+      stunned boy_30: 1771962406
+      stunned boy_31: -2065271434
+      stunned boy_32: 835092725
+      stunned boy_33: -1155302927
+      stunned boy_34: 390074511
+      stunned boy_35: 51327283
+      stunned boy_36: 1472488441
+      stunned boy_37: -2101987349
+      stunned boy_38: -1671176846
+      stunned boy_39: 325304084
+      stunned boy_4: 867534784
+      stunned boy_40: -1306343848
+      stunned boy_41: 969719162
+      stunned boy_42: -650057785
+      stunned boy_43: -1532459429
+      stunned boy_44: 2090504968
+      stunned boy_45: 1320826685
+      stunned boy_46: 200875392
+      stunned boy_47: 61021991
+      stunned boy_48: 1415926416
+      stunned boy_49: -1552872219
+      stunned boy_5: -671736976
+      stunned boy_50: 737020787
+      stunned boy_6: -1370010447
+      stunned boy_7: 1100984966
+      stunned boy_8: -362092080
+      stunned boy_9: -275660690
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
