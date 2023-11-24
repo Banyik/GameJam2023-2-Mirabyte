@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7e083e6c0ae15a745818d703c603ad50
+guid: 3ddb1714a3f391b4f824a863a88f8cf7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 400
+  spritePixelsToUnits: 480
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: 4
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: girl idle_0
+      name: stunned girl_1
       rect:
         serializedVersion: 2
-        x: 305
-        y: 3609
-        width: 498
-        height: 719
+        x: 301
+        y: 4281
+        width: 597
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b65cb45d4c21ac4499656333d99f078
-      internalID: -1017604078
+      spriteID: d2f6352a0c8b85247a83cc023ef1ab5f
+      internalID: 932413385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_1
+      name: stunned girl_3
       rect:
         serializedVersion: 2
-        x: 1430
-        y: 3609
-        width: 498
-        height: 719
+        x: 1634
+        y: 4281
+        width: 597
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd0012fe94915ad43958004eb053ba23
-      internalID: 1972958156
+      spriteID: 4d836847399fb6649b1eb59ced9fada0
+      internalID: 1736612084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_2
+      name: stunned girl_5
       rect:
         serializedVersion: 2
-        x: 2556
-        y: 3609
-        width: 498
-        height: 719
+        x: 2968
+        y: 4281
+        width: 597
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 525ababa77f624740b469f286b330aa6
-      internalID: 1916480352
+      spriteID: 622f4018f6fab5344847aec86e61f118
+      internalID: -1521128045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_3
+      name: stunned girl_7
       rect:
         serializedVersion: 2
-        x: 3681
-        y: 3607
-        width: 498
-        height: 717
+        x: 4301
+        y: 4281
+        width: 597
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 396e4bb26290fe946b36e37a3c964f35
-      internalID: 1363146220
+      spriteID: d22db730921fa794389af54a35f74d1e
+      internalID: -1285064876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_4
+      name: stunned girl_9
       rect:
         serializedVersion: 2
-        x: 4806
-        y: 3607
-        width: 498
-        height: 717
+        x: 5634
+        y: 4281
+        width: 597
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ad89bbcfa73b7f49ad1109fa88a105a
-      internalID: -2125749731
+      spriteID: 760c5d72f9bde5e4eb9b2cdca0f3fc0f
+      internalID: -420613784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_5
+      name: stunned girl_11
       rect:
         serializedVersion: 2
-        x: 5932
-        y: 3607
-        width: 498
-        height: 717
+        x: 6968
+        y: 4281
+        width: 597
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58dd2b57e539785409e249cb758d888e
-      internalID: -39402128
+      spriteID: dddaf265d4f52ed4eb2644e0dca1017b
+      internalID: -1942564641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_6
+      name: stunned girl_13
       rect:
         serializedVersion: 2
-        x: 305
-        y: 2481
-        width: 498
-        height: 715
+        x: 300
+        y: 2948
+        width: 598
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3427a3ce7a81054b878a2cdfab595cf
-      internalID: -1521141918
+      spriteID: 1a17b0d4ef85b9a4193341e0bb7ea0db
+      internalID: -1457357739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_7
+      name: stunned girl_15
       rect:
         serializedVersion: 2
-        x: 1430
-        y: 2481
-        width: 498
-        height: 715
+        x: 1633
+        y: 2948
+        width: 598
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15e017cf215c65b4e920acbe6971727d
-      internalID: 828146351
+      spriteID: 25df833bdae926446b121747fd3ef6a8
+      internalID: -2043857322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_8
+      name: stunned girl_17
       rect:
         serializedVersion: 2
-        x: 2556
-        y: 2481
-        width: 498
-        height: 715
+        x: 2967
+        y: 2948
+        width: 598
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2114c1f42520ef648a1ef55431ac8be0
-      internalID: -930271197
+      spriteID: a327ab186b9022c458c83c75ade35bf6
+      internalID: -1082102169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_9
+      name: stunned girl_18
       rect:
         serializedVersion: 2
-        x: 3681
-        y: 2481
-        width: 498
-        height: 711
+        x: 4300
+        y: 2948
+        width: 598
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 215f4b9e8840bbc4c82b32a312f4c1fe
-      internalID: 1572622559
+      spriteID: 1862548c8cf4fc949aec4ed5d85cf291
+      internalID: 1572746117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_10
+      name: stunned girl_19
       rect:
         serializedVersion: 2
-        x: 4806
-        y: 2481
-        width: 498
-        height: 711
+        x: 5633
+        y: 2948
+        width: 598
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9af3e08ae2643b2469bfa56e5be3e433
-      internalID: -654465824
+      spriteID: eebb4d329aafad142909612dfa5a1a27
+      internalID: 133090818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_11
+      name: stunned girl_20
       rect:
         serializedVersion: 2
-        x: 5932
-        y: 2481
-        width: 498
-        height: 711
+        x: 6967
+        y: 2948
+        width: 598
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c27822c5cb431d846887f1f6e6344a02
-      internalID: 1663758624
+      spriteID: 3bb1e72ea8f87a1498e082377580b21c
+      internalID: -1866742041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_12
+      name: stunned girl_22
       rect:
         serializedVersion: 2
-        x: 305
-        y: 1358
-        width: 498
-        height: 706
+        x: 301
+        y: 1614
+        width: 597
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,20 +389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbe8f025b05db56488fb148606f28953
-      internalID: -2053284265
+      spriteID: 1c2348b88f5d64a4792e4ec8688012f6
+      internalID: -862944152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_13
+      name: stunned girl_24
       rect:
         serializedVersion: 2
-        x: 1430
-        y: 1358
-        width: 498
-        height: 706
+        x: 1634
+        y: 1614
+        width: 597
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,20 +410,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c0eb1916771465429a99cd76ee375f1
-      internalID: 1257297294
+      spriteID: b8dfa5db781069842b38b01dddc566bc
+      internalID: 2094729423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_14
+      name: stunned girl_26
       rect:
         serializedVersion: 2
-        x: 2556
-        y: 1358
-        width: 498
-        height: 706
+        x: 2968
+        y: 1614
+        width: 597
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,20 +431,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef362acb0fabb4942b9585c0bebe30cc
-      internalID: -1463392169
+      spriteID: 7b17a43fdb9ce374f9eae2af6c2e18c6
+      internalID: -371733077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_15
+      name: stunned girl_27
       rect:
         serializedVersion: 2
-        x: 3681
-        y: 1357
-        width: 498
-        height: 710
+        x: 4295
+        y: 1614
+        width: 603
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,20 +452,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 542ba417b6bdcda4db178fb0fc3801d8
-      internalID: -615847140
+      spriteID: dd9d1192d6849024d88bb3880ea277b1
+      internalID: -838342955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_16
+      name: stunned girl_28
       rect:
         serializedVersion: 2
-        x: 4806
-        y: 1357
-        width: 498
-        height: 710
+        x: 5628
+        y: 1614
+        width: 603
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,20 +473,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 996b71754a157c141baa08bef9807676
-      internalID: -715101645
+      spriteID: d4d88a02ed7c0c2409d5e2aef99ea385
+      internalID: 1865119104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_17
+      name: stunned girl_29
       rect:
         serializedVersion: 2
-        x: 5932
-        y: 1357
-        width: 498
-        height: 710
+        x: 6962
+        y: 1614
+        width: 603
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,20 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b218fa64c15ac154093e86d824d8c842
-      internalID: 1424589721
+      spriteID: bf08a36bf26e0a14986713ca7fddf62c
+      internalID: 665158386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_18
+      name: stunned girl_31
       rect:
         serializedVersion: 2
-        x: 305
-        y: 230
-        width: 498
-        height: 715
+        x: 300
+        y: 281
+        width: 598
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,20 +515,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e89119acaee09724cb21c97fd76941df
-      internalID: 1399658285
+      spriteID: 3c6a16476b556534082bd0f76c084edc
+      internalID: 404865727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_19
+      name: stunned girl_33
       rect:
         serializedVersion: 2
-        x: 1430
-        y: 230
-        width: 498
-        height: 715
+        x: 1633
+        y: 281
+        width: 598
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,20 +536,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7811dfa4f7f1d504ab40f1b4a511a088
-      internalID: 70978508
+      spriteID: 0c4998f72509d3c4b9716ee744d93669
+      internalID: 1962175737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_20
+      name: stunned girl_35
       rect:
         serializedVersion: 2
-        x: 2556
-        y: 230
-        width: 498
-        height: 715
+        x: 2967
+        y: 281
+        width: 598
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -557,20 +557,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58ffeb667aa213941af4dc2bec427df0
-      internalID: 1652926349
+      spriteID: 6b8d4de5ca909854ab006fb64183e7ee
+      internalID: 159627140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_21
+      name: stunned girl_36
       rect:
         serializedVersion: 2
-        x: 3681
-        y: 231
-        width: 498
-        height: 717
+        x: 4300
+        y: 281
+        width: 598
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,20 +578,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff3d89cdd2578834aa465a71bb376df2
-      internalID: 416419015
+      spriteID: 401498fd7c6e6f94695eb90123d23254
+      internalID: -895717889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_22
+      name: stunned girl_37
       rect:
         serializedVersion: 2
-        x: 4806
-        y: 231
-        width: 498
-        height: 717
+        x: 5633
+        y: 281
+        width: 598
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -599,20 +599,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19aa059969d11e347903d83fdeb818af
-      internalID: -1833823723
+      spriteID: 8dbebf341e5d99f41b89ec53834a7cc1
+      internalID: -1926392356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_23
+      name: stunned girl_38
       rect:
         serializedVersion: 2
-        x: 5932
-        y: 231
-        width: 498
-        height: 717
+        x: 6967
+        y: 281
+        width: 598
+        height: 839
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -620,8 +620,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 953aa0e2d9c5f2046a61bdf53ab4b604
-      internalID: -92142811
+      spriteID: 9fe3dcfd787894048a01f25da9aa332a
+      internalID: -1658785040
       vertices: []
       indices: 
       edges: []
@@ -637,30 +637,45 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      girl idle_0: -1017604078
-      girl idle_1: 1972958156
-      girl idle_10: -654465824
-      girl idle_11: 1663758624
-      girl idle_12: -2053284265
-      girl idle_13: 1257297294
-      girl idle_14: -1463392169
-      girl idle_15: -615847140
-      girl idle_16: -715101645
-      girl idle_17: 1424589721
-      girl idle_18: 1399658285
-      girl idle_19: 70978508
-      girl idle_2: 1916480352
-      girl idle_20: 1652926349
-      girl idle_21: 416419015
-      girl idle_22: -1833823723
-      girl idle_23: -92142811
-      girl idle_3: 1363146220
-      girl idle_4: -2125749731
-      girl idle_5: -39402128
-      girl idle_6: -1521141918
-      girl idle_7: 828146351
-      girl idle_8: -930271197
-      girl idle_9: 1572622559
+      stunned girl_0: -1359091299
+      stunned girl_1: 932413385
+      stunned girl_10: -654513218
+      stunned girl_11: -1942564641
+      stunned girl_12: 1955797237
+      stunned girl_13: -1457357739
+      stunned girl_14: -912711700
+      stunned girl_15: -2043857322
+      stunned girl_16: -2026944525
+      stunned girl_17: -1082102169
+      stunned girl_18: 1572746117
+      stunned girl_19: 133090818
+      stunned girl_2: -481263292
+      stunned girl_20: -1866742041
+      stunned girl_21: -1404625459
+      stunned girl_22: -862944152
+      stunned girl_23: 1249874496
+      stunned girl_24: 2094729423
+      stunned girl_25: -1004848780
+      stunned girl_26: -371733077
+      stunned girl_27: -838342955
+      stunned girl_28: 1865119104
+      stunned girl_29: 665158386
+      stunned girl_3: 1736612084
+      stunned girl_30: -1710906565
+      stunned girl_31: 404865727
+      stunned girl_32: 1635496684
+      stunned girl_33: 1962175737
+      stunned girl_34: -2121830781
+      stunned girl_35: 159627140
+      stunned girl_36: -895717889
+      stunned girl_37: -1926392356
+      stunned girl_38: -1658785040
+      stunned girl_4: -319021674
+      stunned girl_5: -1521128045
+      stunned girl_6: 2056044686
+      stunned girl_7: -1285064876
+      stunned girl_8: 1530730757
+      stunned girl_9: -420613784
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -8,6 +8,7 @@ namespace Player
     {
         Idle,
         Move,
-        Attack
+        Attack,
+        Stunned
     }
 }

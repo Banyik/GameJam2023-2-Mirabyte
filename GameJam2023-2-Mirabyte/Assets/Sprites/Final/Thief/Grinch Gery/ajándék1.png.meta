@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7e083e6c0ae15a745818d703c603ad50
+guid: 579d2bc6940b42244b5b5cda6e37a164
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -71,8 +71,8 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 8192
     resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,505 +123,400 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: girl idle_0
+      name: "aj\xE1nd\xE9k1_0"
       rect:
         serializedVersion: 2
-        x: 305
-        y: 3609
-        width: 498
-        height: 719
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 266
+        y: 3569
+        width: 481
+        height: 476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b65cb45d4c21ac4499656333d99f078
-      internalID: -1017604078
+      spriteID: f174b1ab23b0c6444b54ebada0558af7
+      internalID: 2063793743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_1
+      name: "aj\xE1nd\xE9k1_1"
       rect:
         serializedVersion: 2
-        x: 1430
-        y: 3609
-        width: 498
-        height: 719
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1337
+        y: 3569
+        width: 481
+        height: 476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd0012fe94915ad43958004eb053ba23
-      internalID: 1972958156
+      spriteID: 22a03cd8a4d536946a4aefd94866342f
+      internalID: -2144574182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_2
+      name: "aj\xE1nd\xE9k1_2"
       rect:
         serializedVersion: 2
-        x: 2556
-        y: 3609
-        width: 498
-        height: 719
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2377
+        y: 3568
+        width: 539
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 525ababa77f624740b469f286b330aa6
-      internalID: 1916480352
+      spriteID: e911252dfc73adf4fa51b6934ae14c2a
+      internalID: 1486426102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_3
+      name: "aj\xE1nd\xE9k1_3"
       rect:
         serializedVersion: 2
-        x: 3681
-        y: 3607
-        width: 498
-        height: 717
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3448
+        y: 3568
+        width: 539
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 396e4bb26290fe946b36e37a3c964f35
-      internalID: 1363146220
+      spriteID: 2e002f3b46413c748bd1ff3e257a1146
+      internalID: 339824244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_4
+      name: "aj\xE1nd\xE9k1_4"
       rect:
         serializedVersion: 2
-        x: 4806
-        y: 3607
-        width: 498
-        height: 717
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4533
+        y: 3571
+        width: 510
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ad89bbcfa73b7f49ad1109fa88a105a
-      internalID: -2125749731
+      spriteID: e47e487cb970392469860aa711cd358b
+      internalID: -1821439102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_5
+      name: "aj\xE1nd\xE9k1_5"
       rect:
         serializedVersion: 2
-        x: 5932
-        y: 3607
-        width: 498
-        height: 717
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5604
+        y: 3571
+        width: 510
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58dd2b57e539785409e249cb758d888e
-      internalID: -39402128
+      spriteID: e3c7610ca8a7f16478a4a4b304658da0
+      internalID: 1307231039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_6
+      name: "aj\xE1nd\xE9k1_6"
       rect:
         serializedVersion: 2
-        x: 305
-        y: 2481
-        width: 498
-        height: 715
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 6674
+        y: 3571
+        width: 510
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3427a3ce7a81054b878a2cdfab595cf
-      internalID: -1521141918
+      spriteID: d58b0693eee55b045bdb39a5e2dc5f6e
+      internalID: 848354152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_7
+      name: "aj\xE1nd\xE9k1_7"
       rect:
         serializedVersion: 2
-        x: 1430
-        y: 2481
-        width: 498
-        height: 715
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 266
+        y: 2151
+        width: 481
+        height: 475
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15e017cf215c65b4e920acbe6971727d
-      internalID: 828146351
+      spriteID: 35302dbe6a844674aab25deeb11b9122
+      internalID: -69194736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_8
+      name: "aj\xE1nd\xE9k1_8"
       rect:
         serializedVersion: 2
-        x: 2556
-        y: 2481
-        width: 498
-        height: 715
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1337
+        y: 2151
+        width: 481
+        height: 475
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2114c1f42520ef648a1ef55431ac8be0
-      internalID: -930271197
+      spriteID: 96dfd30509d0dae44986b18b40076781
+      internalID: 974423061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_9
+      name: "aj\xE1nd\xE9k1_9"
       rect:
         serializedVersion: 2
-        x: 3681
-        y: 2481
-        width: 498
-        height: 711
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2407
+        y: 2151
+        width: 481
+        height: 475
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 215f4b9e8840bbc4c82b32a312f4c1fe
-      internalID: 1572622559
+      spriteID: 0b7f6f45d9c3d2142b9296de293518ac
+      internalID: -1634789011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_10
+      name: "aj\xE1nd\xE9k1_10"
       rect:
         serializedVersion: 2
-        x: 4806
-        y: 2481
-        width: 498
-        height: 711
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3478
+        y: 2151
+        width: 481
+        height: 475
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9af3e08ae2643b2469bfa56e5be3e433
-      internalID: -654465824
+      spriteID: c6c32e2fc600c8848adb37d01f0c9df6
+      internalID: 451831017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_11
+      name: "aj\xE1nd\xE9k1_11"
       rect:
         serializedVersion: 2
-        x: 5932
-        y: 2481
-        width: 498
-        height: 711
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4432
+        y: 2032
+        width: 736
+        height: 668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c27822c5cb431d846887f1f6e6344a02
-      internalID: 1663758624
+      spriteID: 4cad4ca8df5bb2f449a22f354dca77a3
+      internalID: 1001789881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_12
+      name: "aj\xE1nd\xE9k1_12"
       rect:
         serializedVersion: 2
-        x: 305
-        y: 1358
-        width: 498
-        height: 706
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5510
+        y: 2038
+        width: 736
+        height: 668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbe8f025b05db56488fb148606f28953
-      internalID: -2053284265
+      spriteID: 64eaa39b69554cb4c90db974cc4d0f39
+      internalID: 1659644568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_13
+      name: "aj\xE1nd\xE9k1_13"
       rect:
         serializedVersion: 2
-        x: 1430
-        y: 1358
-        width: 498
-        height: 706
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 6587
+        y: 2048
+        width: 736
+        height: 668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c0eb1916771465429a99cd76ee375f1
-      internalID: 1257297294
+      spriteID: a7bf8c56c38120e44b1e6910d58fa22a
+      internalID: 1085494087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_14
+      name: "aj\xE1nd\xE9k1_17"
       rect:
         serializedVersion: 2
-        x: 2556
-        y: 1358
-        width: 498
-        height: 706
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 159
+        y: 488
+        width: 736
+        height: 668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef362acb0fabb4942b9585c0bebe30cc
-      internalID: -1463392169
+      spriteID: 9a31481b29f24aa4dbe4417439326dff
+      internalID: -1757858243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_15
+      name: "aj\xE1nd\xE9k1_18"
       rect:
         serializedVersion: 2
-        x: 3681
-        y: 1357
-        width: 498
-        height: 710
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1219
+        y: 495
+        width: 736
+        height: 668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 542ba417b6bdcda4db178fb0fc3801d8
-      internalID: -615847140
+      spriteID: 7b2d624a990f7884b949c196e821b6e2
+      internalID: -1102908173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_16
+      name: "aj\xE1nd\xE9k1_19"
       rect:
         serializedVersion: 2
-        x: 4806
-        y: 1357
-        width: 498
-        height: 710
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2298
+        y: 492
+        width: 736
+        height: 676
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 996b71754a157c141baa08bef9807676
-      internalID: -715101645
+      spriteID: 46e1a1f9d81ca5d45a5f47efd3b55111
+      internalID: 200599645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_17
+      name: "aj\xE1nd\xE9k1_20"
       rect:
         serializedVersion: 2
-        x: 5932
-        y: 1357
-        width: 498
-        height: 710
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3293
+        y: 505
+        width: 736
+        height: 668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b218fa64c15ac154093e86d824d8c842
-      internalID: 1424589721
+      spriteID: da882478639eaaa42afaba144b0379a4
+      internalID: -2064361687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_18
+      name: "aj\xE1nd\xE9k1_21"
       rect:
         serializedVersion: 2
-        x: 305
-        y: 230
-        width: 498
-        height: 715
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4309
+        y: 505
+        width: 736
+        height: 668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e89119acaee09724cb21c97fd76941df
-      internalID: 1399658285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl idle_19
-      rect:
-        serializedVersion: 2
-        x: 1430
-        y: 230
-        width: 498
-        height: 715
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7811dfa4f7f1d504ab40f1b4a511a088
-      internalID: 70978508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl idle_20
-      rect:
-        serializedVersion: 2
-        x: 2556
-        y: 230
-        width: 498
-        height: 715
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58ffeb667aa213941af4dc2bec427df0
-      internalID: 1652926349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl idle_21
-      rect:
-        serializedVersion: 2
-        x: 3681
-        y: 231
-        width: 498
-        height: 717
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff3d89cdd2578834aa465a71bb376df2
-      internalID: 416419015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl idle_22
-      rect:
-        serializedVersion: 2
-        x: 4806
-        y: 231
-        width: 498
-        height: 717
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19aa059969d11e347903d83fdeb818af
-      internalID: -1833823723
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl idle_23
-      rect:
-        serializedVersion: 2
-        x: 5932
-        y: 231
-        width: 498
-        height: 717
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 953aa0e2d9c5f2046a61bdf53ab4b604
-      internalID: -92142811
+      spriteID: fd485d438bd17e74da551b0c9fd58a92
+      internalID: 26893219
       vertices: []
       indices: 
       edges: []
@@ -637,30 +532,43 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      girl idle_0: -1017604078
-      girl idle_1: 1972958156
-      girl idle_10: -654465824
-      girl idle_11: 1663758624
-      girl idle_12: -2053284265
-      girl idle_13: 1257297294
-      girl idle_14: -1463392169
-      girl idle_15: -615847140
-      girl idle_16: -715101645
-      girl idle_17: 1424589721
-      girl idle_18: 1399658285
-      girl idle_19: 70978508
-      girl idle_2: 1916480352
-      girl idle_20: 1652926349
-      girl idle_21: 416419015
-      girl idle_22: -1833823723
-      girl idle_23: -92142811
-      girl idle_3: 1363146220
-      girl idle_4: -2125749731
-      girl idle_5: -39402128
-      girl idle_6: -1521141918
-      girl idle_7: 828146351
-      girl idle_8: -930271197
-      girl idle_9: 1572622559
+      "aj\xE1nd\xE9k1_0": 2063793743
+      "aj\xE1nd\xE9k1_1": -2144574182
+      "aj\xE1nd\xE9k1_10": 451831017
+      "aj\xE1nd\xE9k1_11": 1001789881
+      "aj\xE1nd\xE9k1_12": 1659644568
+      "aj\xE1nd\xE9k1_13": 1085494087
+      "aj\xE1nd\xE9k1_14": 1389150799
+      "aj\xE1nd\xE9k1_15": 1343723046
+      "aj\xE1nd\xE9k1_16": 667987694
+      "aj\xE1nd\xE9k1_17": -1757858243
+      "aj\xE1nd\xE9k1_18": -1102908173
+      "aj\xE1nd\xE9k1_19": 200599645
+      "aj\xE1nd\xE9k1_2": 1486426102
+      "aj\xE1nd\xE9k1_20": -2064361687
+      "aj\xE1nd\xE9k1_21": 26893219
+      "aj\xE1nd\xE9k1_22": -1421565011
+      "aj\xE1nd\xE9k1_23": 2114238795
+      "aj\xE1nd\xE9k1_24": -814007199
+      "aj\xE1nd\xE9k1_25": 1248984266
+      "aj\xE1nd\xE9k1_26": 2129457682
+      "aj\xE1nd\xE9k1_27": 1719639930
+      "aj\xE1nd\xE9k1_28": 1271350278
+      "aj\xE1nd\xE9k1_29": 974237482
+      "aj\xE1nd\xE9k1_3": 339824244
+      "aj\xE1nd\xE9k1_30": -1616968368
+      "aj\xE1nd\xE9k1_31": 858821001
+      "aj\xE1nd\xE9k1_32": -1787695310
+      "aj\xE1nd\xE9k1_33": 865786248
+      "aj\xE1nd\xE9k1_34": -109116192
+      "aj\xE1nd\xE9k1_35": -970572292
+      "aj\xE1nd\xE9k1_36": 1960444193
+      "aj\xE1nd\xE9k1_4": -1821439102
+      "aj\xE1nd\xE9k1_5": 1307231039
+      "aj\xE1nd\xE9k1_6": 848354152
+      "aj\xE1nd\xE9k1_7": -69194736
+      "aj\xE1nd\xE9k1_8": 974423061
+      "aj\xE1nd\xE9k1_9": -1634789011
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

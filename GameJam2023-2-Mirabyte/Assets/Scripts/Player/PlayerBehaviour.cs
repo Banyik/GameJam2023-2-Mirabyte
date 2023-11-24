@@ -22,13 +22,21 @@ namespace Player
 
         private void FixedUpdate()
         {
-            CheckMovement();
-            CheckMeleeBehaviour();
+            if (currentState != State.Stunned)
+            {
+                CheckMovement();
+                CheckMeleeBehaviour();
+            }
         }
 
         private void Update()
         {
             CheckState();
+        }
+
+        public State GetState()
+        {
+            return currentState;
         }
 
         void CheckState()
@@ -126,7 +134,7 @@ namespace Player
                 ChangeState(State.Move);
                 animator.SetBool("isMoving", true);
             }
-            else
+            else if(currentState != State.Stunned)
             {
                 ChangeState(State.Idle);
                 animator.SetBool("isMoving", false);
@@ -138,9 +146,24 @@ namespace Player
             animator.SetBool("isMoving", false);
         }
 
+        public void StartStun()
+        {
+            animator.SetBool("isStunned", true);
+            ChangeState(State.Stunned);
+            StopMovement();
+            Invoke(nameof(EndStun), 2);
+        }
+
+        void EndStun()
+        {
+            ChangeState(State.Idle);
+            animator.SetBool("isStunned", false);
+        }
+
         bool IsAnimationPlaying(string name)
         {
             return animator.GetCurrentAnimatorStateInfo(0).IsName(name);
         }
+
     }
 }
