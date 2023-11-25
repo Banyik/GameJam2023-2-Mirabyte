@@ -7,15 +7,17 @@ namespace Thief
     public class GrinchGery : ThiefBase
     {
         GameObject gift;
-        public GrinchGery(float speed, ThiefType thiefType, GameObject gift) : base(speed, thiefType)
+        Rigidbody2D rb;
+        public GrinchGery(float speed, ThiefType thiefType, GameObject gift, Rigidbody2D rb) : base(speed, thiefType)
         {
             this.gift = gift;
+            this.rb = rb;
         }
 
-        public override void SpecialAttack(Vector2 position)
+        public override void SpecialAttack()
         {
             var giftClone = GameObject.Instantiate(gift);
-            giftClone.GetComponent<GiftFall>().StartFall(position, Random.Range(0, 100) > 50 ? "blue" : "pink");
+            giftClone.GetComponent<GiftFall>().StartFall(rb.position, Random.Range(0, 100) > 50 ? "blue" : "pink");
         }
     }
 }

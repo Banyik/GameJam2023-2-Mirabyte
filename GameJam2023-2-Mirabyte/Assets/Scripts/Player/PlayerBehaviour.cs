@@ -10,8 +10,11 @@ namespace Player
         public Rigidbody2D rb;
         public Animator animator;
         public float speed;
+        bool canDefend = true;
+        bool checkDistanceForStun = false;
         float baseSpeed;
         public Weapon weapon;
+        public GameObject TargetedThief;
         [SerializeField]
         State currentState;
         void Start()
@@ -148,16 +151,32 @@ namespace Player
 
         public void StartStun()
         {
+            if (checkDistanceForStun && !CheckDistanceBetweenTarget(1.5f))
+            {
+                return;
+            }
             animator.SetBool("isStunned", true);
             ChangeState(State.Stunned);
             StopMovement();
             Invoke(nameof(EndStun), 2);
         }
 
+        public void InvokeStun(float seconds, bool ableToDefend, bool checkDistance)
+        {
+            canDefend = ableToDefend;
+            checkDistanceForStun = checkDistance;
+            Invoke(nameof(StartStun), seconds);
+        }
+
         void EndStun()
         {
             ChangeState(State.Idle);
             animator.SetBool("isStunned", false);
+        }
+
+        bool CheckDistanceBetweenTarget(float maxDistance)
+        {
+            return Vector2.Distance(gameObject.transform.position, TargetedThief.transform.position) < maxDistance;
         }
 
         bool IsAnimationPlaying(string name)

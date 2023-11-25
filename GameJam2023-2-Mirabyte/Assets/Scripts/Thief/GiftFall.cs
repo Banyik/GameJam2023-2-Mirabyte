@@ -79,7 +79,7 @@ public class GiftFall : MonoBehaviour
             StartAnimation();
             if(collision.transform.gameObject.GetComponent<PlayerBehaviour>().GetState() != State.Stunned)
             {
-                collision.transform.gameObject.GetComponent<PlayerBehaviour>().StartStun();
+                collision.transform.gameObject.GetComponent<PlayerBehaviour>().InvokeStun(0, false, false);
             }
         }
     }

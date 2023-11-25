@@ -19,16 +19,19 @@ namespace Thief
         public GameObject gift;
 
         public RuntimeAnimatorController GrinchAnimator;
+        public RuntimeAnimatorController PongracAnimator;
         private void Start()
         {
             switch (thiefType)
             {
                 case ThiefType.PunchPongrac:
+                    thief = new PunchPongrac(speed, thiefType, animator, GetComponent<SpriteRenderer>(), rb);
+                    animator.runtimeAnimatorController = PongracAnimator;
                     break;
                 case ThiefType.Julcsika:
                     break;
                 case ThiefType.GrinchGery:
-                    thief = new GrinchGery(3, thiefType, gift);
+                    thief = new GrinchGery(speed, thiefType, gift, rb);
                     animator.runtimeAnimatorController = GrinchAnimator;
                     break;
                 default:
@@ -40,8 +43,21 @@ namespace Thief
         {
             if (thief.IsTargeted)
             {
-                MoveToExit();
-                if(Random.Range(0, 500) < 1) thief.SpecialAttack(transform.position);
+                switch (thiefType)
+                {
+                    case ThiefType.PunchPongrac:
+                        MoveToExit();
+                        thief.SpecialAttack();
+                        break;
+                    case ThiefType.Julcsika:
+                        break;
+                    case ThiefType.GrinchGery:
+                        MoveToExit();
+                        if (Random.Range(0, 500) < 1) thief.SpecialAttack();
+                        break;
+                    default:
+                        break;
+                }
             }
         }
 
@@ -64,7 +80,7 @@ namespace Thief
                 SetTarget();
             }
             Vector2 direction = (new Vector2(thief.ExitTarget.x, thief.ExitTarget.y) - new Vector2(rb.transform.position.x, rb.transform.position.y)).normalized;
-            if(Vector2.Distance(thief.ExitTarget, transform.position) >= 0.1)
+            if(Vector2.Distance(thief.ExitTarget, transform.position) >= 0.1 && thief.CanMove)
             {
                 transform.position += new Vector3(direction.x, direction.y, 0) * Time.deltaTime * speed;
                 GetComponent<SpriteRenderer>().flipX = direction.x > 0;

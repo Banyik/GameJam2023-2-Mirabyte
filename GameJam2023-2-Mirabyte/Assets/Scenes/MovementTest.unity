@@ -306,6 +306,7 @@ MonoBehaviour:
   animator: {fileID: 330111800}
   speed: 3
   weapon: 0
+  TargetedThief: {fileID: 1079979344}
   currentState: 0
 --- !u!95 &330111800
 Animator:
@@ -951,7 +952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90d0a9ee60a0eed479c69d227fd4d93c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thiefType: 2
+  thiefType: 0
   speed: 2
   rb: {fileID: 1079979349}
   animator: {fileID: 1079979346}
@@ -960,6 +961,7 @@ MonoBehaviour:
   Player: {fileID: 330111795}
   gift: {fileID: 964743211}
   GrinchAnimator: {fileID: 9100000, guid: 3b41a3d2626177b498522b738c065990, type: 2}
+  PongracAnimator: {fileID: 9100000, guid: f98d6a855f2e25547b59caf74fba2b8a, type: 2}
 --- !u!212 &1079979348
 SpriteRenderer:
   m_ObjectHideFlags: 0
