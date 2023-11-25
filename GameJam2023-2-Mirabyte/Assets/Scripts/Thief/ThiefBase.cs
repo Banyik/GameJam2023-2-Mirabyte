@@ -21,6 +21,7 @@ namespace Thief
         }
 
         public virtual void SpecialAttack() { }
+        public virtual void Stun() { }
 
         public float Speed { get => speed; set => speed = value; }
         public ThiefType ThiefType { get => thiefType; set => thiefType = value; }

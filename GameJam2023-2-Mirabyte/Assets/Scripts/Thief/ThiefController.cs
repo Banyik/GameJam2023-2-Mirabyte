@@ -20,6 +20,8 @@ namespace Thief
 
         public RuntimeAnimatorController GrinchAnimator;
         public RuntimeAnimatorController PongracAnimator;
+
+        bool isActive = true;
         private void Start()
         {
             switch (thiefType)
@@ -31,7 +33,7 @@ namespace Thief
                 case ThiefType.Julcsika:
                     break;
                 case ThiefType.GrinchGery:
-                    thief = new GrinchGery(speed, thiefType, gift, rb);
+                    thief = new GrinchGery(speed, thiefType, gift, rb, animator);
                     animator.runtimeAnimatorController = GrinchAnimator;
                     break;
                 default:
@@ -41,7 +43,7 @@ namespace Thief
 
         private void Update()
         {
-            if (thief.IsTargeted)
+            if (thief.IsTargeted && isActive)
             {
                 switch (thiefType)
                 {
@@ -90,6 +92,13 @@ namespace Thief
             {
                 animator.SetBool("IsMoving", false);
             }
+        }
+
+        public void StartStun()
+        {
+            thief.Stun();
+            isActive = false;
+            GetComponent<BoxCollider2D>().enabled = false;
         }
     }
 }

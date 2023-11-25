@@ -32,6 +32,11 @@ namespace Thief
                 CanMove = true;
             }
         }
+
+        public override void Stun()
+        {
+            animator.SetTrigger("Stunned");
+        }
     }
 }
 
