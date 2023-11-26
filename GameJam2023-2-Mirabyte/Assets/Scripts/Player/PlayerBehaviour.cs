@@ -13,6 +13,9 @@ namespace Player
         bool canDefend = true;
         bool checkDistanceForStun = false;
         float baseSpeed;
+        public string character;
+        public RuntimeAnimatorController boy;
+        public RuntimeAnimatorController girl;
         public Weapon weapon;
         public GameObject TargetedThief;
         [SerializeField]
@@ -21,6 +24,7 @@ namespace Player
         {
             animator.SetInteger("meleeType", (int)weapon);
             baseSpeed = speed;
+            animator.runtimeAnimatorController =  character == "boy" ?  boy : girl;
         }
 
         private void FixedUpdate()
@@ -57,7 +61,7 @@ namespace Player
                 case State.Attack:
                     animator.SetTrigger("isAttacking");
                     StopMovement();
-                    if (IsAnimationPlaying("girl_baton_hit"))
+                    if (IsAnimationPlaying($"{character}_baton_hit"))
                     {
                         animator.ResetTrigger("isAttacking");
                         ChangeState(State.Idle);
@@ -104,7 +108,7 @@ namespace Player
 
         void CheckMovement()
         {
-            if (!IsAnimationPlaying("girl_baton_hit"))
+            if (!IsAnimationPlaying($"{character}_baton_hit"))
             {
                 MovementHandler();
             }

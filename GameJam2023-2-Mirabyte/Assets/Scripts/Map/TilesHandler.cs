@@ -13,9 +13,9 @@ namespace Map
         {
             for (int i = (int)start.x; i <= (int)end.x; i++)
             {
-                for (int j = (int)start.y; j > (int)end.y; j--)
+                for (int j = (int)start.y; j >= (int)end.y; j--)
                 {
-                    tiles.Add(new Tile(new Vector2Int(i, j), false));
+                    tiles.Add(new Tile(new Vector2Int(i, j), Random.Range(0,100)> 70));
                 }
             }
         }
