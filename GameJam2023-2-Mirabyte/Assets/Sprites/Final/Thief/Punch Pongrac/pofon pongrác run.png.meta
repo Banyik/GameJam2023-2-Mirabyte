@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: e7cb996cc2808bc44af3a5b40831707a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 370
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c run_0"
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1433
+        width: 465
+        height: 701
+      alignment: 9
+      pivot: {x: 0.47904038, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1ce89c50d49b64eb0d6306a3766755
+      internalID: -398865074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c run_1"
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 1426
+        width: 465
+        height: 701
+      alignment: 9
+      pivot: {x: 0.48090008, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7417827ec9236aa43a7361bfb306f52c
+      internalID: -2026713693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c run_2"
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 1420
+        width: 459
+        height: 698
+      alignment: 9
+      pivot: {x: 0.4841649, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332111b7c6f1ce446aa3124987a394a5
+      internalID: 1471741629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c run_3"
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 1420
+        width: 459
+        height: 698
+      alignment: 9
+      pivot: {x: 0.48350802, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460d5599c9fa6cf41beaeb16a72cc9c1
+      internalID: -110145409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c run_4"
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 1417
+        width: 459
+        height: 710
+      alignment: 9
+      pivot: {x: 0.48628557, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a1c2b79a34acc4e9d347db00d08fde
+      internalID: 719529696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c run_5"
+      rect:
+        serializedVersion: 2
+        x: 6186
+        y: 1417
+        width: 457
+        height: 710
+      alignment: 9
+      pivot: {x: 0.48316446, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e32c86acf5a4449855e976f432b247
+      internalID: -419867412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c run_6"
+      rect:
+        serializedVersion: 2
+        x: 7361
+        y: 1416
+        width: 459
+        height: 718
+      alignment: 9
+      pivot: {x: 0.48323888, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0aa351fe167154181922913e1b1f61
+      internalID: 1047020502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c run_7"
+      rect:
+        serializedVersion: 2
+        x: 8536
+        y: 1416
+        width: 459
+        height: 718
+      alignment: 9
+      pivot: {x: 0.48019004, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ac8a257c75f914487d9fb55834c879
+      internalID: 1315661345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c run_8"
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 242
+        width: 458
+        height: 711
+      alignment: 9
+      pivot: {x: 0.48264536, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90ee558ee20c914882f2813ec25e9dc
+      internalID: 1046141092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c run_9"
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 242
+        width: 459
+        height: 711
+      alignment: 9
+      pivot: {x: 0.4826833, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9110a532b4459cc4ebfaaeb13b34c055
+      internalID: -963024549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c run_10"
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 240
+        width: 458
+        height: 703
+      alignment: 9
+      pivot: {x: 0.47949058, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb6bb7fe587f694ea5bac8a2b0dc72f
+      internalID: 1314725456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c run_11"
+      rect:
+        serializedVersion: 2
+        x: 3839
+        y: 240
+        width: 459
+        height: 703
+      alignment: 9
+      pivot: {x: 0.484258, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57732928fa6daf349af7afc1f761ab38
+      internalID: -1740000804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c run_12"
+      rect:
+        serializedVersion: 2
+        x: 5013
+        y: 242
+        width: 459
+        height: 711
+      alignment: 9
+      pivot: {x: 0.484258, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69de8f05b288a74b870d992d461ee0d
+      internalID: -1435811311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c run_13"
+      rect:
+        serializedVersion: 2
+        x: 6187
+        y: 242
+        width: 457
+        height: 711
+      alignment: 9
+      pivot: {x: 0.48260778, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a74612031f60f949a1701722bd19136
+      internalID: -1734821707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c run_14"
+      rect:
+        serializedVersion: 2
+        x: 7361
+        y: 242
+        width: 459
+        height: 717
+      alignment: 9
+      pivot: {x: 0.47953475, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303a6eab68b4fb24093ac583fddee3ac
+      internalID: 1494620358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c run_15"
+      rect:
+        serializedVersion: 2
+        x: 8536
+        y: 242
+        width: 457
+        height: 717
+      alignment: 9
+      pivot: {x: 0.48121452, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b1b1f298e3b60409275456ff51d154
+      internalID: 910235622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "pofon pongr\xE1c run_0": -398865074
+      "pofon pongr\xE1c run_1": -2026713693
+      "pofon pongr\xE1c run_10": 1314725456
+      "pofon pongr\xE1c run_11": -1740000804
+      "pofon pongr\xE1c run_12": -1435811311
+      "pofon pongr\xE1c run_13": -1734821707
+      "pofon pongr\xE1c run_14": 1494620358
+      "pofon pongr\xE1c run_15": 910235622
+      "pofon pongr\xE1c run_2": 1471741629
+      "pofon pongr\xE1c run_3": -110145409
+      "pofon pongr\xE1c run_4": 719529696
+      "pofon pongr\xE1c run_5": -419867412
+      "pofon pongr\xE1c run_6": 1047020502
+      "pofon pongr\xE1c run_7": 1315661345
+      "pofon pongr\xE1c run_8": 1046141092
+      "pofon pongr\xE1c run_9": -963024549
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

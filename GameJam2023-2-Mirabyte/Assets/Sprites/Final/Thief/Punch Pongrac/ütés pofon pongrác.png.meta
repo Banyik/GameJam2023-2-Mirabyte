@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: 24e378707eaa9174cb56ce3460c79350
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 415
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\xFCt\xE9s pofon pongr\xE1c_0"
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1609
+        width: 576
+        height: 796
+      alignment: 9
+      pivot: {x: 0.510792, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af59bef14f3114144955864757bceebb
+      internalID: 181623079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xFCt\xE9s pofon pongr\xE1c_1"
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1609
+        width: 574
+        height: 796
+      alignment: 9
+      pivot: {x: 0.515161, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86afc97223f7c0d4ea2729ef8170e0c2
+      internalID: 83658740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xFCt\xE9s pofon pongr\xE1c_2"
+      rect:
+        serializedVersion: 2
+        x: 3015
+        y: 1607
+        width: 569
+        height: 793
+      alignment: 9
+      pivot: {x: 0.49475676, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93250e99f087d4d409e2bece890e5b72
+      internalID: -1345753134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xFCt\xE9s pofon pongr\xE1c_3"
+      rect:
+        serializedVersion: 2
+        x: 4348
+        y: 1607
+        width: 569
+        height: 793
+      alignment: 9
+      pivot: {x: 0.49519357, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa09e26aeb855a49bc09dc8e065b7d8
+      internalID: -1002461030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xFCt\xE9s pofon pongr\xE1c_4"
+      rect:
+        serializedVersion: 2
+        x: 5681
+        y: 1607
+        width: 569
+        height: 793
+      alignment: 9
+      pivot: {x: 0.49519357, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677692aef16f8fc43a1bd30ba255540b
+      internalID: 1402115036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xFCt\xE9s pofon pongr\xE1c_5"
+      rect:
+        serializedVersion: 2
+        x: 6850
+        y: 1609
+        width: 731
+        height: 792
+      alignment: 9
+      pivot: {x: 0.5921756, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ff43deda9303645abf41feaecff0ef
+      internalID: 560934256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xFCt\xE9s pofon pongr\xE1c_6"
+      rect:
+        serializedVersion: 2
+        x: 8184
+        y: 1609
+        width: 730
+        height: 792
+      alignment: 9
+      pivot: {x: 0.59264237, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9e4b6532c39934a990d841bdf61393
+      internalID: 602564930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xFCt\xE9s pofon pongr\xE1c_7"
+      rect:
+        serializedVersion: 2
+        x: 9517
+        y: 1609
+        width: 730
+        height: 792
+      alignment: 9
+      pivot: {x: 0.5909394, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f41cc947a5b9c409752b47d22ed6ed
+      internalID: -441341581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xFCt\xE9s pofon pongr\xE1c_8"
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 275
+        width: 725
+        height: 792
+      alignment: 9
+      pivot: {x: 0.5867651, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013071b783ec8f84e8ef0dad6e094a1c
+      internalID: -1971425688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xFCt\xE9s pofon pongr\xE1c_9"
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 275
+        width: 725
+        height: 792
+      alignment: 9
+      pivot: {x: 0.5895087, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cde2455694b714c9b2467b6d77fa12
+      internalID: 1103057513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xFCt\xE9s pofon pongr\xE1c_10"
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 275
+        width: 725
+        height: 792
+      alignment: 9
+      pivot: {x: 0.587108, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8732f214ce600ed41a12db7389863354
+      internalID: 1399815449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xFCt\xE9s pofon pongr\xE1c_11"
+      rect:
+        serializedVersion: 2
+        x: 4281
+        y: 275
+        width: 636
+        height: 798
+      alignment: 9
+      pivot: {x: 0.5578582, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf60929ed466b464d997e5694b294114
+      internalID: 818715876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xFCt\xE9s pofon pongr\xE1c_12"
+      rect:
+        serializedVersion: 2
+        x: 5615
+        y: 276
+        width: 636
+        height: 798
+      alignment: 9
+      pivot: {x: 0.5566859, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a7f8ed0b292f84d9eb445ae4a12ba0
+      internalID: -816937746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xFCt\xE9s pofon pongr\xE1c_13"
+      rect:
+        serializedVersion: 2
+        x: 6947
+        y: 275
+        width: 636
+        height: 798
+      alignment: 9
+      pivot: {x: 0.5566859, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc4b67c0533b4b479c9b83a6d9ed7d9
+      internalID: -1888591344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xFCt\xE9s pofon pongr\xE1c_14"
+      rect:
+        serializedVersion: 2
+        x: 8340
+        y: 275
+        width: 574
+        height: 798
+      alignment: 9
+      pivot: {x: 0.51342857, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a387afe20e1e74aaf3e148fb41d017
+      internalID: -1624131947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xFCt\xE9s pofon pongr\xE1c_15"
+      rect:
+        serializedVersion: 2
+        x: 9672
+        y: 275
+        width: 575
+        height: 798
+      alignment: 9
+      pivot: {x: 0.51513416, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be483b298c217df43846e90ef31b1156
+      internalID: 1516712743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "\xFCt\xE9s pofon pongr\xE1c_0": 181623079
+      "\xFCt\xE9s pofon pongr\xE1c_1": 83658740
+      "\xFCt\xE9s pofon pongr\xE1c_10": 1399815449
+      "\xFCt\xE9s pofon pongr\xE1c_11": 818715876
+      "\xFCt\xE9s pofon pongr\xE1c_12": -816937746
+      "\xFCt\xE9s pofon pongr\xE1c_13": -1888591344
+      "\xFCt\xE9s pofon pongr\xE1c_14": -1624131947
+      "\xFCt\xE9s pofon pongr\xE1c_15": 1516712743
+      "\xFCt\xE9s pofon pongr\xE1c_2": -1345753134
+      "\xFCt\xE9s pofon pongr\xE1c_3": -1002461030
+      "\xFCt\xE9s pofon pongr\xE1c_4": 1402115036
+      "\xFCt\xE9s pofon pongr\xE1c_5": 560934256
+      "\xFCt\xE9s pofon pongr\xE1c_6": 602564930
+      "\xFCt\xE9s pofon pongr\xE1c_7": -441341581
+      "\xFCt\xE9s pofon pongr\xE1c_8": -1971425688
+      "\xFCt\xE9s pofon pongr\xE1c_9": 1103057513
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

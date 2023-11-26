@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7e083e6c0ae15a745818d703c603ad50
+guid: a71f82c4db8662d43a3e41b679b7cc8e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 400
+  spritePixelsToUnits: 350
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: 4
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: girl idle_0
+      name: Run grinch geri_0
       rect:
         serializedVersion: 2
-        x: 305
-        y: 3609
-        width: 498
-        height: 719
+        x: 188
+        y: 210
+        width: 512
+        height: 4207
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b65cb45d4c21ac4499656333d99f078
-      internalID: -1017604078
+      spriteID: b9c305d5ee10004478848c01598461fb
+      internalID: -1444969945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_1
+      name: Run grinch geri_1
       rect:
         serializedVersion: 2
-        x: 1430
-        y: 3609
-        width: 498
-        height: 719
+        x: 1185
+        y: 210
+        width: 512
+        height: 4207
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd0012fe94915ad43958004eb053ba23
-      internalID: 1972958156
+      spriteID: a4cf1e079f576a546aa42d722732a9da
+      internalID: -366832649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_2
+      name: Run grinch geri_2
       rect:
         serializedVersion: 2
-        x: 2556
-        y: 3609
-        width: 498
-        height: 719
+        x: 2191
+        y: 208
+        width: 512
+        height: 4202
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 525ababa77f624740b469f286b330aa6
-      internalID: 1916480352
+      spriteID: a4331c37da8a43342a333fa6ac305623
+      internalID: -1032410681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_3
+      name: Run grinch geri_3
       rect:
         serializedVersion: 2
-        x: 3681
-        y: 3607
-        width: 498
-        height: 717
+        x: 3181
+        y: 208
+        width: 512
+        height: 4202
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 396e4bb26290fe946b36e37a3c964f35
-      internalID: 1363146220
+      spriteID: 292247b92aec4974f9e1a29d19a0429c
+      internalID: -632321190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_4
+      name: Run grinch geri_4
       rect:
         serializedVersion: 2
-        x: 4806
-        y: 3607
-        width: 498
-        height: 717
+        x: 4179
+        y: 207
+        width: 512
+        height: 4210
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ad89bbcfa73b7f49ad1109fa88a105a
-      internalID: -2125749731
+      spriteID: 8aa6b1508d4741e489621769dcb029ab
+      internalID: 835655973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_5
+      name: Run grinch geri_5
       rect:
         serializedVersion: 2
-        x: 5932
-        y: 3607
-        width: 498
-        height: 717
+        x: 5175
+        y: 207
+        width: 512
+        height: 4210
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58dd2b57e539785409e249cb758d888e
-      internalID: -39402128
+      spriteID: fe55755150b9e43469e75c734b546fa7
+      internalID: -1506501076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_6
+      name: Run grinch geri_6
       rect:
         serializedVersion: 2
-        x: 305
-        y: 2481
-        width: 498
-        height: 715
+        x: 6175
+        y: 207
+        width: 512
+        height: 4214
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3427a3ce7a81054b878a2cdfab595cf
-      internalID: -1521141918
+      spriteID: 7af832141c7b2d942836e77d3e862692
+      internalID: -916486829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_7
+      name: Run grinch geri_7
       rect:
         serializedVersion: 2
-        x: 1430
-        y: 2481
-        width: 498
-        height: 715
+        x: 7170
+        y: 207
+        width: 512
+        height: 4214
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15e017cf215c65b4e920acbe6971727d
-      internalID: 828146351
+      spriteID: 0754ecd9216574c4696c6115af4b7f49
+      internalID: 1499361094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_8
+      name: Run grinch geri_8
       rect:
         serializedVersion: 2
-        x: 2556
-        y: 2481
-        width: 498
-        height: 715
+        x: 8170
+        y: 207
+        width: 512
+        height: 4210
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2114c1f42520ef648a1ef55431ac8be0
-      internalID: -930271197
+      spriteID: 8eeb11e582ec8d2498b6950491509efb
+      internalID: 988642124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_9
+      name: Run grinch geri_9
       rect:
         serializedVersion: 2
-        x: 3681
-        y: 2481
-        width: 498
-        height: 711
+        x: 9168
+        y: 207
+        width: 512
+        height: 4210
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 215f4b9e8840bbc4c82b32a312f4c1fe
-      internalID: 1572622559
+      spriteID: 44849728982a3ef4fab14f2ea88f0770
+      internalID: 1141131764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_10
+      name: Run grinch geri_10
       rect:
         serializedVersion: 2
-        x: 4806
-        y: 2481
-        width: 498
-        height: 711
+        x: 10166
+        y: 207
+        width: 512
+        height: 4203
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9af3e08ae2643b2469bfa56e5be3e433
-      internalID: -654465824
+      spriteID: a196c04f23b1ec845a80be6e66e5a281
+      internalID: 569602919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_11
+      name: Run grinch geri_11
       rect:
         serializedVersion: 2
-        x: 5932
-        y: 2481
-        width: 498
-        height: 711
+        x: 11164
+        y: 207
+        width: 512
+        height: 4203
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c27822c5cb431d846887f1f6e6344a02
-      internalID: 1663758624
+      spriteID: 6f86ef966f68fa843a7155cbfd5e5990
+      internalID: 869904272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_12
+      name: Run grinch geri_12
       rect:
         serializedVersion: 2
-        x: 305
-        y: 1358
-        width: 498
-        height: 706
+        x: 12159
+        y: 208
+        width: 512
+        height: 4209
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,20 +389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbe8f025b05db56488fb148606f28953
-      internalID: -2053284265
+      spriteID: 6f17696e25bbc8445949354323666653
+      internalID: -1959632601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_13
+      name: Run grinch geri_13
       rect:
         serializedVersion: 2
-        x: 1430
-        y: 1358
-        width: 498
-        height: 706
+        x: 13159
+        y: 208
+        width: 512
+        height: 4209
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,20 +410,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c0eb1916771465429a99cd76ee375f1
-      internalID: 1257297294
+      spriteID: ff2da0689b881d643ab118595d464a70
+      internalID: -1360923336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_14
+      name: Run grinch geri_14
       rect:
         serializedVersion: 2
-        x: 2556
-        y: 1358
-        width: 498
-        height: 706
+        x: 14157
+        y: 208
+        width: 512
+        height: 4213
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,20 +431,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef362acb0fabb4942b9585c0bebe30cc
-      internalID: -1463392169
+      spriteID: 1e4f97c0731ae1443a76078440da9d21
+      internalID: -1897879687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_15
+      name: Run grinch geri_15
       rect:
         serializedVersion: 2
-        x: 3681
-        y: 1357
-        width: 498
-        height: 710
+        x: 15155
+        y: 208
+        width: 512
+        height: 4213
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,176 +452,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 542ba417b6bdcda4db178fb0fc3801d8
-      internalID: -615847140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl idle_16
-      rect:
-        serializedVersion: 2
-        x: 4806
-        y: 1357
-        width: 498
-        height: 710
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 996b71754a157c141baa08bef9807676
-      internalID: -715101645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl idle_17
-      rect:
-        serializedVersion: 2
-        x: 5932
-        y: 1357
-        width: 498
-        height: 710
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b218fa64c15ac154093e86d824d8c842
-      internalID: 1424589721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl idle_18
-      rect:
-        serializedVersion: 2
-        x: 305
-        y: 230
-        width: 498
-        height: 715
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e89119acaee09724cb21c97fd76941df
-      internalID: 1399658285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl idle_19
-      rect:
-        serializedVersion: 2
-        x: 1430
-        y: 230
-        width: 498
-        height: 715
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7811dfa4f7f1d504ab40f1b4a511a088
-      internalID: 70978508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl idle_20
-      rect:
-        serializedVersion: 2
-        x: 2556
-        y: 230
-        width: 498
-        height: 715
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58ffeb667aa213941af4dc2bec427df0
-      internalID: 1652926349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl idle_21
-      rect:
-        serializedVersion: 2
-        x: 3681
-        y: 231
-        width: 498
-        height: 717
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff3d89cdd2578834aa465a71bb376df2
-      internalID: 416419015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl idle_22
-      rect:
-        serializedVersion: 2
-        x: 4806
-        y: 231
-        width: 498
-        height: 717
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19aa059969d11e347903d83fdeb818af
-      internalID: -1833823723
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl idle_23
-      rect:
-        serializedVersion: 2
-        x: 5932
-        y: 231
-        width: 498
-        height: 717
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 953aa0e2d9c5f2046a61bdf53ab4b604
-      internalID: -92142811
+      spriteID: 0913912321aec214c8780df6acb959be
+      internalID: -1493006060
       vertices: []
       indices: 
       edges: []
@@ -637,30 +469,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      girl idle_0: -1017604078
-      girl idle_1: 1972958156
-      girl idle_10: -654465824
-      girl idle_11: 1663758624
-      girl idle_12: -2053284265
-      girl idle_13: 1257297294
-      girl idle_14: -1463392169
-      girl idle_15: -615847140
-      girl idle_16: -715101645
-      girl idle_17: 1424589721
-      girl idle_18: 1399658285
-      girl idle_19: 70978508
-      girl idle_2: 1916480352
-      girl idle_20: 1652926349
-      girl idle_21: 416419015
-      girl idle_22: -1833823723
-      girl idle_23: -92142811
-      girl idle_3: 1363146220
-      girl idle_4: -2125749731
-      girl idle_5: -39402128
-      girl idle_6: -1521141918
-      girl idle_7: 828146351
-      girl idle_8: -930271197
-      girl idle_9: 1572622559
+      Run grinch geri_0: -1444969945
+      Run grinch geri_1: -366832649
+      Run grinch geri_10: 569602919
+      Run grinch geri_11: 869904272
+      Run grinch geri_12: -1959632601
+      Run grinch geri_13: -1360923336
+      Run grinch geri_14: -1897879687
+      Run grinch geri_15: -1493006060
+      Run grinch geri_2: -1032410681
+      Run grinch geri_3: -632321190
+      Run grinch geri_4: 835655973
+      Run grinch geri_5: -1506501076
+      Run grinch geri_6: -916486829
+      Run grinch geri_7: 1499361094
+      Run grinch geri_8: 988642124
+      Run grinch geri_9: 1141131764
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

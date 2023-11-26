@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7e083e6c0ae15a745818d703c603ad50
+guid: 0a2a5720c57a6fe4281b5b506c40b573
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 400
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: 4
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: girl idle_0
+      name: "pofon pongr\xE1c idle_0"
       rect:
         serializedVersion: 2
-        x: 305
-        y: 3609
-        width: 498
-        height: 719
+        x: 275
+        y: 3083
+        width: 374
+        height: 573
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b65cb45d4c21ac4499656333d99f078
-      internalID: -1017604078
+      spriteID: d426d92ca811af14b9c88b6be24ce7c8
+      internalID: 2015922626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_1
+      name: "pofon pongr\xE1c idle_1"
       rect:
         serializedVersion: 2
-        x: 1430
-        y: 3609
-        width: 498
-        height: 719
+        x: 1235
+        y: 3083
+        width: 374
+        height: 573
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd0012fe94915ad43958004eb053ba23
-      internalID: 1972958156
+      spriteID: 6995d9daab4c52e459e04317534c6a4d
+      internalID: -95094024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_2
+      name: "pofon pongr\xE1c idle_2"
       rect:
         serializedVersion: 2
-        x: 2556
-        y: 3609
-        width: 498
-        height: 719
+        x: 2195
+        y: 3083
+        width: 374
+        height: 573
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 525ababa77f624740b469f286b330aa6
-      internalID: 1916480352
+      spriteID: e54eae8a8157e3b4d82efd9b86f57b9c
+      internalID: 707814311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_3
+      name: "pofon pongr\xE1c idle_3"
       rect:
         serializedVersion: 2
-        x: 3681
-        y: 3607
-        width: 498
-        height: 717
+        x: 3155
+        y: 3081
+        width: 374
+        height: 572
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 396e4bb26290fe946b36e37a3c964f35
-      internalID: 1363146220
+      spriteID: a91fb7857d3c4174394f94edb2e7aa5a
+      internalID: -807993343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_4
+      name: "pofon pongr\xE1c idle_4"
       rect:
         serializedVersion: 2
-        x: 4806
-        y: 3607
-        width: 498
-        height: 717
+        x: 4115
+        y: 3081
+        width: 374
+        height: 572
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ad89bbcfa73b7f49ad1109fa88a105a
-      internalID: -2125749731
+      spriteID: e8ef7c150c91aa542bb48cd50d7d3a0c
+      internalID: 599519372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_5
+      name: "pofon pongr\xE1c idle_5"
       rect:
         serializedVersion: 2
-        x: 5932
-        y: 3607
-        width: 498
-        height: 717
+        x: 5075
+        y: 3081
+        width: 374
+        height: 572
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58dd2b57e539785409e249cb758d888e
-      internalID: -39402128
+      spriteID: e129305fcebe01743bf3c84b941347e0
+      internalID: 193202516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_6
+      name: "pofon pongr\xE1c idle_6"
       rect:
         serializedVersion: 2
-        x: 305
-        y: 2481
-        width: 498
-        height: 715
+        x: 275
+        y: 2115
+        width: 374
+        height: 574
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3427a3ce7a81054b878a2cdfab595cf
-      internalID: -1521141918
+      spriteID: ba7da54aa488cd245a48232932a4c60e
+      internalID: -1653127145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_7
+      name: "pofon pongr\xE1c idle_7"
       rect:
         serializedVersion: 2
-        x: 1430
-        y: 2481
-        width: 498
-        height: 715
+        x: 1235
+        y: 2115
+        width: 374
+        height: 574
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15e017cf215c65b4e920acbe6971727d
-      internalID: 828146351
+      spriteID: ed4a48736fb33a942b437865b58e82b3
+      internalID: -2046082815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_8
+      name: "pofon pongr\xE1c idle_8"
       rect:
         serializedVersion: 2
-        x: 2556
-        y: 2481
-        width: 498
-        height: 715
+        x: 2195
+        y: 2115
+        width: 374
+        height: 574
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2114c1f42520ef648a1ef55431ac8be0
-      internalID: -930271197
+      spriteID: 22ce7b5e7b545dd41b3cc4524484f4f0
+      internalID: -410439172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_9
+      name: "pofon pongr\xE1c idle_9"
       rect:
         serializedVersion: 2
-        x: 3681
-        y: 2481
-        width: 498
-        height: 711
+        x: 3155
+        y: 2116
+        width: 379
+        height: 570
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 215f4b9e8840bbc4c82b32a312f4c1fe
-      internalID: 1572622559
+      spriteID: e21d084364c065c4495e1c3e5cd367e1
+      internalID: 1298569137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_10
+      name: "pofon pongr\xE1c idle_10"
       rect:
         serializedVersion: 2
-        x: 4806
-        y: 2481
-        width: 498
-        height: 711
+        x: 4115
+        y: 2116
+        width: 379
+        height: 570
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9af3e08ae2643b2469bfa56e5be3e433
-      internalID: -654465824
+      spriteID: 191c2873eab157444b8e9a680d3fdbc1
+      internalID: 402320343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_11
+      name: "pofon pongr\xE1c idle_11"
       rect:
         serializedVersion: 2
-        x: 5932
-        y: 2481
-        width: 498
-        height: 711
+        x: 5075
+        y: 2116
+        width: 379
+        height: 570
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c27822c5cb431d846887f1f6e6344a02
-      internalID: 1663758624
+      spriteID: a43d7ea8ef8a28441b788b8fb4468ea0
+      internalID: 375867986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_12
+      name: "pofon pongr\xE1c idle_12"
       rect:
         serializedVersion: 2
-        x: 305
-        y: 1358
-        width: 498
-        height: 706
+        x: 275
+        y: 1153
+        width: 380
+        height: 570
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,20 +389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbe8f025b05db56488fb148606f28953
-      internalID: -2053284265
+      spriteID: d255723731495f9439644149b2eaac6d
+      internalID: 290112550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_13
+      name: "pofon pongr\xE1c idle_13"
       rect:
         serializedVersion: 2
-        x: 1430
-        y: 1358
-        width: 498
-        height: 706
+        x: 1235
+        y: 1153
+        width: 380
+        height: 570
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,20 +410,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c0eb1916771465429a99cd76ee375f1
-      internalID: 1257297294
+      spriteID: 1c91e3501d3584349bc6c2bf7e1d6dcc
+      internalID: -999975370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_14
+      name: "pofon pongr\xE1c idle_14"
       rect:
         serializedVersion: 2
-        x: 2556
-        y: 1358
-        width: 498
-        height: 706
+        x: 2195
+        y: 1153
+        width: 380
+        height: 570
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,20 +431,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef362acb0fabb4942b9585c0bebe30cc
-      internalID: -1463392169
+      spriteID: e94809c6f55a240408da7f2f288b71e6
+      internalID: 1688397251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_15
+      name: "pofon pongr\xE1c idle_15"
       rect:
         serializedVersion: 2
-        x: 3681
-        y: 1357
-        width: 498
-        height: 710
+        x: 3155
+        y: 1156
+        width: 379
+        height: 570
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,20 +452,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 542ba417b6bdcda4db178fb0fc3801d8
-      internalID: -615847140
+      spriteID: 5094769945c04ab4dba4f108d1636797
+      internalID: -1608763999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_16
+      name: "pofon pongr\xE1c idle_16"
       rect:
         serializedVersion: 2
-        x: 4806
-        y: 1357
-        width: 498
-        height: 710
+        x: 4115
+        y: 1156
+        width: 379
+        height: 570
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,20 +473,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 996b71754a157c141baa08bef9807676
-      internalID: -715101645
+      spriteID: cf401c6815185254a9f0101258b5e542
+      internalID: 438657666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_17
+      name: "pofon pongr\xE1c idle_17"
       rect:
         serializedVersion: 2
-        x: 5932
-        y: 1357
-        width: 498
-        height: 710
+        x: 5075
+        y: 1156
+        width: 379
+        height: 570
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,20 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b218fa64c15ac154093e86d824d8c842
-      internalID: 1424589721
+      spriteID: ac71c3b282ecefe48bb062bcef7a1aec
+      internalID: -1027760916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_18
+      name: "pofon pongr\xE1c idle_18"
       rect:
         serializedVersion: 2
-        x: 305
-        y: 230
-        width: 498
-        height: 715
+        x: 275
+        y: 195
+        width: 374
+        height: 574
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,20 +515,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e89119acaee09724cb21c97fd76941df
-      internalID: 1399658285
+      spriteID: 748d2a02c6042e546a4d836a75f79a24
+      internalID: -2026737506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_19
+      name: "pofon pongr\xE1c idle_19"
       rect:
         serializedVersion: 2
-        x: 1430
-        y: 230
-        width: 498
-        height: 715
+        x: 1235
+        y: 195
+        width: 374
+        height: 574
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,20 +536,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7811dfa4f7f1d504ab40f1b4a511a088
-      internalID: 70978508
+      spriteID: a383560496d1ea645b2636b4634d862e
+      internalID: 1951577300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_20
+      name: "pofon pongr\xE1c idle_20"
       rect:
         serializedVersion: 2
-        x: 2556
-        y: 230
-        width: 498
-        height: 715
+        x: 2195
+        y: 195
+        width: 374
+        height: 574
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -557,20 +557,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58ffeb667aa213941af4dc2bec427df0
-      internalID: 1652926349
+      spriteID: 440d4b3dc0987184dadb679e25320970
+      internalID: 2086117603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_21
+      name: "pofon pongr\xE1c idle_21"
       rect:
         serializedVersion: 2
-        x: 3681
-        y: 231
-        width: 498
-        height: 717
+        x: 3155
+        y: 201
+        width: 374
+        height: 572
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,20 +578,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff3d89cdd2578834aa465a71bb376df2
-      internalID: 416419015
+      spriteID: f892820422ab3c346a65835449210f64
+      internalID: 1776028891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_22
+      name: "pofon pongr\xE1c idle_22"
       rect:
         serializedVersion: 2
-        x: 4806
-        y: 231
-        width: 498
-        height: 717
+        x: 4115
+        y: 201
+        width: 374
+        height: 572
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -599,20 +599,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19aa059969d11e347903d83fdeb818af
-      internalID: -1833823723
+      spriteID: 49fffbf2121bcff42a8184c105d45ab1
+      internalID: 413011639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl idle_23
+      name: "pofon pongr\xE1c idle_23"
       rect:
         serializedVersion: 2
-        x: 5932
-        y: 231
-        width: 498
-        height: 717
+        x: 5075
+        y: 201
+        width: 374
+        height: 572
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -620,8 +620,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 953aa0e2d9c5f2046a61bdf53ab4b604
-      internalID: -92142811
+      spriteID: fac36f2f524e4bd4787ce6fa282bf09c
+      internalID: -47057033
       vertices: []
       indices: 
       edges: []
@@ -637,30 +637,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      girl idle_0: -1017604078
-      girl idle_1: 1972958156
-      girl idle_10: -654465824
-      girl idle_11: 1663758624
-      girl idle_12: -2053284265
-      girl idle_13: 1257297294
-      girl idle_14: -1463392169
-      girl idle_15: -615847140
-      girl idle_16: -715101645
-      girl idle_17: 1424589721
-      girl idle_18: 1399658285
-      girl idle_19: 70978508
-      girl idle_2: 1916480352
-      girl idle_20: 1652926349
-      girl idle_21: 416419015
-      girl idle_22: -1833823723
-      girl idle_23: -92142811
-      girl idle_3: 1363146220
-      girl idle_4: -2125749731
-      girl idle_5: -39402128
-      girl idle_6: -1521141918
-      girl idle_7: 828146351
-      girl idle_8: -930271197
-      girl idle_9: 1572622559
+      "pofon pongr\xE1c idle_0": 2015922626
+      "pofon pongr\xE1c idle_1": -95094024
+      "pofon pongr\xE1c idle_10": 402320343
+      "pofon pongr\xE1c idle_11": 375867986
+      "pofon pongr\xE1c idle_12": 290112550
+      "pofon pongr\xE1c idle_13": -999975370
+      "pofon pongr\xE1c idle_14": 1688397251
+      "pofon pongr\xE1c idle_15": -1608763999
+      "pofon pongr\xE1c idle_16": 438657666
+      "pofon pongr\xE1c idle_17": -1027760916
+      "pofon pongr\xE1c idle_18": -2026737506
+      "pofon pongr\xE1c idle_19": 1951577300
+      "pofon pongr\xE1c idle_2": 707814311
+      "pofon pongr\xE1c idle_20": 2086117603
+      "pofon pongr\xE1c idle_21": 1776028891
+      "pofon pongr\xE1c idle_22": 413011639
+      "pofon pongr\xE1c idle_23": -47057033
+      "pofon pongr\xE1c idle_3": -807993343
+      "pofon pongr\xE1c idle_4": 599519372
+      "pofon pongr\xE1c idle_5": 193202516
+      "pofon pongr\xE1c idle_6": -1653127145
+      "pofon pongr\xE1c idle_7": -2046082815
+      "pofon pongr\xE1c idle_8": -410439172
+      "pofon pongr\xE1c idle_9": 1298569137
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

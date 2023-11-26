@@ -10,11 +10,14 @@ namespace Player
         public Rigidbody2D rb;
         public Animator animator;
         public float speed;
+        bool canDefend = true;
+        bool checkDistanceForStun = false;
         float baseSpeed;
         public string character;
         public RuntimeAnimatorController boy;
         public RuntimeAnimatorController girl;
         public Weapon weapon;
+        public GameObject TargetedThief;
         [SerializeField]
         State currentState;
         void Start()
@@ -26,13 +29,21 @@ namespace Player
 
         private void FixedUpdate()
         {
-            CheckMovement();
-            CheckMeleeBehaviour();
+            if (currentState != State.Stunned)
+            {
+                CheckMovement();
+                CheckMeleeBehaviour();
+            }
         }
 
         private void Update()
         {
             CheckState();
+        }
+
+        public State GetState()
+        {
+            return currentState;
         }
 
         void CheckState()
@@ -130,7 +141,7 @@ namespace Player
                 ChangeState(State.Move);
                 animator.SetBool("isMoving", true);
             }
-            else
+            else if(currentState != State.Stunned)
             {
                 ChangeState(State.Idle);
                 animator.SetBool("isMoving", false);
@@ -142,9 +153,40 @@ namespace Player
             animator.SetBool("isMoving", false);
         }
 
+        public void StartStun()
+        {
+            if (checkDistanceForStun && !CheckDistanceBetweenTarget(1.5f))
+            {
+                return;
+            }
+            animator.SetBool("isStunned", true);
+            ChangeState(State.Stunned);
+            StopMovement();
+            Invoke(nameof(EndStun), 2);
+        }
+
+        public void InvokeStun(float seconds, bool ableToDefend, bool checkDistance)
+        {
+            canDefend = ableToDefend;
+            checkDistanceForStun = checkDistance;
+            Invoke(nameof(StartStun), seconds);
+        }
+
+        void EndStun()
+        {
+            ChangeState(State.Idle);
+            animator.SetBool("isStunned", false);
+        }
+
+        bool CheckDistanceBetweenTarget(float maxDistance)
+        {
+            return Vector2.Distance(gameObject.transform.position, TargetedThief.transform.position) < maxDistance;
+        }
+
         bool IsAnimationPlaying(string name)
         {
             return animator.GetCurrentAnimatorStateInfo(0).IsName(name);
         }
+
     }
 }
