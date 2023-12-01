@@ -196,7 +196,7 @@ namespace Player
 
         public void StartStun()
         {
-            if (checkDistanceForStun || !CheckDistanceBetweenTarget(1.5f) || currentState != State.Defend ||
+            if ((checkDistanceForStun && !CheckDistanceBetweenTarget(1.5f)) || currentState == State.Defend ||
                 TargetedThief == null || !TargetedThief.GetComponent<ThiefController>().IsActive)
             {
                 return;
