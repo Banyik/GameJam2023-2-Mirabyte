@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 57cf212b22806804b95fd3e4ec5accea
+guid: ba08f23f4f41420408ba1e3fb5227e7d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 440
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "pongr\xE1c stun_0"
+      name: stun_0
       rect:
         serializedVersion: 2
-        x: 302
-        y: 4266
-        width: 594
-        height: 827
+        x: 78
+        y: 4312
+        width: 854
+        height: 851
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31d4fbf729dd3f240aa5f06c7f16445f
-      internalID: -578838022
+      spriteID: 8499b94e6cd472940b5d36ea19ed0073
+      internalID: 1376932479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_4"
+      name: stun_3
       rect:
         serializedVersion: 2
-        x: 1635
-        y: 4266
-        width: 594
-        height: 827
+        x: 1283
+        y: 4312
+        width: 854
+        height: 851
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96447e54c03e1a24a9587f925499aec4
-      internalID: 1985264982
+      spriteID: 42d66eb0122e0684695fa4ae89e46b1d
+      internalID: 758812963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_8"
+      name: stun_6
       rect:
         serializedVersion: 2
-        x: 2967
-        y: 4266
-        width: 594
-        height: 829
+        x: 2487
+        y: 4312
+        width: 854
+        height: 851
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7db3d3258be1fd4696cded47590309c
-      internalID: 1833921347
+      spriteID: 06ce0906fb8bbbd4481acf6eb26a7347
+      internalID: 389388608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_12"
+      name: stun_9
       rect:
         serializedVersion: 2
-        x: 4304
-        y: 4266
-        width: 590
-        height: 820
+        x: 3691
+        y: 4312
+        width: 854
+        height: 851
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd3df8c9ff8744e45b18fce31177b3ad
-      internalID: 1007000715
+      spriteID: bca43c5e32918834595411f1f0f7af56
+      internalID: -80474406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_15"
+      name: stun_12
       rect:
         serializedVersion: 2
-        x: 5639
-        y: 4266
-        width: 590
-        height: 820
+        x: 4896
+        y: 4312
+        width: 854
+        height: 851
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a912bf8caf14814d92dfc703b285a08
-      internalID: -483173612
+      spriteID: 1c5b1287d2f4b514bb192b70e19a12e5
+      internalID: 392852993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_18"
+      name: stun_15
       rect:
         serializedVersion: 2
-        x: 6974
-        y: 4266
-        width: 590
-        height: 820
+        x: 6100
+        y: 4312
+        width: 854
+        height: 851
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e0af78402c66d34db74dd2978f8397b
-      internalID: -1386637605
+      spriteID: ca38493232087204ba556306663e08bb
+      internalID: -2059163714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_24"
+      name: stun_18
       rect:
         serializedVersion: 2
-        x: 299
-        y: 2935
-        width: 597
-        height: 822
+        x: 78
+        y: 2966
+        width: 854
+        height: 852
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24de266cee8473446a6f20f64d13214f
-      internalID: 1100508238
+      spriteID: 84a290848b887d4488f901edefe50323
+      internalID: -1740784506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_27"
+      name: stun_20
       rect:
         serializedVersion: 2
-        x: 1635
-        y: 2935
-        width: 595
-        height: 824
+        x: 1283
+        y: 2966
+        width: 854
+        height: 852
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed8b5341b62cb9645a975b2cdeb05288
-      internalID: -1236095343
+      spriteID: efcf32dbc55597e4686909e66738fe5d
+      internalID: 1402026770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_30"
+      name: stun_22
       rect:
         serializedVersion: 2
-        x: 2967
-        y: 2935
-        width: 596
-        height: 822
+        x: 2487
+        y: 2966
+        width: 854
+        height: 852
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4881e64866557d84f9abfe19263ad195
-      internalID: -1036031661
+      spriteID: 07622ac7f44366e41a161d45bf0e507c
+      internalID: 1715005521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_33"
+      name: stun_24
       rect:
         serializedVersion: 2
-        x: 4302
-        y: 2935
-        width: 595
-        height: 836
+        x: 3691
+        y: 2966
+        width: 854
+        height: 852
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7009de95a6327444f930eb29818a8d3a
-      internalID: 1537026658
+      spriteID: 2f18bdb40311e8c47a5e219cf966357a
+      internalID: -1177685874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_36"
+      name: stun_26
       rect:
         serializedVersion: 2
-        x: 5638
-        y: 2935
-        width: 592
-        height: 837
+        x: 4896
+        y: 2966
+        width: 854
+        height: 852
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 821dacaf24e438841a9c27443040e57f
-      internalID: 81256324
+      spriteID: 4ce75379faadfdd4e90e9525e9a81c8a
+      internalID: -1867943277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_39"
+      name: stun_28
       rect:
         serializedVersion: 2
-        x: 6970
-        y: 2935
-        width: 594
-        height: 838
+        x: 6100
+        y: 2966
+        width: 854
+        height: 852
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66655c2411b04c74bb99bc63768b301a
-      internalID: 333858063
+      spriteID: 7ccf5359bad3ae2489301fad7bc1aea2
+      internalID: 958061439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_48"
+      name: stun_30
       rect:
         serializedVersion: 2
-        x: 300
-        y: 1602
-        width: 599
-        height: 840
+        x: 78
+        y: 1620
+        width: 854
+        height: 852
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,20 +389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1be3cdc9cda54fd4fac93eed8d6e8d44
-      internalID: 1646969026
+      spriteID: 2b35ad65c88a5024f968362728f33374
+      internalID: 475083295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_50"
+      name: stun_33
       rect:
         serializedVersion: 2
-        x: 1637
-        y: 1602
-        width: 596
-        height: 840
+        x: 1283
+        y: 1620
+        width: 854
+        height: 852
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,20 +410,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf96186b436c77541a3fe45e8a3236e0
-      internalID: -1947148162
+      spriteID: a521ee80b0a67e6419b6234357b30e3e
+      internalID: -2055795535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_52"
+      name: stun_36
       rect:
         serializedVersion: 2
-        x: 2969
-        y: 1602
-        width: 594
-        height: 840
+        x: 2487
+        y: 1620
+        width: 854
+        height: 852
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,20 +431,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d78b617cfcfd7649bd2503ce538f55b
-      internalID: -1462236620
+      spriteID: fd64f10f32ac97d45b5c73e0db2374fa
+      internalID: 552031484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_54"
+      name: stun_39
       rect:
         serializedVersion: 2
-        x: 4294
-        y: 1602
-        width: 610
-        height: 830
+        x: 3691
+        y: 1620
+        width: 854
+        height: 852
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,20 +452,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb1f508c5e8583145b586e873f5195bb
-      internalID: 2076873235
+      spriteID: 64d548188537adc48b40ce6a24340540
+      internalID: -1238817684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_57"
+      name: stun_41
       rect:
         serializedVersion: 2
-        x: 5627
-        y: 1602
-        width: 603
-        height: 830
+        x: 4896
+        y: 1620
+        width: 854
+        height: 852
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,20 +473,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 929f4084476a1724cb4e93e03080d593
-      internalID: 1546334110
+      spriteID: 2666e4ec19c5c3042b13c2a45015b6a9
+      internalID: -550339012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_60"
+      name: stun_43
       rect:
         serializedVersion: 2
-        x: 6961
-        y: 1602
-        width: 609
-        height: 830
+        x: 6100
+        y: 1620
+        width: 854
+        height: 852
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,20 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 360618d00d0acb846a4b0a98acee88e6
-      internalID: 1547388067
+      spriteID: 54fe375a2af281d4c890d256deebc0ea
+      internalID: 1912973986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_69"
+      name: stun_45
       rect:
         serializedVersion: 2
-        x: 301
-        y: 269
-        width: 595
-        height: 822
+        x: 93
+        y: 274
+        width: 854
+        height: 851
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,20 +515,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc59656a49ca76948986d4aff212ccfe
-      internalID: 290422495
+      spriteID: dbca8d6af9840cb49a128a7355098301
+      internalID: -846483218
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_72"
+      name: stun_47
       rect:
         serializedVersion: 2
-        x: 1635
-        y: 269
-        width: 595
-        height: 821
+        x: 1295
+        y: 274
+        width: 854
+        height: 851
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,20 +536,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7bcae146d5267645a504d5c321b16f5
-      internalID: -1135642456
+      spriteID: ed07b336326cb20408fa7a5dd2beb94e
+      internalID: 654878464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_75"
+      name: stun_49
       rect:
         serializedVersion: 2
-        x: 2969
-        y: 269
-        width: 594
-        height: 822
+        x: 2496
+        y: 274
+        width: 854
+        height: 851
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -557,20 +557,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cae62588306c4e24f93a503a5aaf94f9
-      internalID: 998768921
+      spriteID: b6393041c41d56845ac1446f54821a90
+      internalID: 1751061695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_78"
+      name: stun_51
       rect:
         serializedVersion: 2
-        x: 4303
-        y: 269
-        width: 594
-        height: 831
+        x: 3697
+        y: 274
+        width: 854
+        height: 851
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,20 +578,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56c3047e6a9fc3d47ab2b8f9e056d1e9
-      internalID: 1318828354
+      spriteID: 117e26164f71d8e4a9a07e5fccf1b803
+      internalID: -1361371121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_81"
+      name: stun_53
       rect:
         serializedVersion: 2
-        x: 5634
-        y: 269
-        width: 596
-        height: 831
+        x: 4899
+        y: 274
+        width: 854
+        height: 851
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -599,20 +599,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f4258a4934d734449a974e9f5d0eceb
-      internalID: -639669293
+      spriteID: 6fffc5176a1cf3b43a8ce281ba261241
+      internalID: 1127798452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_84"
+      name: stun_55
       rect:
         serializedVersion: 2
-        x: 6968
-        y: 269
-        width: 596
-        height: 831
+        x: 6100
+        y: 274
+        width: 854
+        height: 851
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -620,8 +620,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b134f3b9c8eb746469de520e83b4731f
-      internalID: -2004715243
+      spriteID: ed1d5d1b3e265644ebd33a7268996b84
+      internalID: 1758734293
       vertices: []
       indices: 
       edges: []
@@ -637,99 +637,63 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "pongr\xE1c stun_0": -578838022
-      "pongr\xE1c stun_1": 1779747536
-      "pongr\xE1c stun_10": -1242437552
-      "pongr\xE1c stun_11": -1313705533
-      "pongr\xE1c stun_12": 1007000715
-      "pongr\xE1c stun_13": 463738253
-      "pongr\xE1c stun_14": -78725500
-      "pongr\xE1c stun_15": -483173612
-      "pongr\xE1c stun_16": -1332705999
-      "pongr\xE1c stun_17": -1758495454
-      "pongr\xE1c stun_18": -1386637605
-      "pongr\xE1c stun_19": -1184966585
-      "pongr\xE1c stun_2": 39914997
-      "pongr\xE1c stun_20": -1745144558
-      "pongr\xE1c stun_21": -322751185
-      "pongr\xE1c stun_22": -2123254848
-      "pongr\xE1c stun_23": 1979454998
-      "pongr\xE1c stun_24": 1100508238
-      "pongr\xE1c stun_25": -472300196
-      "pongr\xE1c stun_26": -1230826932
-      "pongr\xE1c stun_27": -1236095343
-      "pongr\xE1c stun_28": 1981964487
-      "pongr\xE1c stun_29": 1910393401
-      "pongr\xE1c stun_3": 1808587174
-      "pongr\xE1c stun_30": -1036031661
-      "pongr\xE1c stun_31": 1085289920
-      "pongr\xE1c stun_32": 361098599
-      "pongr\xE1c stun_33": 1537026658
-      "pongr\xE1c stun_34": -1018233740
-      "pongr\xE1c stun_35": -429287141
-      "pongr\xE1c stun_36": 81256324
-      "pongr\xE1c stun_37": 1181279363
-      "pongr\xE1c stun_38": 1521088182
-      "pongr\xE1c stun_39": 333858063
-      "pongr\xE1c stun_4": 1985264982
-      "pongr\xE1c stun_40": -2004374453
-      "pongr\xE1c stun_41": -1797703653
-      "pongr\xE1c stun_42": 707822682
-      "pongr\xE1c stun_43": 1376903635
-      "pongr\xE1c stun_44": 187264008
-      "pongr\xE1c stun_45": 548208304
-      "pongr\xE1c stun_46": -186331624
-      "pongr\xE1c stun_47": -560398378
-      "pongr\xE1c stun_48": 1646969026
-      "pongr\xE1c stun_49": 954908040
-      "pongr\xE1c stun_5": -1342268268
-      "pongr\xE1c stun_50": -1947148162
-      "pongr\xE1c stun_51": -2083608465
-      "pongr\xE1c stun_52": -1462236620
-      "pongr\xE1c stun_53": -929800059
-      "pongr\xE1c stun_54": 2076873235
-      "pongr\xE1c stun_55": -1462720969
-      "pongr\xE1c stun_56": -1002283549
-      "pongr\xE1c stun_57": 1546334110
-      "pongr\xE1c stun_58": 909962337
-      "pongr\xE1c stun_59": 13889387
-      "pongr\xE1c stun_6": 281483872
-      "pongr\xE1c stun_60": 1547388067
-      "pongr\xE1c stun_61": 31344422
-      "pongr\xE1c stun_62": -716877686
-      "pongr\xE1c stun_63": 1638138610
-      "pongr\xE1c stun_64": 1054107736
-      "pongr\xE1c stun_65": -31311198
-      "pongr\xE1c stun_66": -445208589
-      "pongr\xE1c stun_67": -877531347
-      "pongr\xE1c stun_68": -1078375778
-      "pongr\xE1c stun_69": 290422495
-      "pongr\xE1c stun_7": 1852737889
-      "pongr\xE1c stun_70": -1157116472
-      "pongr\xE1c stun_71": 429921454
-      "pongr\xE1c stun_72": -1135642456
-      "pongr\xE1c stun_73": 1309199268
-      "pongr\xE1c stun_74": 683711984
-      "pongr\xE1c stun_75": 998768921
-      "pongr\xE1c stun_76": 2118424863
-      "pongr\xE1c stun_77": 1535439489
-      "pongr\xE1c stun_78": 1318828354
-      "pongr\xE1c stun_79": 477480327
-      "pongr\xE1c stun_8": 1833921347
-      "pongr\xE1c stun_80": 558910823
-      "pongr\xE1c stun_81": -639669293
-      "pongr\xE1c stun_82": -327651295
-      "pongr\xE1c stun_83": 762220492
-      "pongr\xE1c stun_84": -2004715243
-      "pongr\xE1c stun_85": -1123726191
-      "pongr\xE1c stun_86": -1993441839
-      "pongr\xE1c stun_87": 895484808
-      "pongr\xE1c stun_88": 1129292238
-      "pongr\xE1c stun_89": 440513255
-      "pongr\xE1c stun_9": -1999775388
-      "pongr\xE1c stun_90": 539002320
-      "pongr\xE1c stun_91": -652073872
-      "pongr\xE1c stun_92": -759341378
+      stun_0: 1376932479
+      stun_1: 57469508
+      stun_10: -283149485
+      stun_11: 515897638
+      stun_12: 392852993
+      stun_13: 367053291
+      stun_14: 2049168173
+      stun_15: -2059163714
+      stun_16: -1589872374
+      stun_17: 1625650333
+      stun_18: -1740784506
+      stun_19: -954801977
+      stun_2: 362141948
+      stun_20: 1402026770
+      stun_21: -747230751
+      stun_22: 1715005521
+      stun_23: -541502410
+      stun_24: -1177685874
+      stun_25: -2131286352
+      stun_26: -1867943277
+      stun_27: -970447245
+      stun_28: 958061439
+      stun_29: 1791508666
+      stun_3: 758812963
+      stun_30: 475083295
+      stun_31: 1710553084
+      stun_32: 580169371
+      stun_33: -2055795535
+      stun_34: -1670122989
+      stun_35: 1518087841
+      stun_36: 552031484
+      stun_37: -842075720
+      stun_38: 361138071
+      stun_39: -1238817684
+      stun_4: -48201456
+      stun_40: -1291055152
+      stun_41: -550339012
+      stun_42: -1936203977
+      stun_43: 1912973986
+      stun_44: 2114893532
+      stun_45: -846483218
+      stun_46: 511507403
+      stun_47: 654878464
+      stun_48: 1170779287
+      stun_49: 1751061695
+      stun_5: 1093584566
+      stun_50: -132596482
+      stun_51: -1361371121
+      stun_52: 571431918
+      stun_53: 1127798452
+      stun_54: 1931455136
+      stun_55: 1758734293
+      stun_56: 51039831
+      stun_6: 389388608
+      stun_7: -1378357425
+      stun_8: -126653567
+      stun_9: -80474406
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

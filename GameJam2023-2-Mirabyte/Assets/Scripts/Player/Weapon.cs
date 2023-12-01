@@ -5,6 +5,7 @@ namespace Player
 {
     public enum Weapon
     {
+        Tazer,
         Baton,
         CandyCane
     }

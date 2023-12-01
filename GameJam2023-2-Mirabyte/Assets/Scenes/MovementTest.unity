@@ -305,7 +305,7 @@ MonoBehaviour:
   rb: {fileID: 330111798}
   animator: {fileID: 330111800}
   speed: 3
-  character: boy
+  character: girl
   boy: {fileID: 9100000, guid: 57de2eb1deec37647bc0b5d85dcab0df, type: 2}
   girl: {fileID: 9100000, guid: 949aad193f8b34943ad6f43be67f52f5, type: 2}
   weapon: 0
@@ -955,7 +955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90d0a9ee60a0eed479c69d227fd4d93c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thiefType: 0
+  thiefType: 1
   speed: 2
   rb: {fileID: 1079979349}
   animator: {fileID: 1079979346}
@@ -965,6 +965,7 @@ MonoBehaviour:
   gift: {fileID: 964743211}
   GrinchAnimator: {fileID: 9100000, guid: 3b41a3d2626177b498522b738c065990, type: 2}
   PongracAnimator: {fileID: 9100000, guid: f98d6a855f2e25547b59caf74fba2b8a, type: 2}
+  JulcsikaAnimator: {fileID: 9100000, guid: 653115570f5ae514ab15a1e2486fefa1, type: 2}
 --- !u!212 &1079979348
 SpriteRenderer:
   m_ObjectHideFlags: 0

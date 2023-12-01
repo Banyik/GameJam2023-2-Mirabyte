@@ -27,7 +27,7 @@ namespace Thief
                 animator.SetTrigger("Hit");
                 Player.GetComponent<PlayerBehaviour>().InvokeStun(0.3f, true, true);
             }
-            else if(!animator.GetCurrentAnimatorStateInfo(0).IsName("pongrac_hit"))
+            else if(!animator.GetCurrentAnimatorClipInfo(0)[0].clip.name.Contains("hit"))
             {
                 CanMove = true;
             }
