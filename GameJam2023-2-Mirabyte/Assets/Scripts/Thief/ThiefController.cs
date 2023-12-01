@@ -20,8 +20,12 @@ namespace Thief
 
         public RuntimeAnimatorController GrinchAnimator;
         public RuntimeAnimatorController PongracAnimator;
+        public RuntimeAnimatorController JulcsikaAnimator;
 
         bool isActive = true;
+
+        public bool IsActive { get => isActive; set => isActive = value; }
+
         private void Start()
         {
             switch (thiefType)
@@ -31,6 +35,8 @@ namespace Thief
                     animator.runtimeAnimatorController = PongracAnimator;
                     break;
                 case ThiefType.Julcsika:
+                    thief = new PunchPongrac(speed, thiefType, animator, GetComponent<SpriteRenderer>(), rb);
+                    animator.runtimeAnimatorController = JulcsikaAnimator;
                     break;
                 case ThiefType.GrinchGery:
                     thief = new GrinchGery(speed, thiefType, gift, rb, animator);
@@ -49,9 +55,11 @@ namespace Thief
                 {
                     case ThiefType.PunchPongrac:
                         MoveToExit();
-                        thief.SpecialAttack();
+                        if (Random.Range(0, 100) < 50) thief.SpecialAttack();
                         break;
                     case ThiefType.Julcsika:
+                        MoveToExit();
+                        if (Random.Range(0, 100) < 50) thief.SpecialAttack();
                         break;
                     case ThiefType.GrinchGery:
                         MoveToExit();

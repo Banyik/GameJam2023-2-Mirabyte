@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Map;
+using Thief;
 
 namespace Player
 {
@@ -18,6 +19,7 @@ namespace Player
         public RuntimeAnimatorController girl;
         public Weapon weapon;
         public GameObject TargetedThief;
+        float reachDistance;
         [SerializeField]
         State currentState;
         void Start()
@@ -25,6 +27,20 @@ namespace Player
             animator.SetInteger("meleeType", (int)weapon);
             baseSpeed = speed;
             animator.runtimeAnimatorController =  character == "boy" ?  boy : girl;
+            switch (weapon)
+            {
+                case Weapon.Tazer:
+                    reachDistance = 0.8f;
+                    break;
+                case Weapon.Baton:
+                    reachDistance = 1.5f;
+                    break;
+                case Weapon.CandyCane:
+                    reachDistance = 1.2f;
+                    break;
+                default:
+                    break;
+            }
         }
 
         private void FixedUpdate()
@@ -59,11 +75,21 @@ namespace Player
                 case State.Move:
                     break;
                 case State.Attack:
+                    AttackAim();
                     animator.SetTrigger("isAttacking");
                     StopMovement();
-                    if (IsAnimationPlaying($"{character}_baton_hit"))
+                    if (GetAnimationName().Contains("hit"))
                     {
                         animator.ResetTrigger("isAttacking");
+                        ChangeState(State.Idle);
+                    }
+                    break;
+                case State.Defend:
+                    animator.SetTrigger("isDefending");
+                    StopMovement();
+                    if (IsAnimationPlaying($"{character}_crouch"))
+                    {
+                        animator.ResetTrigger("isDefending");
                         ChangeState(State.Idle);
                     }
                     break;
@@ -96,19 +122,34 @@ namespace Player
 
         void CheckMeleeBehaviour()
         {
-            if(Input.GetAxisRaw("Attack") == 1)
+            Debug.DrawRay(rb.transform.position, Input.mousePosition, Color.red);
+            RaycastHit2D hit = Physics2D.Raycast(rb.position, Input.mousePosition, 1.5f, 3);
+            if(currentState == State.Stunned)
+            {
+                return;
+            }
+            if (Input.GetAxisRaw("Attack") == 1)
             {
                 ChangeState(State.Attack);
+                if (hit.rigidbody == null)
+                {
+                    return;
+                }
+                else if (hit.collider.CompareTag("thief"))
+                {
+                    TargetedThief.GetComponent<ThiefController>().StartStun();
+                }
             }
             else if(Input.GetAxisRaw("Defend") == 1)
             {
+                ChangeState(State.Defend);
                 Debug.Log("Defend");
             }
         }
 
         void CheckMovement()
         {
-            if (!IsAnimationPlaying($"{character}_baton_hit"))
+            if (!GetAnimationName().Contains("hit") && !IsAnimationPlaying($"{character}_crouch"))
             {
                 MovementHandler();
             }
@@ -155,7 +196,8 @@ namespace Player
 
         public void StartStun()
         {
-            if (checkDistanceForStun && !CheckDistanceBetweenTarget(1.5f))
+            if (checkDistanceForStun || !CheckDistanceBetweenTarget(1.5f) || currentState != State.Defend ||
+                TargetedThief == null || !TargetedThief.GetComponent<ThiefController>().IsActive)
             {
                 return;
             }
@@ -188,5 +230,15 @@ namespace Player
             return animator.GetCurrentAnimatorStateInfo(0).IsName(name);
         }
 
+        string GetAnimationName()
+        {
+            return animator.GetCurrentAnimatorClipInfo(0)[0].clip.name;
+        }
+
+        public void AttackAim() 
+        {
+            var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            GetComponent<SpriteRenderer>().flipX = mousePos.x > rb.position.x;
+        }
     }
 }

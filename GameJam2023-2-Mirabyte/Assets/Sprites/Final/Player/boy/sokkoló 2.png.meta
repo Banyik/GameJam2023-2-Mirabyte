@@ -1,0 +1,544 @@
+fileFormatVersion: 2
+guid: 87f1fc47efb03c7478c69ab9ed67084a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 480
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "sokkol\xF3 2_0"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1611
+        width: 643
+        height: 905
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf1e7552a592c64189192fa25a8cc60
+      internalID: 1726173206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sokkol\xF3 2_1"
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1611
+        width: 643
+        height: 905
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8835410ec9b3ad46917319fc38cecc3
+      internalID: 1447607567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sokkol\xF3 2_2"
+      rect:
+        serializedVersion: 2
+        x: 2947
+        y: 1611
+        width: 676
+        height: 905
+      alignment: 9
+      pivot: {x: 0.48010397, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9eda134e6010349949fb8198f1fa70
+      internalID: 56268182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sokkol\xF3 2_3"
+      rect:
+        serializedVersion: 2
+        x: 4298
+        y: 1609
+        width: 642
+        height: 910
+      alignment: 9
+      pivot: {x: 0.48360607, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee57f4341012c247b92521386285543
+      internalID: -1376565281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sokkol\xF3 2_5"
+      rect:
+        serializedVersion: 2
+        x: 5635
+        y: 1609
+        width: 672
+        height: 910
+      alignment: 9
+      pivot: {x: 0.46421015, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac604cf92e001b4f843fb463e75fa1d
+      internalID: -614572608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sokkol\xF3 2_7"
+      rect:
+        serializedVersion: 2
+        x: 6973
+        y: 1609
+        width: 672
+        height: 910
+      alignment: 9
+      pivot: {x: 0.46174622, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add58fa102e534e4faf747c37556c471
+      internalID: 488194870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sokkol\xF3 2_9"
+      rect:
+        serializedVersion: 2
+        x: 8024
+        y: 1611
+        width: 959
+        height: 908
+      alignment: 9
+      pivot: {x: 0.6187068, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859502b332d10a54fbd2dd7f36b77ac1
+      internalID: 1529238339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sokkol\xF3 2_10"
+      rect:
+        serializedVersion: 2
+        x: 9361
+        y: 1611
+        width: 960
+        height: 908
+      alignment: 9
+      pivot: {x: 0.6202525, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd7a4c37b541904181c10ecd7f4e078
+      internalID: 1033883154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sokkol\xF3 2_11"
+      rect:
+        serializedVersion: 2
+        x: 10698
+        y: 1611
+        width: 960
+        height: 906
+      alignment: 9
+      pivot: {x: 0.619696, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c9b39fff44ba8498a46bd8b523455d
+      internalID: -657767406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sokkol\xF3 2_15"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 275
+        width: 959
+        height: 906
+      alignment: 9
+      pivot: {x: 0.61873156, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013f811ab8a7f1b4bbda73ccbca71c33
+      internalID: -974622817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sokkol\xF3 2_16"
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 275
+        width: 905
+        height: 908
+      alignment: 9
+      pivot: {x: 0.59659874, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e914beea77d6545935efa56c0a6422
+      internalID: -155901683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sokkol\xF3 2_17"
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 275
+        width: 905
+        height: 908
+      alignment: 9
+      pivot: {x: 0.59821683, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce6289d1cd24934683ade56382e5e45
+      internalID: 221952587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sokkol\xF3 2_18"
+      rect:
+        serializedVersion: 2
+        x: 4055
+        y: 275
+        width: 915
+        height: 908
+      alignment: 9
+      pivot: {x: 0.60257375, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316c1f55bb34223448c9de5b805e83ca
+      internalID: 1357603824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sokkol\xF3 2_19"
+      rect:
+        serializedVersion: 2
+        x: 5394
+        y: 275
+        width: 915
+        height: 908
+      alignment: 9
+      pivot: {x: 0.6009616, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af551df66ef0524bbaa3ac49176ba6a
+      internalID: -1461813070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sokkol\xF3 2_20"
+      rect:
+        serializedVersion: 2
+        x: 6883
+        y: 275
+        width: 763
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5216898, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2db10bcd166794c93a6dad30265ff1
+      internalID: 544741508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sokkol\xF3 2_21"
+      rect:
+        serializedVersion: 2
+        x: 8220
+        y: 276
+        width: 763
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5213833, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029c482c268370f40af6cdb7b28d5613
+      internalID: -2117636583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sokkol\xF3 2_22"
+      rect:
+        serializedVersion: 2
+        x: 9634
+        y: 275
+        width: 643
+        height: 905
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743ea62354a8d5947a423dc7e2a6e125
+      internalID: -1668260797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sokkol\xF3 2_24"
+      rect:
+        serializedVersion: 2
+        x: 10971
+        y: 275
+        width: 643
+        height: 905
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae145b4ccf37d4b42a1c042ee6149ac5
+      internalID: 1026686906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "sokkol\xF3 2_0": 1726173206
+      "sokkol\xF3 2_1": 1447607567
+      "sokkol\xF3 2_10": 1033883154
+      "sokkol\xF3 2_11": -657767406
+      "sokkol\xF3 2_12": -1582303313
+      "sokkol\xF3 2_13": -469080405
+      "sokkol\xF3 2_14": -1967572451
+      "sokkol\xF3 2_15": -974622817
+      "sokkol\xF3 2_16": -155901683
+      "sokkol\xF3 2_17": 221952587
+      "sokkol\xF3 2_18": 1357603824
+      "sokkol\xF3 2_19": -1461813070
+      "sokkol\xF3 2_2": 56268182
+      "sokkol\xF3 2_20": 544741508
+      "sokkol\xF3 2_21": -2117636583
+      "sokkol\xF3 2_22": -1668260797
+      "sokkol\xF3 2_23": 442481445
+      "sokkol\xF3 2_24": 1026686906
+      "sokkol\xF3 2_25": -1517046902
+      "sokkol\xF3 2_3": -1376565281
+      "sokkol\xF3 2_4": -1576308627
+      "sokkol\xF3 2_5": -614572608
+      "sokkol\xF3 2_6": -1729596112
+      "sokkol\xF3 2_7": 488194870
+      "sokkol\xF3 2_8": 34200635
+      "sokkol\xF3 2_9": 1529238339
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

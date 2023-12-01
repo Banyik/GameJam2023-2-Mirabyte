@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 57cf212b22806804b95fd3e4ec5accea
+guid: 9dce24f207b3e9f4698629e3a8b396c1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 440
+  spritePixelsToUnits: 480
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "pongr\xE1c stun_0"
+      name: "guggol\xE1s_0"
       rect:
         serializedVersion: 2
-        x: 302
-        y: 4266
-        width: 594
-        height: 827
+        x: 381
+        y: 4510
+        width: 621
+        height: 898
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31d4fbf729dd3f240aa5f06c7f16445f
-      internalID: -578838022
+      spriteID: 292c0f410b89c4e4bbe12a12f53d4a91
+      internalID: -580973238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_4"
+      name: "guggol\xE1s_1"
       rect:
         serializedVersion: 2
-        x: 1635
-        y: 4266
-        width: 594
-        height: 827
+        x: 1807
+        y: 4510
+        width: 621
+        height: 898
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96447e54c03e1a24a9587f925499aec4
-      internalID: 1985264982
+      spriteID: 03b7116a152efcb4fa8966567b2f2054
+      internalID: 165234989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_8"
+      name: "guggol\xE1s_2"
       rect:
         serializedVersion: 2
-        x: 2967
-        y: 4266
-        width: 594
-        height: 829
+        x: 3232
+        y: 4510
+        width: 621
+        height: 898
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7db3d3258be1fd4696cded47590309c
-      internalID: 1833921347
+      spriteID: c1ce895b73ef0ce42a07e906cae7be3a
+      internalID: 200106421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_12"
+      name: "guggol\xE1s_3"
       rect:
         serializedVersion: 2
-        x: 4304
-        y: 4266
-        width: 590
-        height: 820
+        x: 4642
+        y: 4508
+        width: 637
+        height: 916
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd3df8c9ff8744e45b18fce31177b3ad
-      internalID: 1007000715
+      spriteID: 7d9afce9224c94c4699864ded8c9be9e
+      internalID: -1565014454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_15"
+      name: "guggol\xE1s_4"
       rect:
         serializedVersion: 2
-        x: 5639
-        y: 4266
-        width: 590
-        height: 820
+        x: 6068
+        y: 4508
+        width: 637
+        height: 916
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a912bf8caf14814d92dfc703b285a08
-      internalID: -483173612
+      spriteID: 5100b3b9999236d42929807549b1d09b
+      internalID: -1482530522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_18"
+      name: "guggol\xE1s_5"
       rect:
         serializedVersion: 2
-        x: 6974
-        y: 4266
-        width: 590
-        height: 820
+        x: 314
+        y: 3102
+        width: 620
+        height: 765
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e0af78402c66d34db74dd2978f8397b
-      internalID: -1386637605
+      spriteID: ac03d5bba72552e49a5b73cdace8afe7
+      internalID: -183909897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_24"
+      name: "guggol\xE1s_6"
       rect:
         serializedVersion: 2
-        x: 299
-        y: 2935
-        width: 597
-        height: 822
+        x: 1740
+        y: 3102
+        width: 620
+        height: 765
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24de266cee8473446a6f20f64d13214f
-      internalID: 1100508238
+      spriteID: 445b933500d293545826403aa549b564
+      internalID: -426961353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_27"
+      name: "guggol\xE1s_7"
       rect:
         serializedVersion: 2
-        x: 1635
-        y: 2935
-        width: 595
-        height: 824
+        x: 3145
+        y: 3097
+        width: 625
+        height: 618
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed8b5341b62cb9645a975b2cdeb05288
-      internalID: -1236095343
+      spriteID: 521fc716ab8fb3f4c9cacce125d52224
+      internalID: 1558362357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_30"
+      name: "guggol\xE1s_8"
       rect:
         serializedVersion: 2
-        x: 2967
-        y: 2935
-        width: 596
-        height: 822
+        x: 4571
+        y: 3097
+        width: 625
+        height: 618
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4881e64866557d84f9abfe19263ad195
-      internalID: -1036031661
+      spriteID: a519b2e6030a2f940bb07dad26edb900
+      internalID: 2071396448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_33"
+      name: "guggol\xE1s_9"
       rect:
         serializedVersion: 2
-        x: 4302
-        y: 2935
-        width: 595
-        height: 836
+        x: 5997
+        y: 3097
+        width: 625
+        height: 618
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7009de95a6327444f930eb29818a8d3a
-      internalID: 1537026658
+      spriteID: c9b56a61809ed7441aa8b81794100968
+      internalID: -396234888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_36"
+      name: "guggol\xE1s_10"
       rect:
         serializedVersion: 2
-        x: 5638
-        y: 2935
-        width: 592
-        height: 837
+        x: 294
+        y: 1691
+        width: 625
+        height: 618
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 821dacaf24e438841a9c27443040e57f
-      internalID: 81256324
+      spriteID: 82b1d4c3a97bdfd4b9e1b7e7d32ebdae
+      internalID: 1573561728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_39"
+      name: "guggol\xE1s_11"
       rect:
         serializedVersion: 2
-        x: 6970
-        y: 2935
-        width: 594
-        height: 838
+        x: 1720
+        y: 1691
+        width: 625
+        height: 618
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66655c2411b04c74bb99bc63768b301a
-      internalID: 333858063
+      spriteID: ed103a90ca478254f88680d78b78e3be
+      internalID: -338031695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_48"
+      name: "guggol\xE1s_12"
       rect:
         serializedVersion: 2
-        x: 300
-        y: 1602
-        width: 599
-        height: 840
+        x: 3145
+        y: 1691
+        width: 625
+        height: 618
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,20 +389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1be3cdc9cda54fd4fac93eed8d6e8d44
-      internalID: 1646969026
+      spriteID: 9d5e86b05cb696f4dbe0fc9fc2c7d4b2
+      internalID: -1642267787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_50"
+      name: "guggol\xE1s_13"
       rect:
         serializedVersion: 2
-        x: 1637
-        y: 1602
-        width: 596
-        height: 840
+        x: 4571
+        y: 1691
+        width: 625
+        height: 618
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,20 +410,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf96186b436c77541a3fe45e8a3236e0
-      internalID: -1947148162
+      spriteID: 961a2503f3189994987a72caf2a75f26
+      internalID: -601769280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_52"
+      name: "guggol\xE1s_14"
       rect:
         serializedVersion: 2
-        x: 2969
-        y: 1602
-        width: 594
-        height: 840
+        x: 5997
+        y: 1691
+        width: 625
+        height: 618
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,20 +431,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d78b617cfcfd7649bd2503ce538f55b
-      internalID: -1462236620
+      spriteID: e4ecfee282af5dc408b4dd8bab1e6289
+      internalID: -398180428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_54"
+      name: "guggol\xE1s_15"
       rect:
         serializedVersion: 2
-        x: 4294
-        y: 1602
-        width: 610
-        height: 830
+        x: 314
+        y: 291
+        width: 620
+        height: 764
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,20 +452,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb1f508c5e8583145b586e873f5195bb
-      internalID: 2076873235
+      spriteID: 8e3d64e9634fd2b469aac2d2c2b643c4
+      internalID: -1430711908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_57"
+      name: "guggol\xE1s_16"
       rect:
         serializedVersion: 2
-        x: 5627
-        y: 1602
-        width: 603
-        height: 830
+        x: 1740
+        y: 291
+        width: 620
+        height: 764
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,20 +473,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 929f4084476a1724cb4e93e03080d593
-      internalID: 1546334110
+      spriteID: 6d2825faef85eda4ca3f0d02533bd668
+      internalID: 1260668073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_60"
+      name: "guggol\xE1s_17"
       rect:
         serializedVersion: 2
-        x: 6961
-        y: 1602
-        width: 609
-        height: 830
+        x: 3232
+        y: 293
+        width: 621
+        height: 898
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,20 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 360618d00d0acb846a4b0a98acee88e6
-      internalID: 1547388067
+      spriteID: 41a89b4b31d17a548af4d76b799c33e7
+      internalID: 1686842672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_69"
+      name: "guggol\xE1s_18"
       rect:
         serializedVersion: 2
-        x: 301
-        y: 269
-        width: 595
-        height: 822
+        x: 4658
+        y: 293
+        width: 621
+        height: 898
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,20 +515,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc59656a49ca76948986d4aff212ccfe
-      internalID: 290422495
+      spriteID: f0ca4b8e8fe703744be6cc3358a75311
+      internalID: 1231868618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "pongr\xE1c stun_72"
+      name: "guggol\xE1s_19"
       rect:
         serializedVersion: 2
-        x: 1635
-        y: 269
-        width: 595
-        height: 821
+        x: 6084
+        y: 293
+        width: 621
+        height: 898
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,92 +536,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7bcae146d5267645a504d5c321b16f5
-      internalID: -1135642456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "pongr\xE1c stun_75"
-      rect:
-        serializedVersion: 2
-        x: 2969
-        y: 269
-        width: 594
-        height: 822
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cae62588306c4e24f93a503a5aaf94f9
-      internalID: 998768921
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "pongr\xE1c stun_78"
-      rect:
-        serializedVersion: 2
-        x: 4303
-        y: 269
-        width: 594
-        height: 831
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56c3047e6a9fc3d47ab2b8f9e056d1e9
-      internalID: 1318828354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "pongr\xE1c stun_81"
-      rect:
-        serializedVersion: 2
-        x: 5634
-        y: 269
-        width: 596
-        height: 831
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f4258a4934d734449a974e9f5d0eceb
-      internalID: -639669293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "pongr\xE1c stun_84"
-      rect:
-        serializedVersion: 2
-        x: 6968
-        y: 269
-        width: 596
-        height: 831
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b134f3b9c8eb746469de520e83b4731f
-      internalID: -2004715243
+      spriteID: e9538f7b39355454e9495ccd75a9b3d6
+      internalID: -951475308
       vertices: []
       indices: 
       edges: []
@@ -637,99 +553,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "pongr\xE1c stun_0": -578838022
-      "pongr\xE1c stun_1": 1779747536
-      "pongr\xE1c stun_10": -1242437552
-      "pongr\xE1c stun_11": -1313705533
-      "pongr\xE1c stun_12": 1007000715
-      "pongr\xE1c stun_13": 463738253
-      "pongr\xE1c stun_14": -78725500
-      "pongr\xE1c stun_15": -483173612
-      "pongr\xE1c stun_16": -1332705999
-      "pongr\xE1c stun_17": -1758495454
-      "pongr\xE1c stun_18": -1386637605
-      "pongr\xE1c stun_19": -1184966585
-      "pongr\xE1c stun_2": 39914997
-      "pongr\xE1c stun_20": -1745144558
-      "pongr\xE1c stun_21": -322751185
-      "pongr\xE1c stun_22": -2123254848
-      "pongr\xE1c stun_23": 1979454998
-      "pongr\xE1c stun_24": 1100508238
-      "pongr\xE1c stun_25": -472300196
-      "pongr\xE1c stun_26": -1230826932
-      "pongr\xE1c stun_27": -1236095343
-      "pongr\xE1c stun_28": 1981964487
-      "pongr\xE1c stun_29": 1910393401
-      "pongr\xE1c stun_3": 1808587174
-      "pongr\xE1c stun_30": -1036031661
-      "pongr\xE1c stun_31": 1085289920
-      "pongr\xE1c stun_32": 361098599
-      "pongr\xE1c stun_33": 1537026658
-      "pongr\xE1c stun_34": -1018233740
-      "pongr\xE1c stun_35": -429287141
-      "pongr\xE1c stun_36": 81256324
-      "pongr\xE1c stun_37": 1181279363
-      "pongr\xE1c stun_38": 1521088182
-      "pongr\xE1c stun_39": 333858063
-      "pongr\xE1c stun_4": 1985264982
-      "pongr\xE1c stun_40": -2004374453
-      "pongr\xE1c stun_41": -1797703653
-      "pongr\xE1c stun_42": 707822682
-      "pongr\xE1c stun_43": 1376903635
-      "pongr\xE1c stun_44": 187264008
-      "pongr\xE1c stun_45": 548208304
-      "pongr\xE1c stun_46": -186331624
-      "pongr\xE1c stun_47": -560398378
-      "pongr\xE1c stun_48": 1646969026
-      "pongr\xE1c stun_49": 954908040
-      "pongr\xE1c stun_5": -1342268268
-      "pongr\xE1c stun_50": -1947148162
-      "pongr\xE1c stun_51": -2083608465
-      "pongr\xE1c stun_52": -1462236620
-      "pongr\xE1c stun_53": -929800059
-      "pongr\xE1c stun_54": 2076873235
-      "pongr\xE1c stun_55": -1462720969
-      "pongr\xE1c stun_56": -1002283549
-      "pongr\xE1c stun_57": 1546334110
-      "pongr\xE1c stun_58": 909962337
-      "pongr\xE1c stun_59": 13889387
-      "pongr\xE1c stun_6": 281483872
-      "pongr\xE1c stun_60": 1547388067
-      "pongr\xE1c stun_61": 31344422
-      "pongr\xE1c stun_62": -716877686
-      "pongr\xE1c stun_63": 1638138610
-      "pongr\xE1c stun_64": 1054107736
-      "pongr\xE1c stun_65": -31311198
-      "pongr\xE1c stun_66": -445208589
-      "pongr\xE1c stun_67": -877531347
-      "pongr\xE1c stun_68": -1078375778
-      "pongr\xE1c stun_69": 290422495
-      "pongr\xE1c stun_7": 1852737889
-      "pongr\xE1c stun_70": -1157116472
-      "pongr\xE1c stun_71": 429921454
-      "pongr\xE1c stun_72": -1135642456
-      "pongr\xE1c stun_73": 1309199268
-      "pongr\xE1c stun_74": 683711984
-      "pongr\xE1c stun_75": 998768921
-      "pongr\xE1c stun_76": 2118424863
-      "pongr\xE1c stun_77": 1535439489
-      "pongr\xE1c stun_78": 1318828354
-      "pongr\xE1c stun_79": 477480327
-      "pongr\xE1c stun_8": 1833921347
-      "pongr\xE1c stun_80": 558910823
-      "pongr\xE1c stun_81": -639669293
-      "pongr\xE1c stun_82": -327651295
-      "pongr\xE1c stun_83": 762220492
-      "pongr\xE1c stun_84": -2004715243
-      "pongr\xE1c stun_85": -1123726191
-      "pongr\xE1c stun_86": -1993441839
-      "pongr\xE1c stun_87": 895484808
-      "pongr\xE1c stun_88": 1129292238
-      "pongr\xE1c stun_89": 440513255
-      "pongr\xE1c stun_9": -1999775388
-      "pongr\xE1c stun_90": 539002320
-      "pongr\xE1c stun_91": -652073872
-      "pongr\xE1c stun_92": -759341378
+      "guggol\xE1s_0": -580973238
+      "guggol\xE1s_1": 165234989
+      "guggol\xE1s_10": 1573561728
+      "guggol\xE1s_11": -338031695
+      "guggol\xE1s_12": -1642267787
+      "guggol\xE1s_13": -601769280
+      "guggol\xE1s_14": -398180428
+      "guggol\xE1s_15": -1430711908
+      "guggol\xE1s_16": 1260668073
+      "guggol\xE1s_17": 1686842672
+      "guggol\xE1s_18": 1231868618
+      "guggol\xE1s_19": -951475308
+      "guggol\xE1s_2": 200106421
+      "guggol\xE1s_3": -1565014454
+      "guggol\xE1s_4": -1482530522
+      "guggol\xE1s_5": -183909897
+      "guggol\xE1s_6": -426961353
+      "guggol\xE1s_7": 1558362357
+      "guggol\xE1s_8": 2071396448
+      "guggol\xE1s_9": -396234888
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

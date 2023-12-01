@@ -9,6 +9,7 @@ namespace Player
         Idle,
         Move,
         Attack,
-        Stunned
+        Stunned,
+        Defend
     }
 }

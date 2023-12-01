@@ -1,0 +1,516 @@
+fileFormatVersion: 2
+guid: 8dc421fee639c904d8e09bc7071131bc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 440
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "j\xE1r\xF3ka julcsika hit_0"
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2698
+        width: 621
+        height: 899
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63ef8e406e0bd7449be0e55d01132af
+      internalID: -1589099546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "j\xE1r\xF3ka julcsika hit_1"
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 2698
+        width: 616
+        height: 899
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02ea1d96339e77498e373a41be617e6
+      internalID: 1878620190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "j\xE1r\xF3ka julcsika hit_2"
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 2703
+        width: 621
+        height: 894
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a882345ba4ee93f4da90fa3a8b88ecb4
+      internalID: 31354233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "j\xE1r\xF3ka julcsika hit_3"
+      rect:
+        serializedVersion: 2
+        x: 4924
+        y: 2698
+        width: 616
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32c4cf9e4452dd42abbf1c5a1c91cdf
+      internalID: 1445295180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "j\xE1r\xF3ka julcsika hit_4"
+      rect:
+        serializedVersion: 2
+        x: 6404
+        y: 2695
+        width: 616
+        height: 919
+      alignment: 9
+      pivot: {x: 0.45726666, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf49cd4f2ea0b5419cc248db252db18
+      internalID: -1972024931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "j\xE1r\xF3ka julcsika hit_5"
+      rect:
+        serializedVersion: 2
+        x: 7596
+        y: 2693
+        width: 878
+        height: 763
+      alignment: 9
+      pivot: {x: 0.6436303, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ffa775f335e8d458a5219840a48888
+      internalID: 2033133733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "j\xE1r\xF3ka julcsika hit_6"
+      rect:
+        serializedVersion: 2
+        x: 9075
+        y: 2693
+        width: 879
+        height: 763
+      alignment: 9
+      pivot: {x: 0.64903855, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99664d2d95ad1ca4a9846d0dda66b8c1
+      internalID: 241798099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "j\xE1r\xF3ka julcsika hit_7"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1475
+        width: 869
+        height: 768
+      alignment: 9
+      pivot: {x: 0.6708846, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c340a22a29fef1429001b03b7e69491
+      internalID: -1995263420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "j\xE1r\xF3ka julcsika hit_8"
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 1475
+        width: 863
+        height: 768
+      alignment: 9
+      pivot: {x: 0.6753617, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed06025d81bb874e932e6ca5fb4044e
+      internalID: -195505895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "j\xE1r\xF3ka julcsika hit_10"
+      rect:
+        serializedVersion: 2
+        x: 3146
+        y: 1475
+        width: 864
+        height: 768
+      alignment: 9
+      pivot: {x: 0.6894961, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e1c7a1cf560d149b4f328176d1c6de
+      internalID: -1903024814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "j\xE1r\xF3ka julcsika hit_12"
+      rect:
+        serializedVersion: 2
+        x: 4626
+        y: 1475
+        width: 864
+        height: 768
+      alignment: 9
+      pivot: {x: 0.68137956, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900ff00c63774e448b51767e36f74225
+      internalID: 686359984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "j\xE1r\xF3ka julcsika hit_13"
+      rect:
+        serializedVersion: 2
+        x: 6187
+        y: 1475
+        width: 793
+        height: 768
+      alignment: 9
+      pivot: {x: 0.6487337, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bb1cb5832097346899d5005690c271
+      internalID: 736683330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "j\xE1r\xF3ka julcsika hit_14"
+      rect:
+        serializedVersion: 2
+        x: 7661
+        y: 1475
+        width: 798
+        height: 768
+      alignment: 9
+      pivot: {x: 0.6298247, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e10131ce502b5409fdec4810a24a65
+      internalID: -14307621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "j\xE1r\xF3ka julcsika hit_15"
+      rect:
+        serializedVersion: 2
+        x: 9328
+        y: 1475
+        width: 621
+        height: 900
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a689ecaa2b837e74bbbbdcd86b51366e
+      internalID: 844946969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "j\xE1r\xF3ka julcsika hit_16"
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 253
+        width: 616
+        height: 894
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81dd06b6f402804f9218a891337ac6f
+      internalID: -1689035544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "j\xE1r\xF3ka julcsika hit_17"
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 253
+        width: 621
+        height: 894
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554bb274658e8d544b4dbd6ee260b363
+      internalID: 753071245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "j\xE1r\xF3ka julcsika hit_18"
+      rect:
+        serializedVersion: 2
+        x: 3419
+        y: 253
+        width: 616
+        height: 894
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68286b65dcd4f76498c9e071dab83c00
+      internalID: -2012860165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "j\xE1r\xF3ka julcsika hit_0": -1589099546
+      "j\xE1r\xF3ka julcsika hit_1": 1878620190
+      "j\xE1r\xF3ka julcsika hit_10": -1903024814
+      "j\xE1r\xF3ka julcsika hit_11": 1743595135
+      "j\xE1r\xF3ka julcsika hit_12": 686359984
+      "j\xE1r\xF3ka julcsika hit_13": 736683330
+      "j\xE1r\xF3ka julcsika hit_14": -14307621
+      "j\xE1r\xF3ka julcsika hit_15": 844946969
+      "j\xE1r\xF3ka julcsika hit_16": -1689035544
+      "j\xE1r\xF3ka julcsika hit_17": 753071245
+      "j\xE1r\xF3ka julcsika hit_18": -2012860165
+      "j\xE1r\xF3ka julcsika hit_2": 31354233
+      "j\xE1r\xF3ka julcsika hit_3": 1445295180
+      "j\xE1r\xF3ka julcsika hit_4": -1972024931
+      "j\xE1r\xF3ka julcsika hit_5": 2033133733
+      "j\xE1r\xF3ka julcsika hit_6": 241798099
+      "j\xE1r\xF3ka julcsika hit_7": -1995263420
+      "j\xE1r\xF3ka julcsika hit_8": -195505895
+      "j\xE1r\xF3ka julcsika hit_9": -1722001615
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
