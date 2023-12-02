@@ -170,7 +170,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.17
+  m_FalloffIntensity: 0.439
   m_Color: {r: 1, g: 0.6207677, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -801,7 +801,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.17
+  m_FalloffIntensity: 0.439
   m_Color: {r: 1, g: 0.6207677, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -897,7 +897,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a5ce18234e282804aaf02baa0d83555c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1486,7 +1486,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.17
+  m_FalloffIntensity: 0.439
   m_Color: {r: 1, g: 0.6207677, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -2043,7 +2043,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.17
+  m_FalloffIntensity: 0.439
   m_Color: {r: 1, g: 0.6207677, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -2207,7 +2207,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.17
+  m_FalloffIntensity: 0.439
   m_Color: {r: 1, g: 0.6207677, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -2289,7 +2289,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.17
+  m_FalloffIntensity: 0.439
   m_Color: {r: 1, g: 0.6207677, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -2865,7 +2865,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.17
+  m_FalloffIntensity: 0.439
   m_Color: {r: 1, g: 0.6207677, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -2947,7 +2947,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.17
+  m_FalloffIntensity: 0.439
   m_Color: {r: 1, g: 0.6207677, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -4017,7 +4017,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.17
+  m_FalloffIntensity: 0.439
   m_Color: {r: 1, g: 0.6207677, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -4099,7 +4099,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.17
+  m_FalloffIntensity: 0.439
   m_Color: {r: 1, g: 0.6207677, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -4181,7 +4181,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.17
+  m_FalloffIntensity: 0.439
   m_Color: {r: 1, g: 0.6207677, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -4427,7 +4427,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.17
+  m_FalloffIntensity: 0.439
   m_Color: {r: 1, g: 0.6207677, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -4591,7 +4591,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.17
+  m_FalloffIntensity: 0.439
   m_Color: {r: 1, g: 0.6207677, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -4673,7 +4673,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.17
+  m_FalloffIntensity: 0.439
   m_Color: {r: 1, g: 0.6207677, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -5083,7 +5083,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.17
+  m_FalloffIntensity: 0.439
   m_Color: {r: 1, g: 0.6207677, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -5493,7 +5493,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.17
+  m_FalloffIntensity: 0.439
   m_Color: {r: 1, g: 0.6207677, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -5575,7 +5575,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.17
+  m_FalloffIntensity: 0.439
   m_Color: {r: 1, g: 0.6207677, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -5739,7 +5739,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.17
+  m_FalloffIntensity: 0.439
   m_Color: {r: 1, g: 0.6207677, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
