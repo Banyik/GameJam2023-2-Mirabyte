@@ -38,11 +38,11 @@ namespace Map
             int positiveX = (int)(playerX + (width / 2));
             foreach (var zone in zones)
             {
-                if(positiveX < zone.Min.x)
+                if(positiveX + 3 < zone.Min.x)
                 {
                     RegenerateCrowd(zone);
                 }
-                if(negativeX > zone.Max.x)
+                if(negativeX - 3 > zone.Max.x)
                 {
                     RegenerateCrowd(zone);
                 }
