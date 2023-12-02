@@ -15,7 +15,8 @@ namespace Map
         float height;
 
         public Tilemap tilemap;
-        public UnityEngine.Tilemaps.Tile tile;
+        public Sprite[] sprites;
+        List<GameObject> npcs = new List<GameObject>();
         private void Start()
         {
             height = 2f * camera.orthographicSize;
@@ -23,23 +24,25 @@ namespace Map
             TilesHandler.Generate(start, end);
             for (int i = 0; i < zoneAmount; i++)
             {
-                zones.Add(new Zone(new Vector2(start.x + (end.x / zoneAmount) * i, start.y), new Vector2((end.x / zoneAmount) * (i + 1), end.y)));
+                zones.Add(new Zone(new Vector2(start.x + (Mathf.Abs(start.x - end.x) / zoneAmount) * i, start.y), new Vector2(start.x + (Mathf.Abs(start.x - end.x) / zoneAmount) * (i + 1), end.y)));
             }
             foreach (var zone in zones)
             {
                 RegenerateCrowd(zone);
             }
         }
-        private void Update()
+        private void FixedUpdate()
         {
             float playerX = camera.GetComponentInParent<Transform>().position.x;
             int negativeX = (int)(playerX - (width / 2));
             int positiveX = (int)(playerX + (width / 2));
             foreach (var zone in zones)
             {
-                if(!((negativeX <= zone.Max.x && negativeX > zone.Min.x) || 
-                    (positiveX >= zone.Min.x && positiveX < zone.Max.x) || 
-                    (negativeX <= zone.Min.x && positiveX >= zone.Max.x)))
+                if(positiveX < zone.Min.x)
+                {
+                    RegenerateCrowd(zone);
+                }
+                if(negativeX > zone.Max.x)
                 {
                     RegenerateCrowd(zone);
                 }
@@ -50,7 +53,15 @@ namespace Map
         {
             foreach (var crowd in zone.Crowds)
             {
-                tilemap.SetTile(new Vector3Int(crowd.x, crowd.y, 0), null);
+                foreach (var npc in new List<GameObject>(npcs))
+                {
+                    if(npc.transform.position == new Vector3(crowd.x, crowd.y, 0))
+                    {
+                        npcs.Remove(npc);
+                        Destroy(npc);
+                    }
+                }
+                //tilemap.SetTile(new Vector3Int(crowd.x, crowd.y, 0), null);
                 TilesHandler.SetCrowd(new Vector2Int(crowd.x, crowd.y), false);
             }
             zone.Crowds.Clear();
@@ -58,11 +69,15 @@ namespace Map
             {
                 for (int j = (int)zone.Min.y; j >= (int)zone.Max.y; j--)
                 {
-                    if(Random.Range(0, 100) > 75)
+                    if(Random.Range(0, 100) > 80 && !zone.Crowds.Contains(new Vector2Int(i,j)))
                     {
                         zone.Crowds.Add(new Vector2Int(i, j));
                         TilesHandler.SetCrowd(new Vector2Int(i, j), true);
-                        tilemap.SetTile(new Vector3Int(i, j, 0), tile);
+                        var obj = new GameObject();
+                        obj.transform.position = new Vector3(i, j, 0);
+                        obj.AddComponent<SpriteRenderer>().sprite = sprites[Random.Range(0, sprites.Length)];
+                        obj.GetComponent<SpriteRenderer>().flipX = Random.Range(0, 100) > 50;
+                        npcs.Add(obj);
                     }
                 }
             }

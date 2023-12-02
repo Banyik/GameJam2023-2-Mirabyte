@@ -153,12 +153,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   zones: []
-  start: {x: 0, y: 10}
-  end: {x: 30, y: 0}
-  zoneAmount: 3
+  start: {x: -45, y: 8}
+  end: {x: 45, y: -1}
+  zoneAmount: 6
   camera: {fileID: 345337102}
   tilemap: {fileID: 590938609}
-  tile: {fileID: 11400000, guid: 6e66510fcbfa00543a665fecaff8da2c, type: 2}
+  sprites:
+  - {fileID: 21300000, guid: a7c0ce26bcd0eab4fba352bf2985a233, type: 3}
+  - {fileID: 21300000, guid: db35291ce32089f4cabe1b854e9f8802, type: 3}
+  - {fileID: 21300000, guid: 9ca9962992719c8439ce66f6ff7ccd9b, type: 3}
+  - {fileID: 21300000, guid: fdd3e4bd046cea34fb431632213c10f4, type: 3}
+  - {fileID: 21300000, guid: c5c4d35601e307841b15337a4fe43b1e, type: 3}
+  - {fileID: 21300000, guid: f626299f6d54abe4b9c55ae4041c7728, type: 3}
 --- !u!4 &45861407
 Transform:
   m_ObjectHideFlags: 0
@@ -1060,8 +1066,8 @@ MonoBehaviour:
   speed: 2
   rb: {fileID: 1079979349}
   animator: {fileID: 1079979346}
-  RightEndPointTarget: {x: 30, y: 0}
-  LeftEndPointTarget: {x: -30, y: 0}
+  RightEndPointTarget: {x: 60, y: 4}
+  LeftEndPointTarget: {x: -60, y: 4}
   Player: {fileID: 330111795}
   gift: {fileID: 964743211}
   GrinchAnimator: {fileID: 9100000, guid: 3b41a3d2626177b498522b738c065990, type: 2}
@@ -1155,7 +1161,7 @@ Transform:
   m_GameObject: {fileID: 1079979344}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.1, y: 1.67, z: -8.40137}
+  m_LocalPosition: {x: -2.7, y: 4.8, z: -8.40137}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
