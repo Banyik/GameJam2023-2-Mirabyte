@@ -20,6 +20,7 @@ namespace Player
         public Weapon weapon;
         public GameObject TargetedThief;
         float reachDistance;
+        public byte hp, shield;
         [SerializeField]
         State currentState;
         void Start()
@@ -27,6 +28,10 @@ namespace Player
             animator.SetInteger("meleeType", (int)weapon);
             baseSpeed = speed;
             animator.runtimeAnimatorController =  character == "boy" ?  boy : girl;
+            hp = 3;
+
+            shield = 3;
+
             switch (weapon)
             {
                 case Weapon.Tazer:
@@ -149,7 +154,7 @@ namespace Player
 
         void CheckMovement()
         {
-            if (!GetAnimationName().Contains("hit") && !IsAnimationPlaying($"{character}_crouch"))
+            if (!GetAnimationName().Contains("hit") && !IsAnimationPlaying($"{character}_crouch") && currentState != State.Shielded)
             {
                 MovementHandler();
             }
@@ -197,10 +202,12 @@ namespace Player
         public void StartStun()
         {
             if ((checkDistanceForStun && !CheckDistanceBetweenTarget(1.5f)) || currentState == State.Defend ||
-                TargetedThief == null || !TargetedThief.GetComponent<ThiefController>().IsActive)
+                TargetedThief == null || !TargetedThief.GetComponent<ThiefController>().IsActive || 
+                currentState == State.Stunned)
             {
                 return;
             }
+            hp -= 1;
             animator.SetBool("isStunned", true);
             ChangeState(State.Stunned);
             StopMovement();
@@ -209,6 +216,17 @@ namespace Player
 
         public void InvokeStun(float seconds, bool ableToDefend, bool checkDistance)
         {
+            if (shield > 0)
+            {
+                shield -= 1;
+                ChangeState(State.Shielded);
+                Invoke(nameof(EndStun), 0.5f);
+                return;
+            }
+            if (currentState == State.Shielded) 
+            {
+                return;
+            }
             canDefend = ableToDefend;
             checkDistanceForStun = checkDistance;
             Invoke(nameof(StartStun), seconds);

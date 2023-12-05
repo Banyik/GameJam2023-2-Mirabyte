@@ -969,8 +969,10 @@ MonoBehaviour:
   character: girl
   boy: {fileID: 9100000, guid: 57de2eb1deec37647bc0b5d85dcab0df, type: 2}
   girl: {fileID: 9100000, guid: 949aad193f8b34943ad6f43be67f52f5, type: 2}
-  weapon: 0
+  weapon: 1
   TargetedThief: {fileID: 1079979344}
+  hp: 0
+  shield: 0
   currentState: 0
 --- !u!95 &330111800
 Animator:
@@ -3783,7 +3785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90d0a9ee60a0eed479c69d227fd4d93c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thiefType: 1
+  thiefType: 0
   speed: 2
   rb: {fileID: 1079979349}
   animator: {fileID: 1079979346}

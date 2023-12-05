@@ -10,6 +10,7 @@ namespace Player
         Move,
         Attack,
         Stunned,
-        Defend
+        Defend,
+        Shielded
     }
 }
