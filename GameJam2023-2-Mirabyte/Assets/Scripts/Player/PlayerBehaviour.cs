@@ -154,7 +154,7 @@ namespace Player
 
         void CheckMovement()
         {
-            if (!GetAnimationName().Contains("hit") && !IsAnimationPlaying($"{character}_crouch") && currentState != State.Shielded)
+            if (!GetAnimationName().Contains("hit") && !IsAnimationPlaying($"{character}_crouch"))
             {
                 MovementHandler();
             }
@@ -178,7 +178,7 @@ namespace Player
             {
                 rb.velocity = Vector2.Lerp(rb.velocity, movement, speed) * speed;
             }
-            if (rb.velocity != new Vector2(0, 0))
+            if (rb.velocity != new Vector2(0, 0) && currentState != State.Shielded)
             {
                 if (horizontal != 0)
                 {
@@ -187,7 +187,7 @@ namespace Player
                 ChangeState(State.Move);
                 animator.SetBool("isMoving", true);
             }
-            else if(currentState != State.Stunned)
+            else if(currentState != State.Stunned && currentState != State.Shielded)
             {
                 ChangeState(State.Idle);
                 animator.SetBool("isMoving", false);
