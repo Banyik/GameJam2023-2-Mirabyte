@@ -21,6 +21,7 @@ namespace Player
         public GameObject TargetedThief;
         float reachDistance;
         public byte hp, shield;
+        public byte thiefStunned;
         [SerializeField]
         State currentState;
         void Start()
@@ -29,8 +30,8 @@ namespace Player
             baseSpeed = speed;
             animator.runtimeAnimatorController =  character == "boy" ?  boy : girl;
             hp = 3;
-
             shield = 3;
+            thiefStunned = 0;
 
             switch (weapon)
             {
@@ -143,6 +144,7 @@ namespace Player
                 else if (hit.collider.CompareTag("thief"))
                 {
                     TargetedThief.GetComponent<ThiefController>().StartStun();
+                    thiefStunned += 1;
                 }
             }
             else if(Input.GetAxisRaw("Defend") == 1)
