@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: db35291ce32089f4cabe1b854e9f8802
+guid: ad087b4c51b4cee48882228a90a65e66
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -46,9 +46,9 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.4631954, y: 0.3518132}
-  spritePixelsToUnits: 650
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,9 +69,9 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -123,22 +123,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: csenge_0
+      name: "h\xF3pihe 1_0"
       rect:
         serializedVersion: 2
-        x: 641
-        y: 985
-        width: 842
-        height: 1337
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 229
+        y: 223
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc3eb8d4adf4b7d4fa5e88d43bbee077
-      internalID: 284174302
+      spriteID: 986e6126ac71a114e87174315be5408e
+      internalID: -240245332
       vertices: []
       indices: 
       edges: []
@@ -147,14 +147,14 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      csenge_0: 284174302
+      "h\xF3pihe 1_0": -240245332
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
