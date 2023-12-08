@@ -20,7 +20,7 @@ namespace Thief
         public override void SpecialAttack()
         {
             Vector2 direction = (new Vector2(Player.transform.position.x, Player.transform.position.y) - new Vector2(rb.transform.position.x, rb.transform.position.y)).normalized;
-            if(Vector2.Distance(Player.transform.position, rb.transform.position) < 1.5f && Player.GetComponent<PlayerBehaviour>().GetState() != State.Stunned)
+            if (Vector2.Distance(Player.transform.position, rb.transform.position) < 1.5f && Player.GetComponent<PlayerBehaviour>().GetState() != State.Stunned && Player.GetComponent<PlayerBehaviour>().GetState() != State.Shielded)
             {
                 renderer.flipX = direction.x > 0;
                 CanMove = false;

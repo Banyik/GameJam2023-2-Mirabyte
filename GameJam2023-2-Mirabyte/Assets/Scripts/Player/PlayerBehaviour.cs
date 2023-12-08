@@ -22,6 +22,8 @@ namespace Player
         public GameObject christmasCandy;
         PlayerAudioHandler audioHandler;
         float reachDistance;
+        public byte hp, shield;
+        public byte thiefStunned;
         [SerializeField]
         State currentState;
         void Start()
@@ -29,6 +31,9 @@ namespace Player
             audioHandler = gameObject.GetComponent<PlayerAudioHandler>();
             baseSpeed = speed;
             animator.runtimeAnimatorController =  character == "boy" ?  boy : girl;
+			hp = 3;
+            shield = 3;
+            thiefStunned = 0;
             animator.SetInteger("meleeType", (int)weapon);
             switch (weapon)
             {
@@ -177,6 +182,7 @@ namespace Player
                     if (hit.collider != null && hit.collider.CompareTag("thief"))
                     {
                         TargetedThief.GetComponent<ThiefController>().StartStun();
+						thiefStunned += 1;
                         StartAttackSound(true);
                     }
                     else
@@ -187,6 +193,8 @@ namespace Player
                 }
                 else if(!GetAnimationName().Contains("cannon"))
                 {
+                    TargetedThief.GetComponent<ThiefController>().StartStun();
+                    thiefStunned += 1;
                     StartAttackSound(false);
                     float addToX = GetComponent<SpriteRenderer>().flipX ? 0.59f : -0.59f;
                     var candy = Instantiate(christmasCandy, new Vector3(transform.position.x + addToX, transform.position.y + 1f, 0), new Quaternion(0, 0, 0, 0), null);
@@ -228,7 +236,7 @@ namespace Player
             {
                 rb.velocity = Vector2.Lerp(rb.velocity, movement, speed) * speed;
             }
-            if (rb.velocity != new Vector2(0, 0))
+            if (rb.velocity != new Vector2(0, 0) && currentState != State.Shielded)
             {
                 if (horizontal != 0)
                 {
@@ -237,7 +245,7 @@ namespace Player
                 ChangeState(State.Move);
                 animator.SetBool("isMoving", true);
             }
-            else if(currentState != State.Stunned)
+            else if(currentState != State.Stunned && currentState != State.Shielded)
             {
                 ChangeState(State.Idle);
                 animator.SetBool("isMoving", false);
@@ -252,10 +260,12 @@ namespace Player
         public void StartStun()
         {
             if ((checkDistanceForStun && !CheckDistanceBetweenTarget(1.5f)) || currentState == State.Defend ||
-                TargetedThief == null || !TargetedThief.GetComponent<ThiefController>().IsActive)
+                TargetedThief == null || !TargetedThief.GetComponent<ThiefController>().IsActive || 
+                currentState == State.Stunned)
             {
                 return;
             }
+            hp -= 1;
             animator.SetBool("isStunned", true);
             ChangeState(State.Stunned);
             StopMovement();
@@ -264,6 +274,17 @@ namespace Player
 
         public void InvokeStun(float seconds, bool ableToDefend, bool checkDistance)
         {
+            if (shield > 0)
+            {
+                shield -= 1;
+                ChangeState(State.Shielded);
+                Invoke(nameof(EndStun), 0.5f);
+                return;
+            }
+            if (currentState == State.Shielded) 
+            {
+                return;
+            }
             canDefend = ableToDefend;
             checkDistanceForStun = checkDistance;
             Invoke(nameof(StartStun), seconds);
