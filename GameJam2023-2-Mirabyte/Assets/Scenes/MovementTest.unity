@@ -474,7 +474,7 @@ MonoBehaviour:
   rb: {fileID: 330111798}
   animator: {fileID: 330111800}
   speed: 3
-  character: boy
+  character: girl
   boy: {fileID: 9100000, guid: 57de2eb1deec37647bc0b5d85dcab0df, type: 2}
   girl: {fileID: 9100000, guid: 949aad193f8b34943ad6f43be67f52f5, type: 2}
   weapon: 3
@@ -7217,7 +7217,8 @@ GameObject:
   - component: {fileID: 1555328174}
   - component: {fileID: 1555328173}
   - component: {fileID: 1555328172}
-  m_Layer: 0
+  - component: {fileID: 1555328175}
+  m_Layer: 6
   m_Name: ChristmasCandy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7303,6 +7304,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1555328175
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555328171}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.375, y: 0.3025}
+    newSize: {x: 0.375, y: 0.3025}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.375, y: 0.3025}
+  m_EdgeRadius: 0
 --- !u!1 &1582043906
 GameObject:
   m_ObjectHideFlags: 0

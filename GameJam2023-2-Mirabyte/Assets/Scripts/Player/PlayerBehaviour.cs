@@ -148,7 +148,7 @@ namespace Player
                     float addToX = GetComponent<SpriteRenderer>().flipX ? 0.59f : -0.59f;
                     var candy = Instantiate(christmasCandy, new Vector3(transform.position.x + addToX, transform.position.y + 1f, 0), new Quaternion(0, 0, 0, 0), null);
                     candy.SetActive(true);
-                    candy.GetComponent<ChristmasCandyBehaviour>().Shoot(new Vector3(transform.position.x + addToX, transform.position.y + 1f, 0), Camera.main.ScreenToWorldPoint(Input.mousePosition), TargetedThief);
+                    candy.GetComponent<ChristmasCandyBehaviour>().Shoot(new Vector3(transform.position.x + addToX, transform.position.y + 1f, 0), Camera.main.ScreenToWorldPoint(Input.mousePosition));
                 }
                 
             }
