@@ -19,7 +19,6 @@ public class GiftFall : MonoBehaviour
         this.target = target;
         transform.position = new Vector2(target.x, target.y + 15);
         this.color = color;
-        Debug.Log(color);
         if(color == "blue")
         {
             spriteRenderer.sprite = blueSprite;

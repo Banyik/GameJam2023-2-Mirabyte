@@ -20,17 +20,19 @@ namespace Player
         public Weapon weapon;
         public GameObject TargetedThief;
         public GameObject christmasCandy;
+        PlayerAudioHandler audioHandler;
         float reachDistance;
         [SerializeField]
         State currentState;
         void Start()
         {
+            audioHandler = gameObject.GetComponent<PlayerAudioHandler>();
             baseSpeed = speed;
             animator.runtimeAnimatorController =  character == "boy" ?  boy : girl;
             animator.SetInteger("meleeType", (int)weapon);
             switch (weapon)
             {
-                case Weapon.Tazer:
+                case Weapon.Taser:
                     reachDistance = 0.8f;
                     break;
                 case Weapon.Baton:
@@ -38,6 +40,40 @@ namespace Player
                     break;
                 case Weapon.CandyCane:
                     reachDistance = 1.2f;
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        void StartAttackSound(bool hit)
+        {
+            switch (weapon)
+            {
+                case Weapon.Taser:
+                    audioHandler.PlayClip(PlayerSounds.Taser);
+                    break;
+                case Weapon.Baton:
+                    if (hit)
+                    {
+                        audioHandler.PlayClip(PlayerSounds.Hit);
+                    }
+                    else
+                    {
+                        audioHandler.PlayClip(PlayerSounds.Miss);
+                    }
+                    break;
+                case Weapon.CandyCane:
+                    if (hit)
+                    {
+                        audioHandler.PlayClip(PlayerSounds.Hit);
+                    }
+                    else
+                    {
+                        audioHandler.PlayClip(PlayerSounds.Miss);
+                    }
+                    break;
+                case Weapon.Cannon:
                     break;
                 default:
                     break;
@@ -123,6 +159,10 @@ namespace Player
 
         void CheckMeleeBehaviour()
         {
+            if(GetAnimationName().Contains("hit") || GetAnimationName().Contains("crouch"))
+            {
+                return;
+            }
             Debug.DrawRay(rb.transform.position, Camera.main.ScreenToWorldPoint(Input.mousePosition), Color.red);
             RaycastHit2D hit = Physics2D.Raycast(rb.position, Input.mousePosition, 1.5f, 3);
             if(currentState == State.Stunned)
@@ -134,23 +174,26 @@ namespace Player
                 ChangeState(State.Attack);
                 if(weapon != Weapon.Cannon)
                 {
-                    if (hit.rigidbody == null)
-                    {
-                        return;
-                    }
-                    else if (hit.collider.CompareTag("thief"))
+                    if (hit.collider != null && hit.collider.CompareTag("thief"))
                     {
                         TargetedThief.GetComponent<ThiefController>().StartStun();
+                        StartAttackSound(true);
+                    }
+                    else
+                    {
+                        StartAttackSound(false);
+                        return;
                     }
                 }
                 else if(!GetAnimationName().Contains("cannon"))
                 {
+                    StartAttackSound(false);
                     float addToX = GetComponent<SpriteRenderer>().flipX ? 0.59f : -0.59f;
                     var candy = Instantiate(christmasCandy, new Vector3(transform.position.x + addToX, transform.position.y + 1f, 0), new Quaternion(0, 0, 0, 0), null);
                     candy.SetActive(true);
                     candy.GetComponent<ChristmasCandyBehaviour>().Shoot(new Vector3(transform.position.x + addToX, transform.position.y + 1f, 0), Camera.main.ScreenToWorldPoint(Input.mousePosition));
                 }
-                
+
             }
             else if(Input.GetAxisRaw("Defend") == 1)
             {
