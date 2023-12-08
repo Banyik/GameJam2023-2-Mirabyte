@@ -7,6 +7,7 @@ namespace Player
     {
         Tazer,
         Baton,
-        CandyCane
+        CandyCane,
+        Cannon
     }
 }

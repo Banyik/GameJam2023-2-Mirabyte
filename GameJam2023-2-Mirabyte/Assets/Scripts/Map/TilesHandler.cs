@@ -15,7 +15,7 @@ namespace Map
             {
                 for (int j = (int)start.y; j >= (int)end.y; j--)
                 {
-                    tiles.Add(new Tile(new Vector2Int(i, j), Random.Range(0,100)> 70));
+                    tiles.Add(new Tile(new Vector2Int(i, j), false));
                 }
             }
         }

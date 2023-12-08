@@ -19,14 +19,15 @@ namespace Player
         public RuntimeAnimatorController girl;
         public Weapon weapon;
         public GameObject TargetedThief;
+        public GameObject christmasCandy;
         float reachDistance;
         [SerializeField]
         State currentState;
         void Start()
         {
-            animator.SetInteger("meleeType", (int)weapon);
             baseSpeed = speed;
             animator.runtimeAnimatorController =  character == "boy" ?  boy : girl;
+            animator.SetInteger("meleeType", (int)weapon);
             switch (weapon)
             {
                 case Weapon.Tazer:
@@ -122,7 +123,7 @@ namespace Player
 
         void CheckMeleeBehaviour()
         {
-            Debug.DrawRay(rb.transform.position, Input.mousePosition, Color.red);
+            Debug.DrawRay(rb.transform.position, Camera.main.ScreenToWorldPoint(Input.mousePosition), Color.red);
             RaycastHit2D hit = Physics2D.Raycast(rb.position, Input.mousePosition, 1.5f, 3);
             if(currentState == State.Stunned)
             {
@@ -131,14 +132,25 @@ namespace Player
             if (Input.GetAxisRaw("Attack") == 1)
             {
                 ChangeState(State.Attack);
-                if (hit.rigidbody == null)
+                if(weapon != Weapon.Cannon)
                 {
-                    return;
+                    if (hit.rigidbody == null)
+                    {
+                        return;
+                    }
+                    else if (hit.collider.CompareTag("thief"))
+                    {
+                        TargetedThief.GetComponent<ThiefController>().StartStun();
+                    }
                 }
-                else if (hit.collider.CompareTag("thief"))
+                else if(!GetAnimationName().Contains("cannon"))
                 {
-                    TargetedThief.GetComponent<ThiefController>().StartStun();
+                    float addToX = GetComponent<SpriteRenderer>().flipX ? 0.59f : -0.59f;
+                    var candy = Instantiate(christmasCandy, new Vector3(transform.position.x + addToX, transform.position.y + 1f, 0), new Quaternion(0, 0, 0, 0), null);
+                    candy.SetActive(true);
+                    candy.GetComponent<ChristmasCandyBehaviour>().Shoot(new Vector3(transform.position.x + addToX, transform.position.y + 1f, 0), Camera.main.ScreenToWorldPoint(Input.mousePosition), TargetedThief);
                 }
+                
             }
             else if(Input.GetAxisRaw("Defend") == 1)
             {

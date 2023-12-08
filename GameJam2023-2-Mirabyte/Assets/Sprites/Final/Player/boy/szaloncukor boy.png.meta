@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 39a9ebe53ec7f62439541a7b57d5793e
+guid: 02ad360760911c0419bca6713b1e97f1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 440
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: girl candy cane hit_0
+      name: szaloncukor boy_0
       rect:
         serializedVersion: 2
-        x: 483
-        y: 1493
-        width: 523
-        height: 777
+        x: 805
+        y: 2529
+        width: 592
+        height: 766
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a9536c4c5425024c9395cdc1e077316
-      internalID: -1263906703
+      spriteID: 301324b66c1d7d84ba708beb676a58b0
+      internalID: 160024184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl candy cane hit_1
+      name: szaloncukor boy_1
       rect:
         serializedVersion: 2
-        x: 1845
-        y: 1493
-        width: 522
-        height: 777
+        x: 2551
+        y: 2529
+        width: 594
+        height: 766
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10d1278b42e8aa2439bc53585df5140d
-      internalID: -1740266725
+      spriteID: bd8286169d05ca64f8641caa57489641
+      internalID: 1434590968
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl candy cane hit_2
+      name: szaloncukor boy_2
       rect:
         serializedVersion: 2
-        x: 3207
-        y: 1493
-        width: 522
-        height: 777
+        x: 4323
+        y: 2529
+        width: 569
+        height: 766
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,230 +179,188 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 098343a64b6e479409a3c93b3fea6e75
-      internalID: 2047759559
+      spriteID: d89b2ae76dcde6046bf8ca8fd5d80c7f
+      internalID: -1968844196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl candy cane hit_3
+      name: szaloncukor boy_4
       rect:
         serializedVersion: 2
-        x: 4591
-        y: 1495
-        width: 530
-        height: 774
-      alignment: 9
-      pivot: {x: 0.44578052, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f7fa21f3dac57e444a9368703c7f357a
-      internalID: -124085447
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl candy cane hit_4
-      rect:
-        serializedVersion: 2
-        x: 5954
-        y: 1495
-        width: 530
-        height: 774
-      alignment: 9
-      pivot: {x: 0.44823667, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af7973004420b994b8d3008239b4c3b8
-      internalID: 1625613410
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl candy cane hit_5
-      rect:
-        serializedVersion: 2
-        x: 6991
-        y: 1492
-        width: 786
+        x: 6097
+        y: 2527
+        width: 568
         height: 765
       alignment: 9
-      pivot: {x: 0.7080227, y: 0}
+      pivot: {x: 0.46014577, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23e92e16846563445978f3a97aedcca2
-      internalID: 1021444644
+      spriteID: 6f7e2515e77ad0740894ec904076f294
+      internalID: -1508294780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl candy cane hit_6
+      name: szaloncukor boy_5
       rect:
         serializedVersion: 2
-        x: 8352
-        y: 1492
-        width: 788
+        x: 7795
+        y: 2527
+        width: 617
         height: 765
       alignment: 9
-      pivot: {x: 0.7085791, y: 0}
+      pivot: {x: 0.4801324, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e35492d181522e641bc4affdb45360f1
-      internalID: 1119328096
+      spriteID: d4d645cdb8faafc4bbb100d9ae15d096
+      internalID: 359722151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl candy cane hit_7
+      name: szaloncukor boy_6
       rect:
         serializedVersion: 2
-        x: 9706
-        y: 1492
-        width: 796
-        height: 765
+        x: 9546
+        y: 2527
+        width: 620
+        height: 763
       alignment: 9
-      pivot: {x: 0.71032286, y: 0}
+      pivot: {x: 0.47738156, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f49881f87ad7e18419f1c2d0945826f4
-      internalID: 535139400
+      spriteID: 31599f45b87815b44affdb693ec112ef
+      internalID: -103437909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl candy cane hit_11
+      name: szaloncukor boy_8
       rect:
         serializedVersion: 2
-        x: 157
-        y: 258
-        width: 797
-        height: 767
+        x: 11345
+        y: 2527
+        width: 568
+        height: 763
       alignment: 9
-      pivot: {x: 0.71242726, y: 0}
+      pivot: {x: 0.43020502, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5aaf7cb86826c864e978344575661cc3
-      internalID: 110604342
+      spriteID: 7ea7fd75b5dfe994a894bfc2ba29a0d6
+      internalID: -795516215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl candy cane hit_12
+      name: szaloncukor boy_11
       rect:
         serializedVersion: 2
-        x: 1521
-        y: 258
-        width: 797
-        height: 767
+        x: 858
+        y: 1382
+        width: 568
+        height: 768
       alignment: 9
-      pivot: {x: 0.7136782, y: 0}
+      pivot: {x: 0.4329776, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e3c1bb4a6ecdc442ad37d9cf48239b2
-      internalID: -1006160534
+      spriteID: 2003df7a4de1e684785f0a50784c6afc
+      internalID: 2006665786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl candy cane hit_13
+      name: szaloncukor boy_12
       rect:
         serializedVersion: 2
-        x: 2885
-        y: 258
-        width: 796
-        height: 767
+        x: 2554
+        y: 1382
+        width: 618
+        height: 768
       alignment: 9
-      pivot: {x: 0.7127434, y: 0}
+      pivot: {x: 0.48399457, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36e50b3f5e249fd40b18d7f786d3c7ed
-      internalID: -1634995542
+      spriteID: 593074027649312449504f4597d2197b
+      internalID: -1112940517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl candy cane hit_14
+      name: szaloncukor boy_13
       rect:
         serializedVersion: 2
-        x: 4465
-        y: 258
-        width: 580
-        height: 767
+        x: 4338
+        y: 1385
+        width: 570
+        height: 763
       alignment: 9
-      pivot: {x: 0.6109787, y: 0}
+      pivot: {x: 0.4465683, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e52c3798fefedb4ba761ff2aecd9b33
-      internalID: -1999907817
+      spriteID: 6aa6f876e3f2ffa489f914b8a02a874b
+      internalID: 1257099234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl candy cane hit_15
+      name: szaloncukor boy_14
       rect:
         serializedVersion: 2
-        x: 5828
-        y: 258
-        width: 581
-        height: 767
+        x: 6046
+        y: 1385
+        width: 609
+        height: 763
       alignment: 9
-      pivot: {x: 0.60932374, y: 0}
+      pivot: {x: 0.49144185, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9a133c5614a6d6428990c974e9b91c0
-      internalID: 1347809562
+      spriteID: b76438482a3bda047b3910e3980f7cfa
+      internalID: 1343743103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl candy cane hit_16
+      name: szaloncukor boy_15
       rect:
         serializedVersion: 2
-        x: 7291
-        y: 260
-        width: 521
-        height: 778
+        x: 7792
+        y: 1385
+        width: 601
+        height: 768
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,20 +368,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d27db889756a2824ea6aad141974564d
-      internalID: 1448473113
+      spriteID: a52a354f59ad0504c9f96d8ac4ec6d70
+      internalID: -339687849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl candy cane hit_17
+      name: szaloncukor boy_16
       rect:
         serializedVersion: 2
-        x: 8655
-        y: 260
-        width: 521
-        height: 778
+        x: 9539
+        y: 1385
+        width: 599
+        height: 768
+      alignment: 9
+      pivot: {x: 0.49458408, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb190651af9b32746bc3ad8b41adaaea
+      internalID: 223064252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_17
+      rect:
+        serializedVersion: 2
+        x: 11286
+        y: 1385
+        width: 592
+        height: 768
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,20 +410,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d066113737398d4bba840d5eb3a4d12
-      internalID: 1273565249
+      spriteID: fb4423c43ae02994baeeabe77a9c0fd2
+      internalID: -1161606760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl candy cane hit_18
+      name: szaloncukor boy_20
       rect:
         serializedVersion: 2
-        x: 10019
-        y: 260
-        width: 522
-        height: 778
+        x: 805
+        y: 240
+        width: 592
+        height: 766
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,8 +431,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ded83e1d29e7da488847a54a6eeebad
-      internalID: -20038445
+      spriteID: 8e306c90e3c444641b12bf40ba3e46bf
+      internalID: 67001512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_21
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 240
+        width: 594
+        height: 766
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b6be5c219fa1043af685bdaff4710e
+      internalID: -1070714653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_23
+      rect:
+        serializedVersion: 2
+        x: 4323
+        y: 240
+        width: 569
+        height: 766
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72893bf298717fc4d9712da55987578d
+      internalID: 1104239358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_24
+      rect:
+        serializedVersion: 2
+        x: 6046
+        y: 240
+        width: 592
+        height: 766
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eacc9ef3438b7a4f8b9f9fdb9ae20ce
+      internalID: 349658035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_25
+      rect:
+        serializedVersion: 2
+        x: 7792
+        y: 240
+        width: 595
+        height: 766
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e51686395eb184791e983e1e5bb3d9
+      internalID: -1727482775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_27
+      rect:
+        serializedVersion: 2
+        x: 9563
+        y: 240
+        width: 569
+        height: 766
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9706ffc5b262847824d708abdca7ac
+      internalID: 207441624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_28
+      rect:
+        serializedVersion: 2
+        x: 11286
+        y: 240
+        width: 592
+        height: 766
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5e5701e7c7556458473701f8325e09
+      internalID: -337498375
       vertices: []
       indices: 
       edges: []
@@ -469,30 +574,36 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      girl candy cane hit_0: -1263906703
-      girl candy cane hit_1: -1740266725
-      girl candy cane hit_10: 1313476989
-      girl candy cane hit_11: 110604342
-      girl candy cane hit_12: -1006160534
-      girl candy cane hit_13: -1634995542
-      girl candy cane hit_14: -1999907817
-      girl candy cane hit_15: 1347809562
-      girl candy cane hit_16: 1448473113
-      girl candy cane hit_17: 1273565249
-      girl candy cane hit_18: -20038445
-      girl candy cane hit_19: -1007430532
-      girl candy cane hit_2: 2047759559
-      girl candy cane hit_20: 821089279
-      girl candy cane hit_21: -1901818754
-      girl candy cane hit_22: 1568221060
-      girl candy cane hit_23: -1121597149
-      girl candy cane hit_3: -124085447
-      girl candy cane hit_4: 1625613410
-      girl candy cane hit_5: 1021444644
-      girl candy cane hit_6: 1119328096
-      girl candy cane hit_7: 535139400
-      girl candy cane hit_8: 1534802925
-      girl candy cane hit_9: -268183503
+      szaloncukor boy_0: 160024184
+      szaloncukor boy_1: 1434590968
+      szaloncukor boy_10: -1501607808
+      szaloncukor boy_11: 2006665786
+      szaloncukor boy_12: -1112940517
+      szaloncukor boy_13: 1257099234
+      szaloncukor boy_14: 1343743103
+      szaloncukor boy_15: -339687849
+      szaloncukor boy_16: 223064252
+      szaloncukor boy_17: -1161606760
+      szaloncukor boy_18: 1868624994
+      szaloncukor boy_19: 1641086435
+      szaloncukor boy_2: -1968844196
+      szaloncukor boy_20: 67001512
+      szaloncukor boy_21: -1070714653
+      szaloncukor boy_22: 56585259
+      szaloncukor boy_23: 1104239358
+      szaloncukor boy_24: 349658035
+      szaloncukor boy_25: -1727482775
+      szaloncukor boy_26: 980954834
+      szaloncukor boy_27: 207441624
+      szaloncukor boy_28: -337498375
+      szaloncukor boy_29: 273000976
+      szaloncukor boy_3: 1011858457
+      szaloncukor boy_4: -1508294780
+      szaloncukor boy_5: 359722151
+      szaloncukor boy_6: -103437909
+      szaloncukor boy_7: -1890837528
+      szaloncukor boy_8: -211266251
+      szaloncukor boy_9: -795516215
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
