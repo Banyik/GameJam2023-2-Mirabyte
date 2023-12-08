@@ -479,7 +479,7 @@ MonoBehaviour:
   character: girl
   boy: {fileID: 9100000, guid: 57de2eb1deec37647bc0b5d85dcab0df, type: 2}
   girl: {fileID: 9100000, guid: 949aad193f8b34943ad6f43be67f52f5, type: 2}
-  weapon: 1
+  weapon: 0
   TargetedThief: {fileID: 1079979344}
   christmasCandy: {fileID: 1555328171}
   hp: 0
