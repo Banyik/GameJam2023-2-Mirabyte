@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 02ad360760911c0419bca6713b1e97f1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: szaloncukor boy_0
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2529
+        width: 592
+        height: 766
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301324b66c1d7d84ba708beb676a58b0
+      internalID: 160024184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_1
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 2529
+        width: 594
+        height: 766
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8286169d05ca64f8641caa57489641
+      internalID: 1434590968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_2
+      rect:
+        serializedVersion: 2
+        x: 4323
+        y: 2529
+        width: 569
+        height: 766
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89b2ae76dcde6046bf8ca8fd5d80c7f
+      internalID: -1968844196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_4
+      rect:
+        serializedVersion: 2
+        x: 6097
+        y: 2527
+        width: 568
+        height: 765
+      alignment: 9
+      pivot: {x: 0.46014577, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7e2515e77ad0740894ec904076f294
+      internalID: -1508294780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_5
+      rect:
+        serializedVersion: 2
+        x: 7795
+        y: 2527
+        width: 617
+        height: 765
+      alignment: 9
+      pivot: {x: 0.4801324, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d645cdb8faafc4bbb100d9ae15d096
+      internalID: 359722151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_6
+      rect:
+        serializedVersion: 2
+        x: 9546
+        y: 2527
+        width: 620
+        height: 763
+      alignment: 9
+      pivot: {x: 0.47738156, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31599f45b87815b44affdb693ec112ef
+      internalID: -103437909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_8
+      rect:
+        serializedVersion: 2
+        x: 11345
+        y: 2527
+        width: 568
+        height: 763
+      alignment: 9
+      pivot: {x: 0.43020502, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea7fd75b5dfe994a894bfc2ba29a0d6
+      internalID: -795516215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_11
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1382
+        width: 568
+        height: 768
+      alignment: 9
+      pivot: {x: 0.4329776, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2003df7a4de1e684785f0a50784c6afc
+      internalID: 2006665786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_12
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 1382
+        width: 618
+        height: 768
+      alignment: 9
+      pivot: {x: 0.48399457, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593074027649312449504f4597d2197b
+      internalID: -1112940517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_13
+      rect:
+        serializedVersion: 2
+        x: 4338
+        y: 1385
+        width: 570
+        height: 763
+      alignment: 9
+      pivot: {x: 0.4465683, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa6f876e3f2ffa489f914b8a02a874b
+      internalID: 1257099234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_14
+      rect:
+        serializedVersion: 2
+        x: 6046
+        y: 1385
+        width: 609
+        height: 763
+      alignment: 9
+      pivot: {x: 0.49144185, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76438482a3bda047b3910e3980f7cfa
+      internalID: 1343743103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_15
+      rect:
+        serializedVersion: 2
+        x: 7792
+        y: 1385
+        width: 601
+        height: 768
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52a354f59ad0504c9f96d8ac4ec6d70
+      internalID: -339687849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_16
+      rect:
+        serializedVersion: 2
+        x: 9539
+        y: 1385
+        width: 599
+        height: 768
+      alignment: 9
+      pivot: {x: 0.49458408, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb190651af9b32746bc3ad8b41adaaea
+      internalID: 223064252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_17
+      rect:
+        serializedVersion: 2
+        x: 11286
+        y: 1385
+        width: 592
+        height: 768
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4423c43ae02994baeeabe77a9c0fd2
+      internalID: -1161606760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_20
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 240
+        width: 592
+        height: 766
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e306c90e3c444641b12bf40ba3e46bf
+      internalID: 67001512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_21
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 240
+        width: 594
+        height: 766
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b6be5c219fa1043af685bdaff4710e
+      internalID: -1070714653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_23
+      rect:
+        serializedVersion: 2
+        x: 4323
+        y: 240
+        width: 569
+        height: 766
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72893bf298717fc4d9712da55987578d
+      internalID: 1104239358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_24
+      rect:
+        serializedVersion: 2
+        x: 6046
+        y: 240
+        width: 592
+        height: 766
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eacc9ef3438b7a4f8b9f9fdb9ae20ce
+      internalID: 349658035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_25
+      rect:
+        serializedVersion: 2
+        x: 7792
+        y: 240
+        width: 595
+        height: 766
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e51686395eb184791e983e1e5bb3d9
+      internalID: -1727482775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_27
+      rect:
+        serializedVersion: 2
+        x: 9563
+        y: 240
+        width: 569
+        height: 766
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9706ffc5b262847824d708abdca7ac
+      internalID: 207441624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: szaloncukor boy_28
+      rect:
+        serializedVersion: 2
+        x: 11286
+        y: 240
+        width: 592
+        height: 766
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5e5701e7c7556458473701f8325e09
+      internalID: -337498375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      szaloncukor boy_0: 160024184
+      szaloncukor boy_1: 1434590968
+      szaloncukor boy_10: -1501607808
+      szaloncukor boy_11: 2006665786
+      szaloncukor boy_12: -1112940517
+      szaloncukor boy_13: 1257099234
+      szaloncukor boy_14: 1343743103
+      szaloncukor boy_15: -339687849
+      szaloncukor boy_16: 223064252
+      szaloncukor boy_17: -1161606760
+      szaloncukor boy_18: 1868624994
+      szaloncukor boy_19: 1641086435
+      szaloncukor boy_2: -1968844196
+      szaloncukor boy_20: 67001512
+      szaloncukor boy_21: -1070714653
+      szaloncukor boy_22: 56585259
+      szaloncukor boy_23: 1104239358
+      szaloncukor boy_24: 349658035
+      szaloncukor boy_25: -1727482775
+      szaloncukor boy_26: 980954834
+      szaloncukor boy_27: 207441624
+      szaloncukor boy_28: -337498375
+      szaloncukor boy_29: 273000976
+      szaloncukor boy_3: 1011858457
+      szaloncukor boy_4: -1508294780
+      szaloncukor boy_5: 359722151
+      szaloncukor boy_6: -103437909
+      szaloncukor boy_7: -1890837528
+      szaloncukor boy_8: -211266251
+      szaloncukor boy_9: -795516215
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

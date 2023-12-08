@@ -38,19 +38,25 @@ namespace Map
             int positiveX = (int)(playerX + (width / 2));
             foreach (var zone in zones)
             {
-                if(positiveX + 3 < zone.Min.x)
+                if(positiveX + 3 < zone.Min.x || negativeX - 3 > zone.Max.x)
                 {
                     RegenerateCrowd(zone);
                 }
-                if(negativeX - 3 > zone.Max.x)
+                else if(zone.IsRegenerated)
                 {
-                    RegenerateCrowd(zone);
+                    zone.IsRegenerated = false;
                 }
             }
         }
 
         void RegenerateCrowd(Zone zone)
         {
+            if (zone.IsRegenerated)
+            {
+                return;
+            }
+
+            zone.IsRegenerated = true;
             foreach (var crowd in zone.Crowds)
             {
                 foreach (var npc in new List<GameObject>(npcs))
@@ -77,6 +83,7 @@ namespace Map
                         obj.transform.position = new Vector3(i, j, 0);
                         obj.AddComponent<SpriteRenderer>().sprite = sprites[Random.Range(0, sprites.Length)];
                         obj.GetComponent<SpriteRenderer>().flipX = Random.Range(0, 100) > 50;
+                        obj.GetComponent<SpriteRenderer>().spriteSortPoint = SpriteSortPoint.Pivot;
                         npcs.Add(obj);
                     }
                 }

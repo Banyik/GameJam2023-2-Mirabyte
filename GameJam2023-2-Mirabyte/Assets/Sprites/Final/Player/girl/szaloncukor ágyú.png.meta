@@ -1,0 +1,602 @@
+fileFormatVersion: 2
+guid: 14dae589f78c1214ab91ee73097156f0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 440
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_0"
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 2821
+        width: 656
+        height: 801
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6b4e44cb0ea1247b371918320f3e5b
+      internalID: 1732342288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_1"
+      rect:
+        serializedVersion: 2
+        x: 2889
+        y: 2821
+        width: 656
+        height: 801
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c8bfea2d624c24681dd7573461b256
+      internalID: 1469733710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_2"
+      rect:
+        serializedVersion: 2
+        x: 4839
+        y: 2821
+        width: 656
+        height: 801
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351530492bce6834fa3e3ebfac3d6316
+      internalID: 942077532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_3"
+      rect:
+        serializedVersion: 2
+        x: 6819
+        y: 2820
+        width: 642
+        height: 800
+      alignment: 9
+      pivot: {x: 0.46459883, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95434b605841b5f41a34ef115f5aef4b
+      internalID: 646305752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_4"
+      rect:
+        serializedVersion: 2
+        x: 8769
+        y: 2820
+        width: 642
+        height: 800
+      alignment: 9
+      pivot: {x: 0.46853247, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c08355927ffa748b91819bdf333889
+      internalID: -408588784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_5"
+      rect:
+        serializedVersion: 2
+        x: 10729
+        y: 2821
+        width: 636
+        height: 801
+      alignment: 9
+      pivot: {x: 0.45433956, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b401e8c0c8da09b47af24dae846a5bad
+      internalID: -120241272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_6"
+      rect:
+        serializedVersion: 2
+        x: 12679
+        y: 2821
+        width: 636
+        height: 801
+      alignment: 9
+      pivot: {x: 0.4583103, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e92b0670fe0bb841966c4e8d9e141e0
+      internalID: 945674453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_7"
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1543
+        width: 639
+        height: 799
+      alignment: 9
+      pivot: {x: 0.46047997, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c30a821b12482c4da3f22843d3e5ec7
+      internalID: 1068645914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_8"
+      rect:
+        serializedVersion: 2
+        x: 2909
+        y: 1543
+        width: 639
+        height: 799
+      alignment: 9
+      pivot: {x: 0.46245623, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1435632e9cac1e944b9fe8a5d9a58f4b
+      internalID: -1451326947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_9"
+      rect:
+        serializedVersion: 2
+        x: 4847
+        y: 1545
+        width: 638
+        height: 799
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c35037fc7d3bce49a29497fb8da2308
+      internalID: 1874357947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_10"
+      rect:
+        serializedVersion: 2
+        x: 6799
+        y: 1545
+        width: 639
+        height: 799
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79ad55491d26c040a216d64f48bf719
+      internalID: 972145656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_11"
+      rect:
+        serializedVersion: 2
+        x: 8742
+        y: 1545
+        width: 648
+        height: 799
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1466bb464e3c8df4ea972e9e4a36b27b
+      internalID: -1597546533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_12"
+      rect:
+        serializedVersion: 2
+        x: 10694
+        y: 1545
+        width: 649
+        height: 799
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5494563f754bea42bcf09db2797bfdd
+      internalID: 69221645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_13"
+      rect:
+        serializedVersion: 2
+        x: 12639
+        y: 1545
+        width: 656
+        height: 799
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093d0ca17d701ac4aba402932a43e76e
+      internalID: -317569969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_14"
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 267
+        width: 654
+        height: 801
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5b42e50597e9b41befebac3b35bc98
+      internalID: -2033632450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_15"
+      rect:
+        serializedVersion: 2
+        x: 2877
+        y: 267
+        width: 656
+        height: 801
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8299b33b02ced478625311187c4329
+      internalID: -1628324439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_16"
+      rect:
+        serializedVersion: 2
+        x: 4831
+        y: 267
+        width: 654
+        height: 801
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fb5b1e2d6fc16418c68dd0e9cd1b7c
+      internalID: -1398448072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_17"
+      rect:
+        serializedVersion: 2
+        x: 6782
+        y: 267
+        width: 656
+        height: 801
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aad90004b9d9a14297d320afb152d9a
+      internalID: 748214507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_18"
+      rect:
+        serializedVersion: 2
+        x: 8736
+        y: 267
+        width: 654
+        height: 801
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6310b09b45b517640a3508caa0db25ae
+      internalID: 578348368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_19"
+      rect:
+        serializedVersion: 2
+        x: 10687
+        y: 267
+        width: 656
+        height: 801
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5ea7ea66d4c4942af39c8a6485d83e
+      internalID: 2012802323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "szaloncukor \xE1gy\xFA_20"
+      rect:
+        serializedVersion: 2
+        x: 12639
+        y: 267
+        width: 656
+        height: 801
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3087b5d7fbdd91d46b76e4de03858fbe
+      internalID: 1341797638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "szaloncukor \xE1gy\xFA_0": 1732342288
+      "szaloncukor \xE1gy\xFA_1": 1469733710
+      "szaloncukor \xE1gy\xFA_10": 972145656
+      "szaloncukor \xE1gy\xFA_11": -1597546533
+      "szaloncukor \xE1gy\xFA_12": 69221645
+      "szaloncukor \xE1gy\xFA_13": -317569969
+      "szaloncukor \xE1gy\xFA_14": -2033632450
+      "szaloncukor \xE1gy\xFA_15": -1628324439
+      "szaloncukor \xE1gy\xFA_16": -1398448072
+      "szaloncukor \xE1gy\xFA_17": 748214507
+      "szaloncukor \xE1gy\xFA_18": 578348368
+      "szaloncukor \xE1gy\xFA_19": 2012802323
+      "szaloncukor \xE1gy\xFA_2": 942077532
+      "szaloncukor \xE1gy\xFA_20": 1341797638
+      "szaloncukor \xE1gy\xFA_3": 646305752
+      "szaloncukor \xE1gy\xFA_4": -408588784
+      "szaloncukor \xE1gy\xFA_5": -120241272
+      "szaloncukor \xE1gy\xFA_6": 945674453
+      "szaloncukor \xE1gy\xFA_7": 1068645914
+      "szaloncukor \xE1gy\xFA_8": -1451326947
+      "szaloncukor \xE1gy\xFA_9": 1874357947
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

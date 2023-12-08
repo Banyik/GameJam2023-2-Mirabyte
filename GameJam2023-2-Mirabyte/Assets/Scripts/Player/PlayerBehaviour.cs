@@ -19,6 +19,8 @@ namespace Player
         public RuntimeAnimatorController girl;
         public Weapon weapon;
         public GameObject TargetedThief;
+        public GameObject christmasCandy;
+        PlayerAudioHandler audioHandler;
         float reachDistance;
         public byte hp, shield;
         public byte thiefStunned;
@@ -26,16 +28,16 @@ namespace Player
         State currentState;
         void Start()
         {
-            animator.SetInteger("meleeType", (int)weapon);
+            audioHandler = gameObject.GetComponent<PlayerAudioHandler>();
             baseSpeed = speed;
             animator.runtimeAnimatorController =  character == "boy" ?  boy : girl;
-            hp = 3;
+			hp = 3;
             shield = 3;
             thiefStunned = 0;
-
+            animator.SetInteger("meleeType", (int)weapon);
             switch (weapon)
             {
-                case Weapon.Tazer:
+                case Weapon.Taser:
                     reachDistance = 0.8f;
                     break;
                 case Weapon.Baton:
@@ -43,6 +45,40 @@ namespace Player
                     break;
                 case Weapon.CandyCane:
                     reachDistance = 1.2f;
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        void StartAttackSound(bool hit)
+        {
+            switch (weapon)
+            {
+                case Weapon.Taser:
+                    audioHandler.PlayClip(PlayerSounds.Taser);
+                    break;
+                case Weapon.Baton:
+                    if (hit)
+                    {
+                        audioHandler.PlayClip(PlayerSounds.Hit);
+                    }
+                    else
+                    {
+                        audioHandler.PlayClip(PlayerSounds.Miss);
+                    }
+                    break;
+                case Weapon.CandyCane:
+                    if (hit)
+                    {
+                        audioHandler.PlayClip(PlayerSounds.Hit);
+                    }
+                    else
+                    {
+                        audioHandler.PlayClip(PlayerSounds.Miss);
+                    }
+                    break;
+                case Weapon.Cannon:
                     break;
                 default:
                     break;
@@ -128,7 +164,11 @@ namespace Player
 
         void CheckMeleeBehaviour()
         {
-            Debug.DrawRay(rb.transform.position, Input.mousePosition, Color.red);
+            if(GetAnimationName().Contains("hit") || GetAnimationName().Contains("crouch"))
+            {
+                return;
+            }
+            Debug.DrawRay(rb.transform.position, Camera.main.ScreenToWorldPoint(Input.mousePosition), Color.red);
             RaycastHit2D hit = Physics2D.Raycast(rb.position, Input.mousePosition, 1.5f, 3);
             if(currentState == State.Stunned)
             {
@@ -137,15 +177,31 @@ namespace Player
             if (Input.GetAxisRaw("Attack") == 1)
             {
                 ChangeState(State.Attack);
-                if (hit.rigidbody == null)
+                if(weapon != Weapon.Cannon)
                 {
-                    return;
+                    if (hit.collider != null && hit.collider.CompareTag("thief"))
+                    {
+                        TargetedThief.GetComponent<ThiefController>().StartStun();
+						thiefStunned += 1;
+                        StartAttackSound(true);
+                    }
+                    else
+                    {
+                        StartAttackSound(false);
+                        return;
+                    }
                 }
-                else if (hit.collider.CompareTag("thief"))
+                else if(!GetAnimationName().Contains("cannon"))
                 {
                     TargetedThief.GetComponent<ThiefController>().StartStun();
                     thiefStunned += 1;
+                    StartAttackSound(false);
+                    float addToX = GetComponent<SpriteRenderer>().flipX ? 0.59f : -0.59f;
+                    var candy = Instantiate(christmasCandy, new Vector3(transform.position.x + addToX, transform.position.y + 1f, 0), new Quaternion(0, 0, 0, 0), null);
+                    candy.SetActive(true);
+                    candy.GetComponent<ChristmasCandyBehaviour>().Shoot(new Vector3(transform.position.x + addToX, transform.position.y + 1f, 0), Camera.main.ScreenToWorldPoint(Input.mousePosition));
                 }
+
             }
             else if(Input.GetAxisRaw("Defend") == 1)
             {

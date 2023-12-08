@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 400
+  spritePixelsToUnits: 440
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: girl candy cane hit_0
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1493
+        width: 523
+        height: 777
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9536c4c5425024c9395cdc1e077316
+      internalID: -1263906703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl candy cane hit_1
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1493
+        width: 522
+        height: 777
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d1278b42e8aa2439bc53585df5140d
+      internalID: -1740266725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl candy cane hit_2
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 1493
+        width: 522
+        height: 777
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098343a64b6e479409a3c93b3fea6e75
+      internalID: 2047759559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl candy cane hit_3
+      rect:
+        serializedVersion: 2
+        x: 4591
+        y: 1495
+        width: 530
+        height: 774
+      alignment: 9
+      pivot: {x: 0.44578052, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fa21f3dac57e444a9368703c7f357a
+      internalID: -124085447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl candy cane hit_4
+      rect:
+        serializedVersion: 2
+        x: 5954
+        y: 1495
+        width: 530
+        height: 774
+      alignment: 9
+      pivot: {x: 0.44823667, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7973004420b994b8d3008239b4c3b8
+      internalID: 1625613410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl candy cane hit_5
+      rect:
+        serializedVersion: 2
+        x: 6991
+        y: 1492
+        width: 786
+        height: 765
+      alignment: 9
+      pivot: {x: 0.7080227, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e92e16846563445978f3a97aedcca2
+      internalID: 1021444644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl candy cane hit_6
+      rect:
+        serializedVersion: 2
+        x: 8352
+        y: 1492
+        width: 788
+        height: 765
+      alignment: 9
+      pivot: {x: 0.7085791, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35492d181522e641bc4affdb45360f1
+      internalID: 1119328096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl candy cane hit_7
+      rect:
+        serializedVersion: 2
+        x: 9706
+        y: 1492
+        width: 796
+        height: 765
+      alignment: 9
+      pivot: {x: 0.71032286, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49881f87ad7e18419f1c2d0945826f4
+      internalID: 535139400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl candy cane hit_11
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 258
+        width: 797
+        height: 767
+      alignment: 9
+      pivot: {x: 0.71242726, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaf7cb86826c864e978344575661cc3
+      internalID: 110604342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl candy cane hit_12
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 258
+        width: 797
+        height: 767
+      alignment: 9
+      pivot: {x: 0.7136782, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3c1bb4a6ecdc442ad37d9cf48239b2
+      internalID: -1006160534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl candy cane hit_13
+      rect:
+        serializedVersion: 2
+        x: 2885
+        y: 258
+        width: 796
+        height: 767
+      alignment: 9
+      pivot: {x: 0.7127434, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e50b3f5e249fd40b18d7f786d3c7ed
+      internalID: -1634995542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl candy cane hit_14
+      rect:
+        serializedVersion: 2
+        x: 4465
+        y: 258
+        width: 580
+        height: 767
+      alignment: 9
+      pivot: {x: 0.6109787, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e52c3798fefedb4ba761ff2aecd9b33
+      internalID: -1999907817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl candy cane hit_15
+      rect:
+        serializedVersion: 2
+        x: 5828
+        y: 258
+        width: 581
+        height: 767
+      alignment: 9
+      pivot: {x: 0.60932374, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a133c5614a6d6428990c974e9b91c0
+      internalID: 1347809562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl candy cane hit_16
+      rect:
+        serializedVersion: 2
+        x: 7291
+        y: 260
+        width: 521
+        height: 778
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27db889756a2824ea6aad141974564d
+      internalID: 1448473113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl candy cane hit_17
+      rect:
+        serializedVersion: 2
+        x: 8655
+        y: 260
+        width: 521
+        height: 778
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d066113737398d4bba840d5eb3a4d12
+      internalID: 1273565249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl candy cane hit_18
+      rect:
+        serializedVersion: 2
+        x: 10019
+        y: 260
+        width: 522
+        height: 778
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ded83e1d29e7da488847a54a6eeebad
+      internalID: -20038445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +468,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      girl candy cane hit_0: -1263906703
+      girl candy cane hit_1: -1740266725
+      girl candy cane hit_10: 1313476989
+      girl candy cane hit_11: 110604342
+      girl candy cane hit_12: -1006160534
+      girl candy cane hit_13: -1634995542
+      girl candy cane hit_14: -1999907817
+      girl candy cane hit_15: 1347809562
+      girl candy cane hit_16: 1448473113
+      girl candy cane hit_17: 1273565249
+      girl candy cane hit_18: -20038445
+      girl candy cane hit_19: -1007430532
+      girl candy cane hit_2: 2047759559
+      girl candy cane hit_20: 821089279
+      girl candy cane hit_21: -1901818754
+      girl candy cane hit_22: 1568221060
+      girl candy cane hit_23: -1121597149
+      girl candy cane hit_3: -124085447
+      girl candy cane hit_4: 1625613410
+      girl candy cane hit_5: 1021444644
+      girl candy cane hit_6: 1119328096
+      girl candy cane hit_7: 535139400
+      girl candy cane hit_8: 1534802925
+      girl candy cane hit_9: -268183503
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

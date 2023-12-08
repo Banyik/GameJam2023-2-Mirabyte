@@ -63,7 +63,7 @@ namespace Thief
                         break;
                     case ThiefType.GrinchGery:
                         MoveToExit();
-                        if (Random.Range(0, 500) < 1) thief.SpecialAttack();
+                        if (Random.Range(0, 500) < 5) thief.SpecialAttack();
                         break;
                     default:
                         break;

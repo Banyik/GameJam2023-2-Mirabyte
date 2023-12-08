@@ -24,7 +24,7 @@ namespace Thief
 
         public override void Stun() 
         {
-        
+            animator.SetTrigger("Stunned");
         }
     }
 }

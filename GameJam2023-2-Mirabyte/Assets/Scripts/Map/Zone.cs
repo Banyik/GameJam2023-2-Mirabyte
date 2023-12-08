@@ -9,7 +9,7 @@ namespace Map
         [SerializeField]
         Vector2 min, max;
         List<Vector2Int> crowds = new List<Vector2Int>();
-
+        bool isRegenerated = false;
         public Zone(Vector2 min, Vector2 max)
         {
             this.min = min;
@@ -19,6 +19,7 @@ namespace Map
         public Vector2 Min { get => min; set => min = value; }
         public Vector2 Max { get => max; set => max = value; }
         public List<Vector2Int> Crowds { get => crowds; set => crowds = value; }
+        public bool IsRegenerated { get => isRegenerated; set => isRegenerated = value; }
     }
 }
 
