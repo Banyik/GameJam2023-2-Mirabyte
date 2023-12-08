@@ -6773,7 +6773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90d0a9ee60a0eed479c69d227fd4d93c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thiefType: 1
+  thiefType: 2
   speed: 2
   rb: {fileID: 1079979349}
   animator: {fileID: 1079979346}
