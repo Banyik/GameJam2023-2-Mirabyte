@@ -360,7 +360,7 @@ GameObject:
   - component: {fileID: 330111800}
   - component: {fileID: 330111801}
   - component: {fileID: 330111802}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -479,9 +479,12 @@ MonoBehaviour:
   character: girl
   boy: {fileID: 9100000, guid: 57de2eb1deec37647bc0b5d85dcab0df, type: 2}
   girl: {fileID: 9100000, guid: 949aad193f8b34943ad6f43be67f52f5, type: 2}
-  weapon: 0
+  weapon: 1
   TargetedThief: {fileID: 1079979344}
   christmasCandy: {fileID: 1555328171}
+  hp: 0
+  shield: 0
+  thiefStunned: 0
   currentState: 0
 --- !u!95 &330111800
 Animator:
@@ -6802,7 +6805,7 @@ GameObject:
   - component: {fileID: 1079979347}
   - component: {fileID: 1079979346}
   - component: {fileID: 1079979345}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: THIEF
   m_TagString: thief
   m_Icon: {fileID: 0}

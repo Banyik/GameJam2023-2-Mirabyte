@@ -38,44 +38,44 @@ namespace Player
             switch (weapon)
             {
                 case Weapon.Taser:
-                    reachDistance = 0.8f;
+                    reachDistance = 1.8f;
                     break;
                 case Weapon.Baton:
-                    reachDistance = 1.5f;
+                    reachDistance = 3.5f;
                     break;
                 case Weapon.CandyCane:
-                    reachDistance = 1.2f;
+                    reachDistance = 2.2f;
                     break;
                 default:
                     break;
             }
         }
 
-        void StartAttackSound(bool hit)
+        void StartAttackSound(bool hit, bool overrideSound)
         {
             switch (weapon)
             {
                 case Weapon.Taser:
-                    audioHandler.PlayClip(PlayerSounds.Taser);
+                    audioHandler.PlayClip(PlayerSounds.Taser, overrideSound);
                     break;
                 case Weapon.Baton:
                     if (hit)
                     {
-                        audioHandler.PlayClip(PlayerSounds.Hit);
+                        audioHandler.PlayClip(PlayerSounds.Hit, overrideSound);
                     }
                     else
                     {
-                        audioHandler.PlayClip(PlayerSounds.Miss);
+                        audioHandler.PlayClip(PlayerSounds.Miss, overrideSound);
                     }
                     break;
                 case Weapon.CandyCane:
                     if (hit)
                     {
-                        audioHandler.PlayClip(PlayerSounds.Hit);
+                        audioHandler.PlayClip(PlayerSounds.Hit, overrideSound);
                     }
                     else
                     {
-                        audioHandler.PlayClip(PlayerSounds.Miss);
+                        audioHandler.PlayClip(PlayerSounds.Miss, overrideSound);
                     }
                     break;
                 case Weapon.Cannon:
@@ -168,40 +168,39 @@ namespace Player
             {
                 return;
             }
-            Debug.DrawRay(rb.transform.position, Camera.main.ScreenToWorldPoint(Input.mousePosition), Color.red);
-            RaycastHit2D hit = Physics2D.Raycast(rb.position, Input.mousePosition, 1.5f, 3);
+            
             if(currentState == State.Stunned)
             {
                 return;
             }
             if (Input.GetAxisRaw("Attack") == 1)
             {
-                ChangeState(State.Attack);
-                if(weapon != Weapon.Cannon)
+                Debug.DrawRay(rb.transform.position, Camera.main.ScreenToWorldPoint(Input.mousePosition), Color.red);
+                RaycastHit2D hit = Physics2D.Raycast(transform.position, Camera.main.ScreenToWorldPoint(Input.mousePosition), reachDistance);
+                if (weapon != Weapon.Cannon)
                 {
                     if (hit.collider != null && hit.collider.CompareTag("thief"))
                     {
+                        StartAttackSound(true, true);
                         TargetedThief.GetComponent<ThiefController>().StartStun();
 						thiefStunned += 1;
-                        StartAttackSound(true);
                     }
                     else
                     {
-                        StartAttackSound(false);
-                        return;
+                        StartAttackSound(false, false);
                     }
                 }
                 else if(!GetAnimationName().Contains("cannon"))
                 {
-                    TargetedThief.GetComponent<ThiefController>().StartStun();
-                    thiefStunned += 1;
-                    StartAttackSound(false);
+                    //TargetedThief.GetComponent<ThiefController>().StartStun();
+                    //thiefStunned += 1;
+                    StartAttackSound(false, true);
                     float addToX = GetComponent<SpriteRenderer>().flipX ? 0.59f : -0.59f;
                     var candy = Instantiate(christmasCandy, new Vector3(transform.position.x + addToX, transform.position.y + 1f, 0), new Quaternion(0, 0, 0, 0), null);
                     candy.SetActive(true);
                     candy.GetComponent<ChristmasCandyBehaviour>().Shoot(new Vector3(transform.position.x + addToX, transform.position.y + 1f, 0), Camera.main.ScreenToWorldPoint(Input.mousePosition));
                 }
-
+                ChangeState(State.Attack);
             }
             else if(Input.GetAxisRaw("Defend") == 1)
             {

@@ -11,8 +11,12 @@ namespace Player
         public AudioClip hit;
         public AudioClip miss;
 
-        public void PlayClip(PlayerSounds sound)
+        public void PlayClip(PlayerSounds sound, bool overrideSound)
         {
+            if(source.isPlaying && !overrideSound)
+            {
+                return;
+            }
             switch (sound)
             {
                 case PlayerSounds.Taser:

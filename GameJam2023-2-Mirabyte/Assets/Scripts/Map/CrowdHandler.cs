@@ -84,6 +84,7 @@ namespace Map
                         obj.AddComponent<SpriteRenderer>().sprite = sprites[Random.Range(0, sprites.Length)];
                         obj.GetComponent<SpriteRenderer>().flipX = Random.Range(0, 100) > 50;
                         obj.GetComponent<SpriteRenderer>().spriteSortPoint = SpriteSortPoint.Pivot;
+                        obj.layer = LayerMask.NameToLayer("Ignore Raycast");
                         npcs.Add(obj);
                     }
                 }
