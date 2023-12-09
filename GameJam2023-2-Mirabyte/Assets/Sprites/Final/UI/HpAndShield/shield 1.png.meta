@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 03be3bdbb11aac6449df4c47ae7a475c
+guid: 6ce27462626ea13479b7a4b10d1d0de6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HP_0
+      name: shield 1_0
       rect:
         serializedVersion: 2
-        x: 834
-        y: 663
-        width: 318
-        height: 267
+        x: 0
+        y: 0
+        width: 131
+        height: 148
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 199812f39e8b7f640b04bdfbcf8a1996
-      internalID: 1518193912
+      spriteID: 1cf794af48900024e8e9146695816854
+      internalID: -50544858
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HP_0: 1518193912
+      shield 1_0: -50544858
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
