@@ -1263,7 +1263,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &485700708
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1772,6 +1772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1022120923}
   - component: {fileID: 1022120922}
+  - component: {fileID: 1022120924}
   m_Layer: 0
   m_Name: ScriptHandler
   m_TagString: Untagged
@@ -1808,6 +1809,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1022120924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022120921}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44d5b9044c8c8f647b79bac124f65c63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  taser: {fileID: 2800000, guid: f2c9982f958c5e24986de1fa9c1b5511, type: 3}
+  cursorMode: 0
+  hotSpot: {x: 0, y: 0}
 --- !u!1 &1173484708
 GameObject:
   m_ObjectHideFlags: 0
@@ -3100,7 +3116,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1782274874
 RectTransform:
   m_ObjectHideFlags: 0
