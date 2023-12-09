@@ -28,6 +28,9 @@ namespace Player
         State currentState;
         void Start()
         {
+            GameObject.Find("ScriptHandler").GetComponent<Save>().LoadGame();
+            character = GameObject.Find("ScriptHandler").GetComponent<Save>().character;
+            weapon = (Weapon)GameObject.Find("ScriptHandler").GetComponent<Save>().weapon;
             audioHandler = gameObject.GetComponent<PlayerAudioHandler>();
             baseSpeed = speed;
             animator.runtimeAnimatorController =  character == "boy" ?  boy : girl;
