@@ -10,6 +10,7 @@ namespace Player
         public AudioClip taser;
         public AudioClip hit;
         public AudioClip miss;
+        private float volume = 1f;
 
         public void PlayClip(PlayerSounds sound, bool overrideSound)
         {
@@ -33,6 +34,14 @@ namespace Player
             }
 
             source.Play();
+        }
+        private void Update()
+        {
+            source.volume = volume;
+        }
+        public void SetVolume(float vol) 
+        {
+            volume = vol;
         }
     }
 }
