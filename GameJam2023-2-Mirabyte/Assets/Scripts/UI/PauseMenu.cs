@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class PauseMenu : MonoBehaviour
 {
     public bool GameIsPaused = false;
-    public GameObject pauseMenuUI, BaseMenuUI, optionsMenu;
+    public GameObject pauseMenuUI, BaseMenuUI, optionsMenu, tutorial;
     public Slider slider;
     void Update()
     {
@@ -37,6 +37,8 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(true);
         BaseMenuUI.SetActive(true);
         optionsMenu.SetActive(false);
+        tutorial.SetActive(false);
+        tutorial.GetComponent<UIIndexing>().ResetIndexing();
         Time.timeScale = 0f;
         GameIsPaused = true;
     }

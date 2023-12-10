@@ -1123,8 +1123,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "pongr\xE1c nem semmi alak! 5 forinton is k\xE9pes balh\xE9zni, \xE9s olyat
-    le kever neked, hogy abb\xF3l fel nem \xE9bredsz egyhamar. vigy\xE1zzni kell
-    vele mert nagyon buny\xF3s alak!"
+    lekever neked, hogy abb\xF3l fel nem \xE9bredsz egyhamar. vigy\xE1zni kell vele
+    mert nagyon buny\xF3s alak!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2ac93bea3855e174da29acfb583a80f6, type: 2}
   m_sharedMaterial: {fileID: 2462586798578379579, guid: 2ac93bea3855e174da29acfb583a80f6, type: 2}

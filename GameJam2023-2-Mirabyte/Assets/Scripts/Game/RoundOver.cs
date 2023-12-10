@@ -1,5 +1,7 @@
+using Player;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +14,7 @@ public class RoundOver : MonoBehaviour
     public GameObject hospitalPanelImage;
     public GameObject endPanel;
     public GameObject endPanelImage;
+    public TextMeshProUGUI endScoreText;
 
     public Sprite boyEnd; 
     public Sprite girlEnd; 
@@ -49,6 +52,7 @@ public class RoundOver : MonoBehaviour
             {
                 endPanelImage.GetComponent<Image>().sprite = girlEnd;
             }
+            endScoreText.text = $"Elért pontok: {GameObject.Find("Player").GetComponent<PlayerBehaviour>().thiefStunned}";
             save.DeleteSave();
         }
         else
