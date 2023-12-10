@@ -12,68 +12,66 @@ public class ThiefSpawner : MonoBehaviour
     public Vector2 max;
     public Vector2 min;
     public GameObject Clone;
+    public List<GameObject> Clones = new List<GameObject>();
+
+
 
     private void Start()
     {
         save = gameObject.GetComponent<Save>();
         Player = GameObject.Find("Player").GetComponent<PlayerBehaviour>();
     }
-    private void Update()
+    public void KillAll()
     {
-        if(save.map == -1 || Clone != null)
+        foreach (var item in Clones)
         {
-            return;
+            Destroy(item);
         }
+    }
+    public void Spawn()
+    {
         Vector2 pos = new Vector2(Random.Range(min.x, max.x), Random.Range(min.y, max.y));
-        if(save.map < 5)
+        if (save.map < 5)
         {
-            Clone = Instantiate(Thief);
-            Clone.transform.position = pos;
-            Clone.GetComponent<ThiefController>().thiefType = ThiefType.GrinchGery;
-            Clone.gameObject.SetActive(true);
+            SpawnThief(pos, ThiefType.GrinchGery);
         }
-        else if(save.map < 10)
+        else if (save.map < 10)
         {
             float range = Random.Range(0, 100);
-            if(range < 50)
+            if (range < 50)
             {
-                Clone = Instantiate(Thief);
-                Clone.transform.position = pos;
-                Clone.GetComponent<ThiefController>().thiefType = ThiefType.GrinchGery;
-                Clone.gameObject.SetActive(true);
+                SpawnThief(pos, ThiefType.GrinchGery);
             }
             else
             {
-                Clone = Instantiate(Thief);
-                Clone.transform.position = pos;
-                Clone.GetComponent<ThiefController>().thiefType = ThiefType.Julcsika;
-                Clone.gameObject.SetActive(true);
+                SpawnThief(pos, ThiefType.Julcsika);
             }
         }
         else
         {
             float range = Random.Range(0, 100);
-            if(range < 33)
+            if (range < 33)
             {
-                Clone = Instantiate(Thief);
-                Clone.transform.position = pos;
-                Clone.GetComponent<ThiefController>().thiefType = ThiefType.GrinchGery;
-                Clone.gameObject.SetActive(true);
+                SpawnThief(pos, ThiefType.GrinchGery);
             }
-            else if(range < 66)
+            else if (range < 66)
             {
-                Clone = Instantiate(Thief);
-                Clone.transform.position = pos;
-                Clone.GetComponent<ThiefController>().thiefType = ThiefType.PunchPongrac;
-                Clone.gameObject.SetActive(true);
+                SpawnThief(pos, ThiefType.PunchPongrac);
             }
             else
             {
-                Clone = Instantiate(Thief);
-                Clone.transform.position = pos;
-                Clone.GetComponent<ThiefController>().thiefType = ThiefType.Julcsika;
-                Clone.gameObject.SetActive(true);
+                SpawnThief(pos, ThiefType.Julcsika);
             }
         }
+    }
+
+    void SpawnThief(Vector2 pos, ThiefType thiefType)
+    {
+        Clone = Instantiate(Thief);
+        Clone.name = "thief";
+        Clone.transform.position = pos;
+        Clone.GetComponent<ThiefController>().thiefType = thiefType;
+        Clone.gameObject.SetActive(true);
+        Clones.Add(Clone);
     }
 }

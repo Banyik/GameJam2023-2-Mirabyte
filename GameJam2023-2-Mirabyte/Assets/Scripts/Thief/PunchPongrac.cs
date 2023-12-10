@@ -42,12 +42,7 @@ namespace Thief
         public override void Rage()
         {
             renderer.flipX = Random.Range(0, 100) > 50;
-            CanMove = false;
             animator.SetTrigger("Hit");
-            if (!animator.GetCurrentAnimatorClipInfo(0)[0].clip.name.Contains("hit"))
-            {
-                CanMove = true;
-            }
         }
     }
 }

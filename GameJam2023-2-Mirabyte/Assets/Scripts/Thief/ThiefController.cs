@@ -75,10 +75,10 @@ namespace Thief
                 switch (thiefType)
                 {
                     case ThiefType.PunchPongrac:
-                        if (Random.Range(0, 500) < 5) thief.Rage();
+                        if (Random.Range(0, 100) < 5) thief.Rage();
                         break;
                     case ThiefType.Julcsika:
-                        if (Random.Range(0, 100) < 50) thief.Rage();
+                        if (Random.Range(0, 1500) < 50) thief.Rage();
                         break;
                     case ThiefType.GrinchGery:
                         break;
@@ -116,7 +116,11 @@ namespace Thief
             else
             {
                 animator.SetBool("IsMoving", false);
-                Destroy(gameObject);
+                if(Vector2.Distance(thief.ExitTarget, transform.position) <= 0.1)
+                {
+                    GameObject.Find("ScriptHandler").GetComponent<ThiefSpawner>().Spawn(); 
+                    Destroy(gameObject);
+                }
             }
         }
 

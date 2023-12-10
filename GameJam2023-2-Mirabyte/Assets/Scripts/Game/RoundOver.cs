@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class RoundOver : MonoBehaviour
 {
-    Save save;
+    public Save save;
     public PauseMenu pause;
     public GameObject shopPanel;
     public GameObject hospitalPanel;
@@ -25,6 +25,11 @@ public class RoundOver : MonoBehaviour
         save = gameObject.GetComponent<Save>();
     }
 
+    public void ShowShopPanel()
+    {
+        shopPanel.gameObject.SetActive(true);
+    }
+
     public void ShowHospitalPanel()
     {
         pause.PauseOnly();
@@ -38,7 +43,12 @@ public class RoundOver : MonoBehaviour
             hospitalPanelImage.GetComponent<Image>().sprite = girlHospital;
         }
     }
-
+    public void NextFromShopPanel()
+    {
+        GameObject.Find("Player").transform.position = new Vector2(0, 2);
+        gameObject.GetComponent<ThiefSpawner>().KillAll();
+        pause.ResumeOnly();
+    }
     public void NextPanel()
     {
         if(save.map == 22)
@@ -59,6 +69,7 @@ public class RoundOver : MonoBehaviour
         {
             hospitalPanel.gameObject.SetActive(false);
             save.SaveGame();
+            NextFromShopPanel();
         }
     }
 

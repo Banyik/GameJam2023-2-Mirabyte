@@ -26,9 +26,12 @@ namespace Player
         public byte thiefStunned;
         [SerializeField]
         State currentState;
+
+        ThiefSpawner thiefSpawner;
         void Start()
         {
             GameObject.Find("ScriptHandler").GetComponent<Save>().LoadGame();
+            thiefSpawner = GameObject.Find("ScriptHandler").GetComponent<ThiefSpawner>();
             character = GameObject.Find("ScriptHandler").GetComponent<Save>().character;
             weapon = (Weapon)GameObject.Find("ScriptHandler").GetComponent<Save>().weapon;
             audioHandler = gameObject.GetComponent<PlayerAudioHandler>();
@@ -52,6 +55,7 @@ namespace Player
                 default:
                     break;
             }
+            thiefSpawner.Spawn();
         }
 
         void StartAttackSound(bool hit, bool overrideSound)
@@ -182,13 +186,13 @@ namespace Player
                 RaycastHit2D hit = Physics2D.Raycast(transform.position, Camera.main.ScreenToWorldPoint(Input.mousePosition), reachDistance);
                 if (weapon != Weapon.Cannon)
                 {
-                    if (hit.collider != null && hit.collider.CompareTag("thief"))
+                    if (hit.collider != null && hit.collider.CompareTag("thief") && hit.collider.gameObject == TargetedThief)
                     {
                         StartAttackSound(true, true);
                         TargetedThief.GetComponent<ThiefController>().StartStun();
 						thiefStunned += 1;
                         TargetedThief = null;
-                        GameObject.Find("ScriptHandler").GetComponent<ThiefSpawner>().Clone = null;
+                        thiefSpawner.Spawn();
                     }
                     else
                     {
@@ -309,7 +313,14 @@ namespace Player
 
         bool CheckDistanceBetweenTarget(float maxDistance)
         {
-            return Vector2.Distance(gameObject.transform.position, TargetedThief.transform.position) < maxDistance;
+            if(TargetedThief != null)
+            {
+                return Vector2.Distance(gameObject.transform.position, TargetedThief.transform.position) < maxDistance;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         bool IsAnimationPlaying(string name)
@@ -332,8 +343,23 @@ namespace Player
         {
             if(collision.tag == "thief")
             {
-                collision.GetComponent<ThiefController>().Thief.IsTargeted = true;
-                TargetedThief = collision.gameObject;
+                if (collision.gameObject.GetComponent<ThiefController>().IsActive)
+                {
+                    TargetedThief = collision.gameObject;
+                    TargetedThief.GetComponent<ThiefController>().Thief.IsTargeted = true;
+                }
+            }
+        }
+
+        private void OnTriggerStay2D(Collider2D collision)
+        {
+            if (collision.tag == "thief")
+            {
+                if (collision.gameObject.GetComponent<ThiefController>().IsActive && !collision.gameObject.GetComponent<ThiefController>().Thief.IsTargeted)
+                {
+                    TargetedThief = collision.gameObject;
+                    TargetedThief.GetComponent<ThiefController>().Thief.IsTargeted = true;
+                }
             }
         }
     }
