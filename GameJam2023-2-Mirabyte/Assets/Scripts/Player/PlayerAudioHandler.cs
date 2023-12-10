@@ -7,10 +7,31 @@ namespace Player
     public class PlayerAudioHandler : MonoBehaviour
     {
         public AudioSource source;
+        public AudioSource music;
         public AudioClip taser;
         public AudioClip hit;
+        public AudioClip launcher;
         public AudioClip miss;
+
+        public AudioClip mainMusic;
+        public AudioClip gameOver;
         private float volume = 1f;
+
+        public void PlayGameOverMusic()
+        {
+            music.loop = false;
+            music.Stop();
+            music.clip = gameOver;
+            music.Play();
+        }
+
+        public void PlayMainMusic()
+        {
+            music.loop = true;
+            music.Stop();
+            music.clip = mainMusic;
+            music.Play();
+        }
 
         public void PlayClip(PlayerSounds sound, bool overrideSound)
         {
@@ -29,6 +50,9 @@ namespace Player
                 case PlayerSounds.Miss:
                     source.clip = miss;
                     break;
+                case PlayerSounds.Launcher:
+                    source.clip = launcher;
+                    break;
                 default:
                     break;
             }
@@ -38,6 +62,7 @@ namespace Player
         private void Update()
         {
             source.volume = volume;
+            music.volume = volume;
         }
         public void SetVolume(float vol) 
         {

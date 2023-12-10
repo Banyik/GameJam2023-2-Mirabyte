@@ -35,11 +35,7 @@ namespace Player
             GameObject.Find("ScriptHandler").GetComponent<Save>().LoadGame();
             character = GameObject.Find("ScriptHandler").GetComponent<Save>().character;
             weapon = (Weapon)GameObject.Find("ScriptHandler").GetComponent<Save>().weapon;
-            /*if (GameObject.Find("Hospital").activeSelf)
-            {
-                hp = 3;
-                shield = 0;
-            }*/
+            hp = 3;
         }
         void Start()
         {
@@ -97,6 +93,7 @@ namespace Player
                     }
                     break;
                 case Weapon.Cannon:
+                    audioHandler.PlayClip(PlayerSounds.Launcher, overrideSound);
                     break;
                 default:
                     break;
@@ -286,6 +283,10 @@ namespace Player
             {
                 return;
             }
+            if (checkDistanceForStun)
+            {
+                audioHandler.PlayClip(PlayerSounds.Hit, true);
+            }
             hp -= 1;
             animator.SetBool("isStunned", true);
             ChangeState(State.Stunned);
@@ -299,6 +300,7 @@ namespace Player
 
         void StartHospital()
         {
+            audioHandler.PlayGameOverMusic();
             GameObject.Find("ScriptHandler").GetComponent<RoundOver>().ShowHospitalPanel();
         }
 
