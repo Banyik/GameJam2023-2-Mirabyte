@@ -17,17 +17,17 @@ public class Points : MonoBehaviour
     }
     void Update()
     {
-        if (player.GetComponent<PlayerBehaviour>().thiefStunned == 5 && point == 0 && !otodikUtes)
+        if (player.GetComponent<PlayerBehaviour>().thiefStunned == 3 && point == 0 && !otodikUtes)
         {
             point += 1;
             otodikUtes = true;
         }
-        else if (player.GetComponent<PlayerBehaviour>().thiefStunned % 5 == 0 && point != 0 && !otodikUtes) 
+        else if (player.GetComponent<PlayerBehaviour>().thiefStunned % 3 == 0 && point != 0 && !otodikUtes) 
         {
             point += 1;
             otodikUtes = true;
         }
-        else if(otodikUtes && player.GetComponent<PlayerBehaviour>().thiefStunned % 5 != 0)
+        else if(otodikUtes && player.GetComponent<PlayerBehaviour>().thiefStunned % 3 != 0)
         {
             otodikUtes = false;
         }
