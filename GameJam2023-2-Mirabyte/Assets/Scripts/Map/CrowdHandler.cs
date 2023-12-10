@@ -17,6 +17,7 @@ namespace Map
         public GameObject NPC;
 
         public Tilemap tilemap;
+        public UnityEngine.Tilemaps.Tile tile;
         public Sprite[] sprites;
         List<GameObject> npcs = new List<GameObject>();
         private void Start()
@@ -63,7 +64,7 @@ namespace Map
             {
                 foreach (var npc in new List<GameObject>(npcs))
                 {
-                    if(npc.transform.position == new Vector3(crowd.x - 0.5f, crowd.y, 0))
+                    if(npc.transform.position == new Vector3(crowd.x + 0.5f, crowd.y, 0))
                     {
                         npcs.Remove(npc);
                         Destroy(npc);
@@ -79,10 +80,11 @@ namespace Map
                 {
                     if(Random.Range(0, 100) > 80 && !zone.Crowds.Contains(new Vector2Int(i,j)))
                     {
+                        //tilemap.SetTile(new Vector3Int(i, j, 0), tile);
                         zone.Crowds.Add(new Vector2Int(i, j));
                         TilesHandler.SetCrowd(new Vector2Int(i, j), true);
                         var obj = Instantiate(NPC);
-                        obj.transform.position = new Vector3(i - 0.5f, j, 0);
+                        obj.transform.position = new Vector3(i + 0.5f, j, 0);
                         obj.GetComponent<SpriteRenderer>().sprite = sprites[Random.Range(0, sprites.Length)];
                         obj.GetComponent<SpriteRenderer>().flipX = Random.Range(0, 100) > 50;
                         npcs.Add(obj);

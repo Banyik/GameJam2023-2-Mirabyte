@@ -277,6 +277,7 @@ MonoBehaviour:
   camera: {fileID: 345337102}
   NPC: {fileID: 1921001107}
   tilemap: {fileID: 590938609}
+  tile: {fileID: 11400000, guid: 01e6eba43c19de7499dadbb6fe2fc66c, type: 2}
   sprites:
   - {fileID: -722438693, guid: a7c0ce26bcd0eab4fba352bf2985a233, type: 3}
   - {fileID: -816867569, guid: 11efe8dc7b8b1884498960b4480ecefa, type: 3}
