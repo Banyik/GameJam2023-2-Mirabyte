@@ -82,7 +82,7 @@ namespace Map
                         zone.Crowds.Add(new Vector2Int(i, j));
                         TilesHandler.SetCrowd(new Vector2Int(i, j), true);
                         var obj = Instantiate(NPC);
-                        obj.transform.position = new Vector3(i, j, 0);
+                        obj.transform.position = new Vector3(i - 0.5f, j, 0);
                         obj.GetComponent<SpriteRenderer>().sprite = sprites[Random.Range(0, sprites.Length)];
                         obj.GetComponent<SpriteRenderer>().flipX = Random.Range(0, 100) > 50;
                         npcs.Add(obj);

@@ -51,6 +51,8 @@ namespace Player
                     break;
             }
             hp = 3;
+
+            thiefSpawner.LateSpawn();
         }
         void Start()
         {
@@ -77,7 +79,6 @@ namespace Player
                 default:
                     break;
             }
-            thiefSpawner.LateSpawn();
         }
 
         void StartAttackSound(bool hit, bool overrideSound)
