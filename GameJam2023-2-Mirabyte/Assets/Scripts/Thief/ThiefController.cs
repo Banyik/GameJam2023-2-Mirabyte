@@ -118,7 +118,7 @@ namespace Thief
                 animator.SetBool("IsMoving", false);
                 if(Vector2.Distance(thief.ExitTarget, transform.position) <= 0.1)
                 {
-                    GameObject.Find("ScriptHandler").GetComponent<ThiefSpawner>().Spawn(); 
+                    GameObject.Find("ScriptHandler").GetComponent<ThiefSpawner>().LateSpawn(); 
                     Destroy(gameObject);
                 }
             }

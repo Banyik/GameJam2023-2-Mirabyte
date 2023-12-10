@@ -216,7 +216,7 @@ namespace Player
                         TargetedThief.GetComponent<ThiefController>().StartStun();
 						thiefStunned += 1;
                         TargetedThief = null;
-                        thiefSpawner.Spawn();
+                        thiefSpawner.LateSpawn();
                         if (hp == 1)
                         {
                             PowerUp.gameObject.SetActive(true);

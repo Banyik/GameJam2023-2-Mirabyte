@@ -34,6 +34,13 @@ public class ThiefSpawner : MonoBehaviour
     }
     public void Spawn()
     {
+        foreach (var item in Clones)
+        {
+            if(item != null && item.GetComponent<ThiefController>().IsActive)
+            {
+                return;
+            }
+        }
         Vector2 pos = new Vector2(Random.Range(min.x, max.x), Random.Range(min.y, max.y));
         while (Vector2.Distance(pos, Player.gameObject.transform.position) < 10)
         {

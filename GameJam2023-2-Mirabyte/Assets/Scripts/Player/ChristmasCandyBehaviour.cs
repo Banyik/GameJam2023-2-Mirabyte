@@ -39,7 +39,7 @@ namespace Player
                 collision.gameObject.GetComponent<ThiefController>().StartStun();
                 GameObject.Find("Player").GetComponent<PlayerBehaviour>().thiefStunned++;
                 GameObject.Find("Player").GetComponent<PlayerBehaviour>().TargetedThief = null;
-                GameObject.Find("ScriptHandler").GetComponent<ThiefSpawner>().Spawn();
+                GameObject.Find("ScriptHandler").GetComponent<ThiefSpawner>().LateSpawn();
                 Destroy(gameObject);
             }
         }
