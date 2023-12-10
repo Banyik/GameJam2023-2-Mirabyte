@@ -7,6 +7,10 @@ namespace Player
     public enum State
     {
         Idle,
-        Move
+        Move,
+        Attack,
+        Stunned,
+        Defend,
+        Shielded
     }
 }

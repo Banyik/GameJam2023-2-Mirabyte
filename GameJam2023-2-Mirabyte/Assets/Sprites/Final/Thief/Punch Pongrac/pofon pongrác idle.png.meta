@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: 0a2a5720c57a6fe4281b5b506c40b573
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_0"
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 3083
+        width: 374
+        height: 573
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d426d92ca811af14b9c88b6be24ce7c8
+      internalID: 2015922626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_1"
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 3083
+        width: 374
+        height: 573
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6995d9daab4c52e459e04317534c6a4d
+      internalID: -95094024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_2"
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 3083
+        width: 374
+        height: 573
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54eae8a8157e3b4d82efd9b86f57b9c
+      internalID: 707814311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_3"
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 3081
+        width: 374
+        height: 572
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91fb7857d3c4174394f94edb2e7aa5a
+      internalID: -807993343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_4"
+      rect:
+        serializedVersion: 2
+        x: 4115
+        y: 3081
+        width: 374
+        height: 572
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ef7c150c91aa542bb48cd50d7d3a0c
+      internalID: 599519372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_5"
+      rect:
+        serializedVersion: 2
+        x: 5075
+        y: 3081
+        width: 374
+        height: 572
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e129305fcebe01743bf3c84b941347e0
+      internalID: 193202516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_6"
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2115
+        width: 374
+        height: 574
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7da54aa488cd245a48232932a4c60e
+      internalID: -1653127145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_7"
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 2115
+        width: 374
+        height: 574
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4a48736fb33a942b437865b58e82b3
+      internalID: -2046082815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_8"
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 2115
+        width: 374
+        height: 574
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ce7b5e7b545dd41b3cc4524484f4f0
+      internalID: -410439172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_9"
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 2116
+        width: 379
+        height: 570
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21d084364c065c4495e1c3e5cd367e1
+      internalID: 1298569137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_10"
+      rect:
+        serializedVersion: 2
+        x: 4115
+        y: 2116
+        width: 379
+        height: 570
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191c2873eab157444b8e9a680d3fdbc1
+      internalID: 402320343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_11"
+      rect:
+        serializedVersion: 2
+        x: 5075
+        y: 2116
+        width: 379
+        height: 570
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43d7ea8ef8a28441b788b8fb4468ea0
+      internalID: 375867986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_12"
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1153
+        width: 380
+        height: 570
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d255723731495f9439644149b2eaac6d
+      internalID: 290112550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_13"
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1153
+        width: 380
+        height: 570
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c91e3501d3584349bc6c2bf7e1d6dcc
+      internalID: -999975370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_14"
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 1153
+        width: 380
+        height: 570
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94809c6f55a240408da7f2f288b71e6
+      internalID: 1688397251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_15"
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 1156
+        width: 379
+        height: 570
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5094769945c04ab4dba4f108d1636797
+      internalID: -1608763999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_16"
+      rect:
+        serializedVersion: 2
+        x: 4115
+        y: 1156
+        width: 379
+        height: 570
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf401c6815185254a9f0101258b5e542
+      internalID: 438657666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_17"
+      rect:
+        serializedVersion: 2
+        x: 5075
+        y: 1156
+        width: 379
+        height: 570
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac71c3b282ecefe48bb062bcef7a1aec
+      internalID: -1027760916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_18"
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 195
+        width: 374
+        height: 574
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748d2a02c6042e546a4d836a75f79a24
+      internalID: -2026737506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_19"
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 195
+        width: 374
+        height: 574
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a383560496d1ea645b2636b4634d862e
+      internalID: 1951577300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_20"
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 195
+        width: 374
+        height: 574
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440d4b3dc0987184dadb679e25320970
+      internalID: 2086117603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_21"
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 201
+        width: 374
+        height: 572
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f892820422ab3c346a65835449210f64
+      internalID: 1776028891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_22"
+      rect:
+        serializedVersion: 2
+        x: 4115
+        y: 201
+        width: 374
+        height: 572
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fffbf2121bcff42a8184c105d45ab1
+      internalID: 413011639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pofon pongr\xE1c idle_23"
+      rect:
+        serializedVersion: 2
+        x: 5075
+        y: 201
+        width: 374
+        height: 572
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac36f2f524e4bd4787ce6fa282bf09c
+      internalID: -47057033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "pofon pongr\xE1c idle_0": 2015922626
+      "pofon pongr\xE1c idle_1": -95094024
+      "pofon pongr\xE1c idle_10": 402320343
+      "pofon pongr\xE1c idle_11": 375867986
+      "pofon pongr\xE1c idle_12": 290112550
+      "pofon pongr\xE1c idle_13": -999975370
+      "pofon pongr\xE1c idle_14": 1688397251
+      "pofon pongr\xE1c idle_15": -1608763999
+      "pofon pongr\xE1c idle_16": 438657666
+      "pofon pongr\xE1c idle_17": -1027760916
+      "pofon pongr\xE1c idle_18": -2026737506
+      "pofon pongr\xE1c idle_19": 1951577300
+      "pofon pongr\xE1c idle_2": 707814311
+      "pofon pongr\xE1c idle_20": 2086117603
+      "pofon pongr\xE1c idle_21": 1776028891
+      "pofon pongr\xE1c idle_22": 413011639
+      "pofon pongr\xE1c idle_23": -47057033
+      "pofon pongr\xE1c idle_3": -807993343
+      "pofon pongr\xE1c idle_4": 599519372
+      "pofon pongr\xE1c idle_5": 193202516
+      "pofon pongr\xE1c idle_6": -1653127145
+      "pofon pongr\xE1c idle_7": -2046082815
+      "pofon pongr\xE1c idle_8": -410439172
+      "pofon pongr\xE1c idle_9": 1298569137
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,683 @@
+fileFormatVersion: 2
+guid: 3ddb1714a3f391b4f824a863a88f8cf7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 480
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stunned girl_1
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 4281
+        width: 597
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f6352a0c8b85247a83cc023ef1ab5f
+      internalID: 932413385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_3
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 4281
+        width: 597
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d836847399fb6649b1eb59ced9fada0
+      internalID: 1736612084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_5
+      rect:
+        serializedVersion: 2
+        x: 2968
+        y: 4281
+        width: 597
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622f4018f6fab5344847aec86e61f118
+      internalID: -1521128045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_7
+      rect:
+        serializedVersion: 2
+        x: 4301
+        y: 4281
+        width: 597
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22db730921fa794389af54a35f74d1e
+      internalID: -1285064876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_9
+      rect:
+        serializedVersion: 2
+        x: 5634
+        y: 4281
+        width: 597
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760c5d72f9bde5e4eb9b2cdca0f3fc0f
+      internalID: -420613784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_11
+      rect:
+        serializedVersion: 2
+        x: 6968
+        y: 4281
+        width: 597
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddaf265d4f52ed4eb2644e0dca1017b
+      internalID: -1942564641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2948
+        width: 598
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a17b0d4ef85b9a4193341e0bb7ea0db
+      internalID: -1457357739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_15
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 2948
+        width: 598
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25df833bdae926446b121747fd3ef6a8
+      internalID: -2043857322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_17
+      rect:
+        serializedVersion: 2
+        x: 2967
+        y: 2948
+        width: 598
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a327ab186b9022c458c83c75ade35bf6
+      internalID: -1082102169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_18
+      rect:
+        serializedVersion: 2
+        x: 4300
+        y: 2948
+        width: 598
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1862548c8cf4fc949aec4ed5d85cf291
+      internalID: 1572746117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_19
+      rect:
+        serializedVersion: 2
+        x: 5633
+        y: 2948
+        width: 598
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebb4d329aafad142909612dfa5a1a27
+      internalID: 133090818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_20
+      rect:
+        serializedVersion: 2
+        x: 6967
+        y: 2948
+        width: 598
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb1e72ea8f87a1498e082377580b21c
+      internalID: -1866742041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_22
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1614
+        width: 597
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2348b88f5d64a4792e4ec8688012f6
+      internalID: -862944152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_24
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1614
+        width: 597
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dfa5db781069842b38b01dddc566bc
+      internalID: 2094729423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_26
+      rect:
+        serializedVersion: 2
+        x: 2968
+        y: 1614
+        width: 597
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b17a43fdb9ce374f9eae2af6c2e18c6
+      internalID: -371733077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_27
+      rect:
+        serializedVersion: 2
+        x: 4295
+        y: 1614
+        width: 603
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9d1192d6849024d88bb3880ea277b1
+      internalID: -838342955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_28
+      rect:
+        serializedVersion: 2
+        x: 5628
+        y: 1614
+        width: 603
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d88a02ed7c0c2409d5e2aef99ea385
+      internalID: 1865119104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_29
+      rect:
+        serializedVersion: 2
+        x: 6962
+        y: 1614
+        width: 603
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf08a36bf26e0a14986713ca7fddf62c
+      internalID: 665158386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_31
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 281
+        width: 598
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6a16476b556534082bd0f76c084edc
+      internalID: 404865727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_33
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 281
+        width: 598
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4998f72509d3c4b9716ee744d93669
+      internalID: 1962175737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_35
+      rect:
+        serializedVersion: 2
+        x: 2967
+        y: 281
+        width: 598
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8d4de5ca909854ab006fb64183e7ee
+      internalID: 159627140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_36
+      rect:
+        serializedVersion: 2
+        x: 4300
+        y: 281
+        width: 598
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401498fd7c6e6f94695eb90123d23254
+      internalID: -895717889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_37
+      rect:
+        serializedVersion: 2
+        x: 5633
+        y: 281
+        width: 598
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbebf341e5d99f41b89ec53834a7cc1
+      internalID: -1926392356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunned girl_38
+      rect:
+        serializedVersion: 2
+        x: 6967
+        y: 281
+        width: 598
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe3dcfd787894048a01f25da9aa332a
+      internalID: -1658785040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      stunned girl_0: -1359091299
+      stunned girl_1: 932413385
+      stunned girl_10: -654513218
+      stunned girl_11: -1942564641
+      stunned girl_12: 1955797237
+      stunned girl_13: -1457357739
+      stunned girl_14: -912711700
+      stunned girl_15: -2043857322
+      stunned girl_16: -2026944525
+      stunned girl_17: -1082102169
+      stunned girl_18: 1572746117
+      stunned girl_19: 133090818
+      stunned girl_2: -481263292
+      stunned girl_20: -1866742041
+      stunned girl_21: -1404625459
+      stunned girl_22: -862944152
+      stunned girl_23: 1249874496
+      stunned girl_24: 2094729423
+      stunned girl_25: -1004848780
+      stunned girl_26: -371733077
+      stunned girl_27: -838342955
+      stunned girl_28: 1865119104
+      stunned girl_29: 665158386
+      stunned girl_3: 1736612084
+      stunned girl_30: -1710906565
+      stunned girl_31: 404865727
+      stunned girl_32: 1635496684
+      stunned girl_33: 1962175737
+      stunned girl_34: -2121830781
+      stunned girl_35: 159627140
+      stunned girl_36: -895717889
+      stunned girl_37: -1926392356
+      stunned girl_38: -1658785040
+      stunned girl_4: -319021674
+      stunned girl_5: -1521128045
+      stunned girl_6: 2056044686
+      stunned girl_7: -1285064876
+      stunned girl_8: 1530730757
+      stunned girl_9: -420613784
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: 25d7df8c9b9ee01408fa63faa3c2c150
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 270
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stun grinch geri_0
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37b4abda0dfa9f48be9f3c241c5dab6
+      internalID: -1811600022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_1
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 57
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b54831c893685438b197a5721e881d
+      internalID: -836088914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_2
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa76c74b021903458fe0b34b386997c
+      internalID: -1967234862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_3
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2399d2f562283b439c36dc5eae57c2b
+      internalID: 2065803927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_4
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45933250ef27bc843b23eb2b91b7b10b
+      internalID: -1502303916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_5
+      rect:
+        serializedVersion: 2
+        x: 3999
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83af227fba3cf7149a2f1fff52a39ea6
+      internalID: -1389241661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_6
+      rect:
+        serializedVersion: 2
+        x: 4765
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c202fa03f6d1f054dac8680d75e86b90
+      internalID: -1085525243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_7
+      rect:
+        serializedVersion: 2
+        x: 5531
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117f539132f05504b98ca29005ca931e
+      internalID: -120128247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_8
+      rect:
+        serializedVersion: 2
+        x: 6297
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9810914a06108254c8dcd31b693099a7
+      internalID: 1231427183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_9
+      rect:
+        serializedVersion: 2
+        x: 7063
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f25c4c130b35741895fbbbd416f38b
+      internalID: 665613363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_10
+      rect:
+        serializedVersion: 2
+        x: 7829
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1d5a3209b34b94d8922ee884522648
+      internalID: -2091421858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_11
+      rect:
+        serializedVersion: 2
+        x: 8595
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc826a54f4738be4190281e36a1ee630
+      internalID: -258925611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_12
+      rect:
+        serializedVersion: 2
+        x: 9361
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b649c3e3efd15d14b8aa6dedcfd433b5
+      internalID: 237634082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_13
+      rect:
+        serializedVersion: 2
+        x: 10127
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10864aec382319e4a9408d5fa16f73d3
+      internalID: 368255526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_14
+      rect:
+        serializedVersion: 2
+        x: 10893
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8a3c3e57fb0d44d9009fcdab708b9b
+      internalID: 1867887646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_15
+      rect:
+        serializedVersion: 2
+        x: 11659
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0482aa64ce05a7649a97c8e3c3568c9b
+      internalID: -1922681427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_16
+      rect:
+        serializedVersion: 2
+        x: 12425
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90179218af8b82745b591381e9ebd95e
+      internalID: 1573412832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_17
+      rect:
+        serializedVersion: 2
+        x: 13191
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4116dce0704a78a42888d6ac46232cc6
+      internalID: 1913249541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_18
+      rect:
+        serializedVersion: 2
+        x: 13957
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d70abc32e4fdd44b8aebe7170d594d
+      internalID: 1418521727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_19
+      rect:
+        serializedVersion: 2
+        x: 14723
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a344bb8ec233a4a4394f099f6dee7d73
+      internalID: -1721998713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_20
+      rect:
+        serializedVersion: 2
+        x: 15489
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e18be35d6c06d4e9efbf6c8e4c884a
+      internalID: 1454696654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_21
+      rect:
+        serializedVersion: 2
+        x: 16255
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55dc70f287eaf214a9c9442f29f3aafd
+      internalID: -678554031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_22
+      rect:
+        serializedVersion: 2
+        x: 17021
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87aaedf0b302ba7408f1801766d80321
+      internalID: -747036419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun grinch geri_23
+      rect:
+        serializedVersion: 2
+        x: 17787
+        y: 56
+        width: 349
+        height: 3537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b7720563bf88546bf5fb1dd49b7954
+      internalID: 2080154433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      stun grinch geri_0: -1811600022
+      stun grinch geri_1: -836088914
+      stun grinch geri_10: -2091421858
+      stun grinch geri_11: -258925611
+      stun grinch geri_12: 237634082
+      stun grinch geri_13: 368255526
+      stun grinch geri_14: 1867887646
+      stun grinch geri_15: -1922681427
+      stun grinch geri_16: 1573412832
+      stun grinch geri_17: 1913249541
+      stun grinch geri_18: 1418521727
+      stun grinch geri_19: -1721998713
+      stun grinch geri_2: -1967234862
+      stun grinch geri_20: 1454696654
+      stun grinch geri_21: -678554031
+      stun grinch geri_22: -747036419
+      stun grinch geri_23: 2080154433
+      stun grinch geri_3: 2065803927
+      stun grinch geri_4: -1502303916
+      stun grinch geri_5: -1389241661
+      stun grinch geri_6: -1085525243
+      stun grinch geri_7: -120128247
+      stun grinch geri_8: 1231427183
+      stun grinch geri_9: 665613363
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,500 @@
+fileFormatVersion: 2
+guid: 1c437d8d549c2a942b2538af514a8272
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gumibot_0
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1461
+        width: 516
+        height: 817
+      alignment: 9
+      pivot: {x: 0.4954207, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7c2be2160a5c24a9618e28612ce143
+      internalID: -577552953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gumibot_1
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1461
+        width: 485
+        height: 817
+      alignment: 9
+      pivot: {x: 0.52708805, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d5e4b7674fd78489c0b37f6f326c38
+      internalID: -1959300675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gumibot_3
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 1461
+        width: 485
+        height: 817
+      alignment: 9
+      pivot: {x: 0.5235659, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98b5b98c0cce524d883203216fc5288
+      internalID: 485493992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gumibot_5
+      rect:
+        serializedVersion: 2
+        x: 4477
+        y: 1462
+        width: 521
+        height: 810
+      alignment: 9
+      pivot: {x: 0.4556414, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d3a1da4538ec2478aac97b5d70dc18
+      internalID: 954276903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gumibot_6
+      rect:
+        serializedVersion: 2
+        x: 5810
+        y: 1462
+        width: 521
+        height: 810
+      alignment: 9
+      pivot: {x: 0.45673603, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed2feda49810be4c8a4bfdb8077d458
+      internalID: -637422400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gumibot_7
+      rect:
+        serializedVersion: 2
+        x: 6832
+        y: 1460
+        width: 781
+        height: 801
+      alignment: 9
+      pivot: {x: 0.6909386, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76725519ef47e4e4a8d12f45c246bef9
+      internalID: -1894111325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gumibot_8
+      rect:
+        serializedVersion: 2
+        x: 8165
+        y: 1460
+        width: 782
+        height: 801
+      alignment: 9
+      pivot: {x: 0.69298476, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46fe36cfc114b944ab3293e705a29ad
+      internalID: -1001385773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gumibot_9
+      rect:
+        serializedVersion: 2
+        x: 9519
+        y: 1460
+        width: 761
+        height: 801
+      alignment: 9
+      pivot: {x: 0.6805729, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ef8dd04cf583c48b4c3a7f73b97ef5
+      internalID: 1853932401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gumibot_11
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 253
+        width: 762
+        height: 800
+      alignment: 9
+      pivot: {x: 0.685004, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f6b472a0b41284c875c40564c8e15c
+      internalID: -975430240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gumibot_12
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 253
+        width: 761
+        height: 800
+      alignment: 9
+      pivot: {x: 0.68390864, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d410fd18f61a4064998b60f399135bd6
+      internalID: 1466386162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gumibot_13
+      rect:
+        serializedVersion: 2
+        x: 2854
+        y: 253
+        width: 760
+        height: 800
+      alignment: 9
+      pivot: {x: 0.6832301, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b543b087997315148bad5661e87254bf
+      internalID: -932546960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gumibot_14
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 253
+        width: 547
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5606138, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18b13e5d1c2f924b92c32088961467e
+      internalID: 1231652854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gumibot_15
+      rect:
+        serializedVersion: 2
+        x: 5733
+        y: 253
+        width: 547
+        height: 800
+      alignment: 9
+      pivot: {x: 0.56389165, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609245cb5f83a3841b7299f50d199de6
+      internalID: 1622315302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gumibot_17
+      rect:
+        serializedVersion: 2
+        x: 7126
+        y: 254
+        width: 516
+        height: 818
+      alignment: 9
+      pivot: {x: 0.49665964, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babee92a969f31e48b02f804d2c232b0
+      internalID: 925267091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gumibot_18
+      rect:
+        serializedVersion: 2
+        x: 8460
+        y: 254
+        width: 515
+        height: 818
+      alignment: 9
+      pivot: {x: 0.49669865, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd12eeab09226b43884719f2451c12d
+      internalID: -1063749431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gumibot_19
+      rect:
+        serializedVersion: 2
+        x: 9793
+        y: 254
+        width: 515
+        height: 818
+      alignment: 9
+      pivot: {x: 0.49492377, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f042bb527c19dc0439812ce8f6d6de5d
+      internalID: -1905817836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      gumibot_0: -577552953
+      gumibot_1: -1959300675
+      gumibot_10: 2133925897
+      gumibot_11: -975430240
+      gumibot_12: 1466386162
+      gumibot_13: -932546960
+      gumibot_14: 1231652854
+      gumibot_15: 1622315302
+      gumibot_16: 1892571183
+      gumibot_17: 925267091
+      gumibot_18: -1063749431
+      gumibot_19: -1905817836
+      gumibot_2: -642725480
+      gumibot_20: -2053260612
+      gumibot_21: -2024300692
+      gumibot_22: -1551600979
+      gumibot_23: -940295355
+      gumibot_3: 485493992
+      gumibot_4: -1657549694
+      gumibot_5: 954276903
+      gumibot_6: -637422400
+      gumibot_7: -1894111325
+      gumibot_8: -1001385773
+      gumibot_9: 1853932401
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

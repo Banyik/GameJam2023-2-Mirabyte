@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: 2e3b5d340b78ed74f803fe4ec88b3835
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 285
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grinch geri_0
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.53998035, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362b7fe4776f6ee4ebc4e559fa2b389f
+      internalID: -1007930716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_1
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.5415968, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd616c6999d0f604f82c4044abb79001
+      internalID: 1835611993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_2
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.5372378, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc52f1998341dca408176afd822de309
+      internalID: -1354006181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_3
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.5346956, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100dd0009394f3542aff9bc4e0713135
+      internalID: 1227811008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_4
+      rect:
+        serializedVersion: 2
+        x: 3315
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.5350354, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5f91726bf2785448385b3d05cac40d
+      internalID: 1859734950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_5
+      rect:
+        serializedVersion: 2
+        x: 4107
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.53736675, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7274b0f04c9ec4a4eaefb45e9ccfa738
+      internalID: -384524368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_6
+      rect:
+        serializedVersion: 2
+        x: 4899
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.5460043, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4721c2f74684cb846832065faeb0d2b5
+      internalID: 330213028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_7
+      rect:
+        serializedVersion: 2
+        x: 5691
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.54364824, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508eec26d302c4641b1bec18370d07c1
+      internalID: 1175431594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_8
+      rect:
+        serializedVersion: 2
+        x: 6473
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.5772675, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2646c8ec36fa1b147845b657f2cc8a44
+      internalID: -428584459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_9
+      rect:
+        serializedVersion: 2
+        x: 7275
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.5422844, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcb44deda419fa4995d96a428a89a1f
+      internalID: 33026385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_10
+      rect:
+        serializedVersion: 2
+        x: 8067
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.5415111, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ded45cdac33f544aca14d8a5f7c7b2
+      internalID: 1105943717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_11
+      rect:
+        serializedVersion: 2
+        x: 8858
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.5439718, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59e257cc7ab4d940a68952c7c7ab663
+      internalID: 654931562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_12
+      rect:
+        serializedVersion: 2
+        x: 9651
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.5388388, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1327a51b88d3fa547adb204cd8ea9285
+      internalID: -722410157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_13
+      rect:
+        serializedVersion: 2
+        x: 10443
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.54134995, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c50fe37f16cf49498ef3f7910780587
+      internalID: 1607249839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_14
+      rect:
+        serializedVersion: 2
+        x: 11235
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.5302662, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3efb5bc6045cf45bd8800ac4ac674b
+      internalID: -2003900005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_15
+      rect:
+        serializedVersion: 2
+        x: 12027
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.529814, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836450710b6832944943089a8f0bc047
+      internalID: -645265196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_16
+      rect:
+        serializedVersion: 2
+        x: 12819
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.52498895, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1abd3c6cc0bfa848bcef21e3cd8d19b
+      internalID: 123412209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_17
+      rect:
+        serializedVersion: 2
+        x: 13611
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.52265817, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da25c2f6d497bfc4f881eb781b838c64
+      internalID: 1398326862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_18
+      rect:
+        serializedVersion: 2
+        x: 14403
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.5274736, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfc5b5debd0030418d86c04e258525f
+      internalID: -842554338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_19
+      rect:
+        serializedVersion: 2
+        x: 15195
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.526651, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcef583155920944a1f20f6678a3b7c
+      internalID: -339430901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_20
+      rect:
+        serializedVersion: 2
+        x: 15987
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.5260689, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7693e29d9fff4394697280a6ce99ad3d
+      internalID: 891047856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_21
+      rect:
+        serializedVersion: 2
+        x: 16779
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.5205463, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0fe105d7211ac4b80f526e66c70f42
+      internalID: 1273715385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_22
+      rect:
+        serializedVersion: 2
+        x: 17571
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.52174896, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fb928db7b94424ea0d40573f64af85
+      internalID: 2036001745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinch geri_23
+      rect:
+        serializedVersion: 2
+        x: 18363
+        y: 162
+        width: 406
+        height: 3344
+      alignment: 9
+      pivot: {x: 0.52023363, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0629395c301720348bed7a1fdfd84284
+      internalID: -1591079730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      grinch geri_0: -1007930716
+      grinch geri_1: 1835611993
+      grinch geri_10: 1105943717
+      grinch geri_11: 654931562
+      grinch geri_12: -722410157
+      grinch geri_13: 1607249839
+      grinch geri_14: -2003900005
+      grinch geri_15: -645265196
+      grinch geri_16: 123412209
+      grinch geri_17: 1398326862
+      grinch geri_18: -842554338
+      grinch geri_19: -339430901
+      grinch geri_2: -1354006181
+      grinch geri_20: 891047856
+      grinch geri_21: 1273715385
+      grinch geri_22: 2036001745
+      grinch geri_23: -1591079730
+      grinch geri_3: 1227811008
+      grinch geri_4: 1859734950
+      grinch geri_5: -384524368
+      grinch geri_6: 330213028
+      grinch geri_7: 1175431594
+      grinch geri_8: -428584459
+      grinch geri_9: 33026385
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

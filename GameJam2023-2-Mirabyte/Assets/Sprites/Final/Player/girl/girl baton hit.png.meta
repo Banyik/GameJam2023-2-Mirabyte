@@ -1,0 +1,495 @@
+fileFormatVersion: 2
+guid: d489c05dfe181a34b8796b0367eee790
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: girl baton hit_0
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1384
+        width: 484
+        height: 721
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9681359003d5644ab4ef3412577410
+      internalID: -33132260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl baton hit_1
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 1381
+        width: 484
+        height: 721
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e4625397edd8b4fbb83ffc4ba20215
+      internalID: 1966086891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl baton hit_2
+      rect:
+        serializedVersion: 2
+        x: 2959
+        y: 1381
+        width: 483
+        height: 721
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216c331baa6b68745947e61557b3b76c
+      internalID: 900587300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl baton hit_3
+      rect:
+        serializedVersion: 2
+        x: 4242
+        y: 1383
+        width: 491
+        height: 718
+      alignment: 9
+      pivot: {x: 0.44675347, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b18d0f0b0a9264ca6a528c9bcafa45
+      internalID: 244224868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl baton hit_4
+      rect:
+        serializedVersion: 2
+        x: 5505
+        y: 1383
+        width: 491
+        height: 718
+      alignment: 9
+      pivot: {x: 0.44847688, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3070dc520b17aaa48baec0dbd4cd775d
+      internalID: -1378596806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl baton hit_5
+      rect:
+        serializedVersion: 2
+        x: 6505
+        y: 1381
+        width: 691
+        height: 708
+      alignment: 9
+      pivot: {x: 0.69061905, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021ec266a4ea34f44b90d3336f5bba9c
+      internalID: 1793952168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl baton hit_6
+      rect:
+        serializedVersion: 2
+        x: 7766
+        y: 1381
+        width: 690
+        height: 708
+      alignment: 9
+      pivot: {x: 0.69187474, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390d0ee4afe5caa40abd3d86bf1aaf82
+      internalID: 550732686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl baton hit_7
+      rect:
+        serializedVersion: 2
+        x: 8998
+        y: 1381
+        width: 719
+        height: 708
+      alignment: 9
+      pivot: {x: 0.7032812, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fa49e996daa314b8f1f187845f133e
+      internalID: -745797265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl baton hit_8
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 240
+        width: 720
+        height: 709
+      alignment: 9
+      pivot: {x: 0.7034177, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ab1cd6e5691bf45857a9d47f97cc27
+      internalID: -1399785993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl baton hit_9
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 243
+        width: 719
+        height: 709
+      alignment: 9
+      pivot: {x: 0.704196, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47bf83385a61d540873d667b61cf90a
+      internalID: -461433678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl baton hit_10
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 240
+        width: 719
+        height: 709
+      alignment: 9
+      pivot: {x: 0.70323265, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6431a8a0fbe9260468963e49d98f89a9
+      internalID: -905388254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl baton hit_12
+      rect:
+        serializedVersion: 2
+        x: 4155
+        y: 240
+        width: 514
+        height: 709
+      alignment: 9
+      pivot: {x: 0.5835046, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0833e70461b468b419ad55d06fd1a96a
+      internalID: -742007115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl baton hit_13
+      rect:
+        serializedVersion: 2
+        x: 5405
+        y: 240
+        width: 527
+        height: 709
+      alignment: 9
+      pivot: {x: 0.5946617, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a7624dbf6904245853deed62d251e6
+      internalID: 552055731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl baton hit_14
+      rect:
+        serializedVersion: 2
+        x: 6746
+        y: 242
+        width: 484
+        height: 720
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0e5fe5b73ea3a4e9bc788d78329143
+      internalID: 1098676800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl baton hit_15
+      rect:
+        serializedVersion: 2
+        x: 8008
+        y: 242
+        width: 484
+        height: 720
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49e6e9d85b59d743a625a0d4ddeee87
+      internalID: 60724969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl baton hit_16
+      rect:
+        serializedVersion: 2
+        x: 9270
+        y: 242
+        width: 484
+        height: 720
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab60fecb7afeb34b80742f9e53c8d4d
+      internalID: -1908555032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      girl baton hit_0: -33132260
+      girl baton hit_1: 1966086891
+      girl baton hit_10: -905388254
+      girl baton hit_11: 1682115718
+      girl baton hit_12: -742007115
+      girl baton hit_13: 552055731
+      girl baton hit_14: 1098676800
+      girl baton hit_15: 60724969
+      girl baton hit_16: -1908555032
+      girl baton hit_17: -19376648
+      girl baton hit_18: -148657986
+      girl baton hit_2: 900587300
+      girl baton hit_3: 244224868
+      girl baton hit_4: -1378596806
+      girl baton hit_5: 1793952168
+      girl baton hit_6: 550732686
+      girl baton hit_7: -745797265
+      girl baton hit_8: -1399785993
+      girl baton hit_9: -461433678
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
