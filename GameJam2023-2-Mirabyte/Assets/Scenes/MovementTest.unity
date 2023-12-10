@@ -2433,9 +2433,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 330111803}
-        m_TargetAssemblyTypeName: Player.PlayerAudioHandler, Assembly-CSharp
-        m_MethodName: PlayMainMusic
+      - m_Target: {fileID: 45861410}
+        m_TargetAssemblyTypeName: RoundOver, Assembly-CSharp
+        m_MethodName: ShowShopPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2445,9 +2445,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 45861410}
-        m_TargetAssemblyTypeName: RoundOver, Assembly-CSharp
-        m_MethodName: ShowShopPanel
+      - m_Target: {fileID: 330111803}
+        m_TargetAssemblyTypeName: Player.PlayerAudioHandler, Assembly-CSharp
+        m_MethodName: PlayShopMusic
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3010,6 +3010,8 @@ MonoBehaviour:
   miss: {fileID: 8300000, guid: 084d4fd863d70b949a28589306d56f91, type: 3}
   mainMusic: {fileID: 8300000, guid: b37b2b9e3e2269643b38f29d1f911f8d, type: 3}
   gameOver: {fileID: 8300000, guid: a27b8454d40357a46b43da130f21656f, type: 3}
+  shop: {fileID: 8300000, guid: 3a694b2a580fdb44aa56d410c6aa1b3d, type: 3}
+  end: {fileID: 8300000, guid: 797b3f996cabb0344a266619abb2172c, type: 3}
 --- !u!114 &330111804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3611,6 +3613,18 @@ MonoBehaviour:
       - m_Target: {fileID: 45861411}
         m_TargetAssemblyTypeName: RoundTimer, Assembly-CSharp
         m_MethodName: ResetTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 330111803}
+        m_TargetAssemblyTypeName: Player.PlayerAudioHandler, Assembly-CSharp
+        m_MethodName: PlayMainMusic
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19606,7 +19620,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24.75
+  m_fontSize: 28.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

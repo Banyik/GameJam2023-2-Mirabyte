@@ -15,6 +15,8 @@ namespace Player
 
         public AudioClip mainMusic;
         public AudioClip gameOver;
+        public AudioClip shop;
+        public AudioClip end;
         private float volume = 1f;
 
         public void PlayGameOverMusic()
@@ -30,6 +32,21 @@ namespace Player
             music.loop = true;
             music.Stop();
             music.clip = mainMusic;
+            music.Play();
+        }
+        public void PlayShopMusic()
+        {
+            music.loop = false;
+            music.Stop();
+            music.clip = shop;
+            music.Play();
+        }
+
+        public void PlayEndMusic() 
+        {
+            music.loop = false;
+            music.Stop();
+            music.clip = end;
             music.Play();
         }
 

@@ -29,6 +29,7 @@ public class RoundOver : MonoBehaviour
     public void ShowShopPanel()
     {
         shopPanel.gameObject.SetActive(true);
+        GameObject.Find("Player").GetComponent<PlayerAudioHandler>().PlayShopMusic();
     }
 
     public void ShowHospitalPanel()
@@ -58,7 +59,8 @@ public class RoundOver : MonoBehaviour
         if(save.map == 22)
         {
             endPanel.gameObject.SetActive(true);
-            if(save.character == "boy")
+            GameObject.Find("Player").GetComponent<PlayerAudioHandler>().PlayEndMusic();
+            if (save.character == "boy")
             {
                 endPanelImage.GetComponent<Image>().sprite = boyEnd;
             }
