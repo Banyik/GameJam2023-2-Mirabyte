@@ -14,6 +14,8 @@ namespace Map
         float width;
         float height;
 
+        public GameObject NPC;
+
         public Tilemap tilemap;
         public Sprite[] sprites;
         List<GameObject> npcs = new List<GameObject>();
@@ -79,12 +81,10 @@ namespace Map
                     {
                         zone.Crowds.Add(new Vector2Int(i, j));
                         TilesHandler.SetCrowd(new Vector2Int(i, j), true);
-                        var obj = new GameObject();
+                        var obj = Instantiate(NPC);
                         obj.transform.position = new Vector3(i, j, 0);
-                        obj.AddComponent<SpriteRenderer>().sprite = sprites[Random.Range(0, sprites.Length)];
+                        obj.GetComponent<SpriteRenderer>().sprite = sprites[Random.Range(0, sprites.Length)];
                         obj.GetComponent<SpriteRenderer>().flipX = Random.Range(0, 100) > 50;
-                        obj.GetComponent<SpriteRenderer>().spriteSortPoint = SpriteSortPoint.Pivot;
-                        obj.layer = LayerMask.NameToLayer("Ignore Raycast");
                         npcs.Add(obj);
                     }
                 }

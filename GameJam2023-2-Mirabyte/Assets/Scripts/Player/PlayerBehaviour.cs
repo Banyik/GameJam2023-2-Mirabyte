@@ -187,6 +187,8 @@ namespace Player
                         StartAttackSound(true, true);
                         TargetedThief.GetComponent<ThiefController>().StartStun();
 						thiefStunned += 1;
+                        TargetedThief = null;
+                        GameObject.Find("ScriptHandler").GetComponent<ThiefSpawner>().Clone = null;
                     }
                     else
                     {
@@ -195,8 +197,6 @@ namespace Player
                 }
                 else if(!GetAnimationName().Contains("cannon"))
                 {
-                    //TargetedThief.GetComponent<ThiefController>().StartStun();
-                    //thiefStunned += 1;
                     StartAttackSound(false, true);
                     float addToX = GetComponent<SpriteRenderer>().flipX ? 0.59f : -0.59f;
                     var candy = Instantiate(christmasCandy, new Vector3(transform.position.x + addToX, transform.position.y + 1f, 0), new Quaternion(0, 0, 0, 0), null);
@@ -317,6 +317,15 @@ namespace Player
         {
             var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             GetComponent<SpriteRenderer>().flipX = mousePos.x > rb.position.x;
+        }
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if(collision.tag == "thief")
+            {
+                collision.GetComponent<ThiefController>().Thief.IsTargeted = true;
+                TargetedThief = collision.gameObject;
+            }
         }
     }
 }

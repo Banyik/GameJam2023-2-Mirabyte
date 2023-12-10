@@ -25,6 +25,7 @@ namespace Thief
         bool isActive = true;
 
         public bool IsActive { get => isActive; set => isActive = value; }
+        public ThiefBase Thief { get => thief; set => thief = value; }
 
         private void Start()
         {
@@ -69,6 +70,22 @@ namespace Thief
                         break;
                 }
             }
+            else if (isActive)
+            {
+                switch (thiefType)
+                {
+                    case ThiefType.PunchPongrac:
+                        if (Random.Range(0, 500) < 5) thief.Rage();
+                        break;
+                    case ThiefType.Julcsika:
+                        if (Random.Range(0, 100) < 50) thief.Rage();
+                        break;
+                    case ThiefType.GrinchGery:
+                        break;
+                    default:
+                        break;
+                }
+            }
         }
 
         void SetTarget()
@@ -99,6 +116,7 @@ namespace Thief
             else
             {
                 animator.SetBool("IsMoving", false);
+                Destroy(gameObject);
             }
         }
 

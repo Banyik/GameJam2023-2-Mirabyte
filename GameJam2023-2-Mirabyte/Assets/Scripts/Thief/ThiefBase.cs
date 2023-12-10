@@ -15,12 +15,13 @@ namespace Thief
         {
             this.speed = speed;
             this.thiefType = thiefType;
-            this.isTargeted = true;
+            this.isTargeted = false;
             this.canMove = true;
             this.exitTarget = Vector2.zero;
         }
 
         public virtual void SpecialAttack() { }
+        public virtual void Rage() { }
         public virtual void Stun() { }
 
         public float Speed { get => speed; set => speed = value; }
