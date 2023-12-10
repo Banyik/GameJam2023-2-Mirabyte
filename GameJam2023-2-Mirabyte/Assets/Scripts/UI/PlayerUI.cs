@@ -9,7 +9,7 @@ public class PlayerUI : MonoBehaviour
 {
     public Image[] hearts, Shield;
     public GameObject dayCount,player;
-    public TextMeshProUGUI dayCounter;
+    public TextMeshProUGUI dayCounter, thiefStunnedCounter;
     void Update()
     {
         for (int i = 0; i < hearts.Length; i++)
@@ -35,5 +35,6 @@ public class PlayerUI : MonoBehaviour
             }
         }
         dayCounter.text = dayCount.GetComponent<Save>().map + ".Nap";
+        thiefStunnedCounter.text = player.GetComponent<PlayerBehaviour>().thiefStunned.ToString();
     }
 }
