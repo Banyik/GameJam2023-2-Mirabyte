@@ -1741,6 +1741,7 @@ MonoBehaviour:
   dayCount: {fileID: 45861405}
   player: {fileID: 330111795}
   dayCounter: {fileID: 1540686858}
+  thiefStunnedCounter: {fileID: 1781707121}
 --- !u!1 &191893904
 GameObject:
   m_ObjectHideFlags: 0
@@ -2569,6 +2570,7 @@ GameObject:
   - component: {fileID: 330111800}
   - component: {fileID: 330111801}
   - component: {fileID: 330111802}
+  - component: {fileID: 330111804}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2873,6 +2875,20 @@ MonoBehaviour:
   taser: {fileID: 8300000, guid: 788931653a2607b4e9c924e4a8c4da11, type: 3}
   hit: {fileID: 8300000, guid: 852056da70f41d746a4f912b77edb15c, type: 3}
   miss: {fileID: 8300000, guid: 084d4fd863d70b949a28589306d56f91, type: 3}
+--- !u!114 &330111804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330111795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07c5bfc2dbda19e4d80160de2915f49e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  point: 0
+  player: {fileID: 330111795}
 --- !u!1 &334309614
 GameObject:
   m_ObjectHideFlags: 0
