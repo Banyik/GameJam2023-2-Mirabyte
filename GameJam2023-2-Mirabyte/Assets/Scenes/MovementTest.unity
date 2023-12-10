@@ -2421,6 +2421,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 45861411}
+        m_TargetAssemblyTypeName: RoundTimer, Assembly-CSharp
+        m_MethodName: ResetTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 330111799}
+        m_TargetAssemblyTypeName: Player.PlayerBehaviour, Assembly-CSharp
+        m_MethodName: Refresh
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &253810609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3559,6 +3583,30 @@ MonoBehaviour:
       - m_Target: {fileID: 45861410}
         m_TargetAssemblyTypeName: RoundOver, Assembly-CSharp
         m_MethodName: NextFromShopPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 45861411}
+        m_TargetAssemblyTypeName: RoundTimer, Assembly-CSharp
+        m_MethodName: ResetTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 330111799}
+        m_TargetAssemblyTypeName: Player.PlayerBehaviour, Assembly-CSharp
+        m_MethodName: Refresh
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19052,7 +19100,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1887073907
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19065,7 +19113,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 364272700}
   - {fileID: 91686839}
   - {fileID: 2010908259}
   - {fileID: 1969556948}
@@ -19077,6 +19124,7 @@ RectTransform:
   - {fileID: 1547040423}
   - {fileID: 1840458611}
   - {fileID: 1468708404}
+  - {fileID: 364272700}
   - {fileID: 1848953501}
   m_Father: {fileID: 114168493}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20421,31 +20469,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2010908261}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 45861408}
-        m_TargetAssemblyTypeName: Save, Assembly-CSharp
-        m_MethodName: Increment
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 45861410}
-        m_TargetAssemblyTypeName: RoundOver, Assembly-CSharp
-        m_MethodName: NextFromShopPanel
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2010908261
 MonoBehaviour:
   m_ObjectHideFlags: 0

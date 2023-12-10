@@ -50,6 +50,7 @@ public class RoundOver : MonoBehaviour
         GameObject.Find("Player").transform.position = new Vector2(0, 2);
         GameObject.Find("Player").GetComponent<PlayerBehaviour>().Refresh();
         gameObject.GetComponent<ThiefSpawner>().KillAll();
+        shopPanel.SetActive(false);
         pause.ResumeOnly();
     }
     public void NextPanel()

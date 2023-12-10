@@ -35,6 +35,11 @@ namespace Player
             GameObject.Find("ScriptHandler").GetComponent<Save>().LoadGame();
             character = GameObject.Find("ScriptHandler").GetComponent<Save>().character;
             weapon = (Weapon)GameObject.Find("ScriptHandler").GetComponent<Save>().weapon;
+            /*if (GameObject.Find("Hospital").activeSelf)
+            {
+                hp = 3;
+                shield = 0;
+            }*/
         }
         void Start()
         {
@@ -44,7 +49,7 @@ namespace Player
             baseSpeed = speed;
             animator.runtimeAnimatorController =  character == "boy" ?  boy : girl;
 			hp = 3;
-            shield = 3;
+            shield = 0;
             thiefStunned = 0;
             animator.SetInteger("meleeType", (int)weapon);
             switch (weapon)
