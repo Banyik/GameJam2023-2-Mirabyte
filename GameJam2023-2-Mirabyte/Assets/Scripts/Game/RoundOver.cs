@@ -62,7 +62,7 @@ public class RoundOver : MonoBehaviour
             {
                 endPanelImage.GetComponent<Image>().sprite = girlEnd;
             }
-            endScoreText.text = $"Elért pontok: {GameObject.Find("Player").GetComponent<PlayerBehaviour>().thiefStunned}";
+            endScoreText.text = $"Elfogott tolvajok: {GameObject.Find("Player").GetComponent<PlayerBehaviour>().thiefStunned}";
             save.DeleteSave();
         }
         else

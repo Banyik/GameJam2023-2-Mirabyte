@@ -55,13 +55,8 @@ public class PauseMenu : MonoBehaviour
     }
     public void BackToMainMenu() 
     {
-        Debug.Log("Menu");
         Time.timeScale = 1f;
         SceneManager.LoadScene(0);
-    }
-    public void Tutorial() 
-    {
-        Debug.Log("Tutorial");
     }
     public void Options() 
     {
