@@ -239,7 +239,6 @@ namespace Player
             else if(Input.GetAxisRaw("Defend") == 1)
             {
                 ChangeState(State.Defend);
-                Debug.Log("Defend");
             }
         }
 
