@@ -25,6 +25,7 @@ namespace Thief
         bool isActive = true;
 
         public bool IsActive { get => isActive; set => isActive = value; }
+        public ThiefBase Thief { get => thief; set => thief = value; }
 
         private void Start()
         {
@@ -35,11 +36,11 @@ namespace Thief
                     animator.runtimeAnimatorController = PongracAnimator;
                     break;
                 case ThiefType.Julcsika:
-                    thief = new PunchPongrac(speed, thiefType, animator, GetComponent<SpriteRenderer>(), rb);
+                    thief = new PunchPongrac(speed - 0.5f, thiefType, animator, GetComponent<SpriteRenderer>(), rb);
                     animator.runtimeAnimatorController = JulcsikaAnimator;
                     break;
                 case ThiefType.GrinchGery:
-                    thief = new GrinchGery(speed, thiefType, gift, rb, animator);
+                    thief = new GrinchGery(speed - 0.25f, thiefType, gift, rb, animator);
                     animator.runtimeAnimatorController = GrinchAnimator;
                     break;
                 default:
@@ -64,6 +65,22 @@ namespace Thief
                     case ThiefType.GrinchGery:
                         MoveToExit();
                         if (Random.Range(0, 500) < 5) thief.SpecialAttack();
+                        break;
+                    default:
+                        break;
+                }
+            }
+            else if (isActive)
+            {
+                switch (thiefType)
+                {
+                    case ThiefType.PunchPongrac:
+                        if (Random.Range(0, 100) < 5) thief.Rage();
+                        break;
+                    case ThiefType.Julcsika:
+                        if (Random.Range(0, 1500) < 50) thief.Rage();
+                        break;
+                    case ThiefType.GrinchGery:
                         break;
                     default:
                         break;
@@ -99,6 +116,11 @@ namespace Thief
             else
             {
                 animator.SetBool("IsMoving", false);
+                if(Vector2.Distance(thief.ExitTarget, transform.position) <= 0.1)
+                {
+                    GameObject.Find("ScriptHandler").GetComponent<ThiefSpawner>().LateSpawn(); 
+                    Destroy(gameObject);
+                }
             }
         }
 

@@ -33,9 +33,16 @@ namespace Thief
             }
         }
 
+
         public override void Stun()
         {
             animator.SetTrigger("Stunned");
+        }
+
+        public override void Rage()
+        {
+            renderer.flipX = Random.Range(0, 100) > 50;
+            animator.SetTrigger("Hit");
         }
     }
 }

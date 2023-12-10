@@ -26,59 +26,90 @@ namespace Player
         public byte thiefStunned;
         [SerializeField]
         State currentState;
+
+        ThiefSpawner thiefSpawner;
+        public GameObject PowerUp;
+
+        public void Refresh()
+        {
+            GameObject.Find("ScriptHandler").GetComponent<Save>().LoadGame();
+            character = GameObject.Find("ScriptHandler").GetComponent<Save>().character;
+            weapon = (Weapon)GameObject.Find("ScriptHandler").GetComponent<Save>().weapon;
+            animator.SetInteger("meleeType", (int)weapon);
+            switch (weapon)
+            {
+                case Weapon.Taser:
+                    reachDistance = 1.8f;
+                    break;
+                case Weapon.Baton:
+                    reachDistance = 3.5f;
+                    break;
+                case Weapon.CandyCane:
+                    reachDistance = 2.2f;
+                    break;
+                default:
+                    break;
+            }
+            hp = 3;
+
+            thiefSpawner.LateSpawn();
+        }
         void Start()
         {
+            thiefSpawner = GameObject.Find("ScriptHandler").GetComponent<ThiefSpawner>();
+            Refresh();
             audioHandler = gameObject.GetComponent<PlayerAudioHandler>();
             baseSpeed = speed;
             animator.runtimeAnimatorController =  character == "boy" ?  boy : girl;
 			hp = 3;
-            shield = 3;
+            shield = 0;
             thiefStunned = 0;
             animator.SetInteger("meleeType", (int)weapon);
             switch (weapon)
             {
                 case Weapon.Taser:
-                    reachDistance = 0.8f;
+                    reachDistance = 1.8f;
                     break;
                 case Weapon.Baton:
-                    reachDistance = 1.5f;
+                    reachDistance = 3.5f;
                     break;
                 case Weapon.CandyCane:
-                    reachDistance = 1.2f;
+                    reachDistance = 2.2f;
                     break;
                 default:
                     break;
             }
         }
 
-        void StartAttackSound(bool hit)
+        void StartAttackSound(bool hit, bool overrideSound)
         {
             switch (weapon)
             {
                 case Weapon.Taser:
-                    audioHandler.PlayClip(PlayerSounds.Taser);
+                    audioHandler.PlayClip(PlayerSounds.Taser, overrideSound);
                     break;
                 case Weapon.Baton:
                     if (hit)
                     {
-                        audioHandler.PlayClip(PlayerSounds.Hit);
+                        audioHandler.PlayClip(PlayerSounds.Hit, overrideSound);
                     }
                     else
                     {
-                        audioHandler.PlayClip(PlayerSounds.Miss);
+                        audioHandler.PlayClip(PlayerSounds.Miss, overrideSound);
                     }
                     break;
                 case Weapon.CandyCane:
                     if (hit)
                     {
-                        audioHandler.PlayClip(PlayerSounds.Hit);
+                        audioHandler.PlayClip(PlayerSounds.Hit, overrideSound);
                     }
                     else
                     {
-                        audioHandler.PlayClip(PlayerSounds.Miss);
+                        audioHandler.PlayClip(PlayerSounds.Miss, overrideSound);
                     }
                     break;
                 case Weapon.Cannon:
+                    audioHandler.PlayClip(PlayerSounds.Launcher, overrideSound);
                     break;
                 default:
                     break;
@@ -168,45 +199,47 @@ namespace Player
             {
                 return;
             }
-            Debug.DrawRay(rb.transform.position, Camera.main.ScreenToWorldPoint(Input.mousePosition), Color.red);
-            RaycastHit2D hit = Physics2D.Raycast(rb.position, Input.mousePosition, 1.5f, 3);
+            
             if(currentState == State.Stunned)
             {
                 return;
             }
             if (Input.GetAxisRaw("Attack") == 1)
             {
-                ChangeState(State.Attack);
-                if(weapon != Weapon.Cannon)
+                Debug.DrawRay(rb.transform.position, Camera.main.ScreenToWorldPoint(Input.mousePosition), Color.red);
+                RaycastHit2D hit = Physics2D.Raycast(transform.position, Camera.main.ScreenToWorldPoint(Input.mousePosition), reachDistance);
+                if (weapon != Weapon.Cannon)
                 {
-                    if (hit.collider != null && hit.collider.CompareTag("thief"))
+                    if (hit.collider != null && hit.collider.CompareTag("thief") && hit.collider.gameObject == TargetedThief)
                     {
+                        StartAttackSound(true, true);
                         TargetedThief.GetComponent<ThiefController>().StartStun();
 						thiefStunned += 1;
-                        StartAttackSound(true);
+                        TargetedThief = null;
+                        thiefSpawner.LateSpawn();
+                        if (hp == 1)
+                        {
+                            PowerUp.gameObject.SetActive(true);
+                        }
                     }
                     else
                     {
-                        StartAttackSound(false);
-                        return;
+                        StartAttackSound(false, false);
                     }
                 }
                 else if(!GetAnimationName().Contains("cannon"))
                 {
-                    TargetedThief.GetComponent<ThiefController>().StartStun();
-                    thiefStunned += 1;
-                    StartAttackSound(false);
+                    StartAttackSound(false, true);
                     float addToX = GetComponent<SpriteRenderer>().flipX ? 0.59f : -0.59f;
                     var candy = Instantiate(christmasCandy, new Vector3(transform.position.x + addToX, transform.position.y + 1f, 0), new Quaternion(0, 0, 0, 0), null);
                     candy.SetActive(true);
                     candy.GetComponent<ChristmasCandyBehaviour>().Shoot(new Vector3(transform.position.x + addToX, transform.position.y + 1f, 0), Camera.main.ScreenToWorldPoint(Input.mousePosition));
                 }
-
+                ChangeState(State.Attack);
             }
             else if(Input.GetAxisRaw("Defend") == 1)
             {
                 ChangeState(State.Defend);
-                Debug.Log("Defend");
             }
         }
 
@@ -265,11 +298,25 @@ namespace Player
             {
                 return;
             }
+            if (checkDistanceForStun)
+            {
+                audioHandler.PlayClip(PlayerSounds.Hit, true);
+            }
             hp -= 1;
             animator.SetBool("isStunned", true);
             ChangeState(State.Stunned);
             StopMovement();
+            if(hp == 0)
+            {
+                Invoke(nameof(StartHospital), 2);
+            }
             Invoke(nameof(EndStun), 2);
+        }
+
+        void StartHospital()
+        {
+            audioHandler.PlayGameOverMusic();
+            GameObject.Find("ScriptHandler").GetComponent<RoundOver>().ShowHospitalPanel();
         }
 
         public void InvokeStun(float seconds, bool ableToDefend, bool checkDistance)
@@ -298,7 +345,14 @@ namespace Player
 
         bool CheckDistanceBetweenTarget(float maxDistance)
         {
-            return Vector2.Distance(gameObject.transform.position, TargetedThief.transform.position) < maxDistance;
+            if(TargetedThief != null)
+            {
+                return Vector2.Distance(gameObject.transform.position, TargetedThief.transform.position) < maxDistance;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         bool IsAnimationPlaying(string name)
@@ -315,6 +369,35 @@ namespace Player
         {
             var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             GetComponent<SpriteRenderer>().flipX = mousePos.x > rb.position.x;
+        }
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if(collision.tag == "thief")
+            {
+                if (collision.gameObject.GetComponent<ThiefController>().IsActive)
+                {
+                    TargetedThief = collision.gameObject;
+                    TargetedThief.GetComponent<ThiefController>().Thief.IsTargeted = true;
+                }
+            }
+            if(collision.tag == "PowerUp")
+            {
+                collision.gameObject.SetActive(false);
+                hp++;
+            }
+        }
+
+        private void OnTriggerStay2D(Collider2D collision)
+        {
+            if (collision.tag == "thief")
+            {
+                if (collision.gameObject.GetComponent<ThiefController>().IsActive && !collision.gameObject.GetComponent<ThiefController>().Thief.IsTargeted)
+                {
+                    TargetedThief = collision.gameObject;
+                    TargetedThief.GetComponent<ThiefController>().Thief.IsTargeted = true;
+                }
+            }
         }
     }
 }
