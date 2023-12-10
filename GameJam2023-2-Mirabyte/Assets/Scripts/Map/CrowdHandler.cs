@@ -63,7 +63,7 @@ namespace Map
             {
                 foreach (var npc in new List<GameObject>(npcs))
                 {
-                    if(npc.transform.position == new Vector3(crowd.x, crowd.y, 0))
+                    if(npc.transform.position == new Vector3(crowd.x - 0.5f, crowd.y, 0))
                     {
                         npcs.Remove(npc);
                         Destroy(npc);
