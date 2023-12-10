@@ -29,15 +29,15 @@ public class Shop : MonoBehaviour
             {
                 Cevlar.interactable = true;
             }
-            if(save.weapon == 0 && points.point == 3)
+            if(save.weapon == 0 && points.point >= 3)
             {
                 Baton.interactable = true;
             }
-            else if (save.weapon == 1 && points.point == 6)
+            else if (save.weapon == 1 && points.point >= 6)
             {
                 CandyCane.interactable = true;
             }
-            else if (save.weapon == 2 && points.point == 9)
+            else if (save.weapon == 2 && points.point >= 9)
             {
                 Launcher.interactable = true;
             }
