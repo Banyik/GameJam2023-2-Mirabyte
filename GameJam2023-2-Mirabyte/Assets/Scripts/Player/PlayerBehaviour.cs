@@ -35,6 +35,21 @@ namespace Player
             GameObject.Find("ScriptHandler").GetComponent<Save>().LoadGame();
             character = GameObject.Find("ScriptHandler").GetComponent<Save>().character;
             weapon = (Weapon)GameObject.Find("ScriptHandler").GetComponent<Save>().weapon;
+            animator.SetInteger("meleeType", (int)weapon);
+            switch (weapon)
+            {
+                case Weapon.Taser:
+                    reachDistance = 1.8f;
+                    break;
+                case Weapon.Baton:
+                    reachDistance = 3.5f;
+                    break;
+                case Weapon.CandyCane:
+                    reachDistance = 2.2f;
+                    break;
+                default:
+                    break;
+            }
             hp = 3;
         }
         void Start()

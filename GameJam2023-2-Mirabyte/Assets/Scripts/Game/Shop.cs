@@ -25,7 +25,7 @@ public class Shop : MonoBehaviour
         Launcher.interactable = false;
         if(points.point > 0)
         {
-            if(player.shield < 3 && points.point > 1)
+            if(player.shield < 3 && points.point >= 1)
             {
                 Cevlar.interactable = true;
             }
@@ -49,6 +49,7 @@ public class Shop : MonoBehaviour
         if (player.shield < 3)
         {
             player.shield++;
+            points.point--;
         }
     }
 

@@ -2397,18 +2397,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 45861408}
-        m_TargetAssemblyTypeName: Save, Assembly-CSharp
-        m_MethodName: Increment
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 45861410}
         m_TargetAssemblyTypeName: RoundOver, Assembly-CSharp
         m_MethodName: NextPanel
@@ -3623,18 +3611,6 @@ MonoBehaviour:
       - m_Target: {fileID: 45861411}
         m_TargetAssemblyTypeName: RoundTimer, Assembly-CSharp
         m_MethodName: ResetTimer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 330111799}
-        m_TargetAssemblyTypeName: Player.PlayerBehaviour, Assembly-CSharp
-        m_MethodName: Refresh
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16084,7 +16060,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1887073908}
         m_TargetAssemblyTypeName: Shop, Assembly-CSharp
-        m_MethodName: BuyCandyCane
+        m_MethodName: BuyCevlar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18844,7 +18820,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1887073908}
         m_TargetAssemblyTypeName: Shop, Assembly-CSharp
-        m_MethodName: BuyCandyCane
+        m_MethodName: BuyLauncher
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19603,7 +19579,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Kevl\xE1r \xE1gy\xFA \xE1ra 3 pont"
+  m_text: "Kevl\xE1r \xE1ra 1 pont"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2ac93bea3855e174da29acfb583a80f6, type: 2}
   m_sharedMaterial: {fileID: 2462586798578379579, guid: 2ac93bea3855e174da29acfb583a80f6, type: 2}
