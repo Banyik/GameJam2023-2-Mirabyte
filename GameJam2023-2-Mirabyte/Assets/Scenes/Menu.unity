@@ -3841,7 +3841,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   taser: {fileID: 2800000, guid: f2c9982f958c5e24986de1fa9c1b5511, type: 3}
   cross: {fileID: 2800000, guid: f15b88ce6f8b628459c68f6a857b4452, type: 3}
-  cursorMode: 0
+  cursorMode: 1
   hotSpot: {x: 0, y: 0}
 --- !u!114 &1022120925
 MonoBehaviour:
