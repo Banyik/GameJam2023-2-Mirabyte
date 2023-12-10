@@ -341,6 +341,7 @@ MonoBehaviour:
   max: {x: 38, y: 10}
   min: {x: -38, y: -2}
   Clone: {fileID: 0}
+  Clones: []
 --- !u!114 &45861410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2396,6 +2397,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 45861408}
+        m_TargetAssemblyTypeName: Save, Assembly-CSharp
+        m_MethodName: Increment
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 45861410}
         m_TargetAssemblyTypeName: RoundOver, Assembly-CSharp
         m_MethodName: NextPanel
@@ -2778,6 +2791,7 @@ MonoBehaviour:
   shield: 0
   thiefStunned: 0
   currentState: 0
+  PowerUp: {fileID: 1950955397}
 --- !u!95 &330111800
 Animator:
   serializedVersion: 5
@@ -18439,11 +18453,11 @@ GameObject:
   - component: {fileID: 1950955398}
   m_Layer: 0
   m_Name: PowerUp
-  m_TagString: Untagged
+  m_TagString: PowerUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!58 &1950955398
 CircleCollider2D:
   m_ObjectHideFlags: 0

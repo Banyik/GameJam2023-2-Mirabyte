@@ -28,6 +28,7 @@ namespace Player
         State currentState;
 
         ThiefSpawner thiefSpawner;
+        public GameObject PowerUp;
         void Start()
         {
             GameObject.Find("ScriptHandler").GetComponent<Save>().LoadGame();
@@ -55,7 +56,7 @@ namespace Player
                 default:
                     break;
             }
-            thiefSpawner.Spawn();
+            thiefSpawner.LateSpawn();
         }
 
         void StartAttackSound(bool hit, bool overrideSound)
@@ -193,6 +194,10 @@ namespace Player
 						thiefStunned += 1;
                         TargetedThief = null;
                         thiefSpawner.Spawn();
+                        if (hp == 1)
+                        {
+                            PowerUp.gameObject.SetActive(true);
+                        }
                     }
                     else
                     {
@@ -348,6 +353,11 @@ namespace Player
                     TargetedThief = collision.gameObject;
                     TargetedThief.GetComponent<ThiefController>().Thief.IsTargeted = true;
                 }
+            }
+            if(collision.tag == "PowerUp")
+            {
+                collision.gameObject.SetActive(false);
+                hp++;
             }
         }
 

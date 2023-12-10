@@ -28,9 +28,17 @@ public class ThiefSpawner : MonoBehaviour
             Destroy(item);
         }
     }
+    public void LateSpawn()
+    {
+        Invoke(nameof(Spawn), 2);
+    }
     public void Spawn()
     {
         Vector2 pos = new Vector2(Random.Range(min.x, max.x), Random.Range(min.y, max.y));
+        while (Vector2.Distance(pos, Player.gameObject.transform.position) < 10)
+        {
+            pos = new Vector2(Random.Range(min.x, max.x), Random.Range(min.y, max.y));
+        }
         if (save.map < 5)
         {
             SpawnThief(pos, ThiefType.GrinchGery);
