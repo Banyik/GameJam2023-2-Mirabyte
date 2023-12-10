@@ -271,7 +271,16 @@ namespace Player
             animator.SetBool("isStunned", true);
             ChangeState(State.Stunned);
             StopMovement();
+            if(hp == 0)
+            {
+                Invoke(nameof(StartHospital), 2);
+            }
             Invoke(nameof(EndStun), 2);
+        }
+
+        void StartHospital()
+        {
+            GameObject.Find("ScriptHandler").GetComponent<RoundOver>().ShowHospitalPanel();
         }
 
         public void InvokeStun(float seconds, bool ableToDefend, bool checkDistance)

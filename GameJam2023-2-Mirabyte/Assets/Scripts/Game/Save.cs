@@ -27,6 +27,10 @@ public class Save : MonoBehaviour
         sw.WriteLine($"{character};{map};{weapon}");
         sw.Close();
     }
+    public void Increment()
+    {
+        map++;
+    }
     public void DeleteSave()
     {
         File.Delete(path);
@@ -37,6 +41,7 @@ public class Save : MonoBehaviour
         {
             StreamReader sr = new StreamReader(path);
             string save = sr.ReadLine();
+            sr.Close();
             string[] elements = save.Split(';');
             character = elements[0];
             map = int.Parse(elements[1]);

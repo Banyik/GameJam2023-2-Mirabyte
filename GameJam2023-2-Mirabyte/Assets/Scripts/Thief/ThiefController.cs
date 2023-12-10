@@ -36,11 +36,11 @@ namespace Thief
                     animator.runtimeAnimatorController = PongracAnimator;
                     break;
                 case ThiefType.Julcsika:
-                    thief = new PunchPongrac(speed, thiefType, animator, GetComponent<SpriteRenderer>(), rb);
+                    thief = new PunchPongrac(speed - 0.5f, thiefType, animator, GetComponent<SpriteRenderer>(), rb);
                     animator.runtimeAnimatorController = JulcsikaAnimator;
                     break;
                 case ThiefType.GrinchGery:
-                    thief = new GrinchGery(speed, thiefType, gift, rb, animator);
+                    thief = new GrinchGery(speed - 0.25f, thiefType, gift, rb, animator);
                     animator.runtimeAnimatorController = GrinchAnimator;
                     break;
                 default:

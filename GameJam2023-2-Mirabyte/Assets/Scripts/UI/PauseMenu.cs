@@ -40,6 +40,17 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         GameIsPaused = true;
     }
+
+    public void PauseOnly()
+    {
+        Time.timeScale = 0f;
+        GameIsPaused = true;
+    }
+    public void ResumeOnly()
+    {
+        Time.timeScale = 1f;
+        GameIsPaused = false;
+    }
     public void BackToMainMenu() 
     {
         Debug.Log("Menu");
