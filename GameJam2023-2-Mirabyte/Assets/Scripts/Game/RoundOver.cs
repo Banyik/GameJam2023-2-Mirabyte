@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Player;
 
 public class RoundOver : MonoBehaviour
 {
@@ -45,7 +46,9 @@ public class RoundOver : MonoBehaviour
     }
     public void NextFromShopPanel()
     {
+        save.SaveGame();
         GameObject.Find("Player").transform.position = new Vector2(0, 2);
+        GameObject.Find("Player").GetComponent<PlayerBehaviour>().Refresh();
         gameObject.GetComponent<ThiefSpawner>().KillAll();
         pause.ResumeOnly();
     }

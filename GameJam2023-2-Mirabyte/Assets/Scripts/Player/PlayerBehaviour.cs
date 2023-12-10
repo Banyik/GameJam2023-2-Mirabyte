@@ -29,12 +29,17 @@ namespace Player
 
         ThiefSpawner thiefSpawner;
         public GameObject PowerUp;
-        void Start()
+
+        public void Refresh()
         {
             GameObject.Find("ScriptHandler").GetComponent<Save>().LoadGame();
-            thiefSpawner = GameObject.Find("ScriptHandler").GetComponent<ThiefSpawner>();
             character = GameObject.Find("ScriptHandler").GetComponent<Save>().character;
             weapon = (Weapon)GameObject.Find("ScriptHandler").GetComponent<Save>().weapon;
+        }
+        void Start()
+        {
+            thiefSpawner = GameObject.Find("ScriptHandler").GetComponent<ThiefSpawner>();
+            Refresh();
             audioHandler = gameObject.GetComponent<PlayerAudioHandler>();
             baseSpeed = speed;
             animator.runtimeAnimatorController =  character == "boy" ?  boy : girl;
