@@ -19,37 +19,65 @@ public class Shop : MonoBehaviour
     private void Update()
     {
         buyPoints.text = $"Vásárlási pontok: {points.point}";
-        Cevlar.interactable = false;
-        Baton.interactable = false;
-        CandyCane.interactable = false;
-        Launcher.interactable = false;
+        Invoke(nameof(DisableButtons), 1);
         if(points.point > 0)
         {
             if(player.shield < 3 && points.point >= 1)
             {
                 Cevlar.interactable = true;
             }
-            if(save.weapon == 0 && points.point >= 3)
+            if(save.weapon >= 0 && points.point >= 3)
             {
                 Baton.interactable = true;
             }
-            else if (save.weapon == 1 && points.point >= 6)
+            else if (save.weapon >= 1 && points.point >= 6)
             {
                 CandyCane.interactable = true;
             }
-            else if (save.weapon == 2 && points.point >= 9)
+            else if (save.weapon >= 2 && points.point >= 9)
             {
                 Launcher.interactable = true;
             }
         }
     }
+    public void ShopStart()
+    {
+        DisableButtons();
+    }
 
+    public void RefreshButtons()
+    {
+        if (player.shield < 3 && points.point >= 1)
+        {
+            Cevlar.interactable = true;
+        }
+        if (save.weapon >= 0 && points.point >= 3)
+        {
+            Baton.interactable = true;
+        }
+        if (save.weapon >= 1 && points.point >= 6)
+        {
+            CandyCane.interactable = true;
+        }
+        if (save.weapon >= 2 && points.point >= 9)
+        {
+            Launcher.interactable = true;
+        }
+    }
+    void DisableButtons()
+    {
+        Cevlar.interactable = false;
+        Baton.interactable = false;
+        CandyCane.interactable = false;
+        Launcher.interactable = false;
+    }
     public void BuyCevlar()
     {
         if (player.shield < 3)
         {
             player.shield++;
             points.point--;
+            RefreshButtons();
         }
     }
 
@@ -59,6 +87,7 @@ public class Shop : MonoBehaviour
         {
             save.weapon = 1;
             points.point -= 3;
+            RefreshButtons();
         }
     }
 
@@ -68,6 +97,7 @@ public class Shop : MonoBehaviour
         {
             save.weapon = 2;
             points.point -= 6;
+            RefreshButtons();
         }
     }
 
@@ -77,6 +107,7 @@ public class Shop : MonoBehaviour
         {
             save.weapon = 3;
             points.point -= 9;
+            RefreshButtons();
         }
     }
 }

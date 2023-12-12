@@ -10,6 +10,7 @@ public class RoundOver : MonoBehaviour
 {
     public Save save;
     public PauseMenu pause;
+    public Shop shop;
     public GameObject shopPanel;
     public GameObject hospitalPanel;
     public GameObject hospitalPanelImage;
@@ -30,6 +31,7 @@ public class RoundOver : MonoBehaviour
     {
         shopPanel.gameObject.SetActive(true);
         GameObject.Find("Player").GetComponent<PlayerAudioHandler>().PlayShopMusic();
+        shop.RefreshButtons();
     }
 
     public void ShowHospitalPanel()
@@ -56,7 +58,7 @@ public class RoundOver : MonoBehaviour
     }
     public void NextPanel()
     {
-        if(save.map >= 22)
+        if(save.map + 1 >= 22)
         {
             shopPanel.SetActive(false);
             hospitalPanel.gameObject.SetActive(false);
@@ -77,7 +79,7 @@ public class RoundOver : MonoBehaviour
         {
             hospitalPanel.gameObject.SetActive(false);
             save.SaveGame();
-            NextFromShopPanel();
+            ShowShopPanel();
         }
     }
 

@@ -357,6 +357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   save: {fileID: 0}
   pause: {fileID: 1845820110}
+  shop: {fileID: 1887073908}
   shopPanel: {fileID: 1887073906}
   hospitalPanel: {fileID: 1178588806}
   hospitalPanelImage: {fileID: 299648123}
@@ -16056,7 +16057,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1468708406}
   m_OnClick:
     m_PersistentCalls:
@@ -16664,7 +16665,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1547040425}
   m_OnClick:
     m_PersistentCalls:
@@ -18816,7 +18817,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1840458613}
   m_OnClick:
     m_PersistentCalls:
@@ -20167,7 +20168,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1969556950}
   m_OnClick:
     m_PersistentCalls:

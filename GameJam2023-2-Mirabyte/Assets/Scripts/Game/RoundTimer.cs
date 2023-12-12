@@ -20,7 +20,6 @@ public class RoundTimer : MonoBehaviour
             pauseMenu.PauseOnly();
             if(roundOver.save.map + 1 >= 22)
             {
-                roundOver.save.map++;
                 roundOver.NextPanel();
             }
             else
