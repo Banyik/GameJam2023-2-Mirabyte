@@ -56,8 +56,10 @@ public class RoundOver : MonoBehaviour
     }
     public void NextPanel()
     {
-        if(save.map == 22)
+        if(save.map >= 22)
         {
+            shopPanel.SetActive(false);
+            hospitalPanel.gameObject.SetActive(false);
             endPanel.gameObject.SetActive(true);
             GameObject.Find("Player").GetComponent<PlayerAudioHandler>().PlayEndMusic();
             if (save.character == "boy")

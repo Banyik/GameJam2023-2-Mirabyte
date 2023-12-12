@@ -18,7 +18,7 @@ public class RoundTimer : MonoBehaviour
         else if(!pauseMenu.GameIsPaused)
         {
             pauseMenu.PauseOnly();
-            if(roundOver.save.map + 1 == 22)
+            if(roundOver.save.map + 1 >= 22)
             {
                 roundOver.save.map++;
                 roundOver.NextPanel();
